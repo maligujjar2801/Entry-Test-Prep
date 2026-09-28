@@ -513,15 +513,43 @@ The latus rectum is the chord passing through the focus and perpendicular to the
 
 For:
 
-$$
+$
 y^2=4ax
-$$
+$
 
-its length is:
+the focus is $(a,0)$. At the focus, $x=a$, so:
 
-$$
-\boxed{4a}
-$$
+$
+y^2=4a^2
+$
+
+$
+y=\pm2a
+$
+
+Therefore the endpoints are:
+
+$
+(a,2a),\qquad(a,-2a)
+$
+
+and its length is:
+
+$
+2a-(-2a)=4a.
+$
+
+For the standard right-opening form, $a>0$, so:
+
+$
+\boxed{\text{latus rectum length}=4a}
+$
+
+More generally, if a signed parameter is used for the left/down-opening forms, the geometric length is:
+
+$
+\boxed{4|a|}
+$
 
 The endpoints are:
 
@@ -987,13 +1015,55 @@ $$
 
 # 28. Focus of a Hyperbola
 
-For a hyperbola:
+For a horizontal hyperbola, the foci are:
 
-$$
-\boxed{
-c^2=a^2+b^2
-}
-$$
+$
+F_1=(-c,0),\qquad F_2=(c,0).
+$
+
+The defining property is that the absolute difference of the distances from the two foci is constant:
+
+$
+|PF_1-PF_2|=2a.
+$
+
+For the standard hyperbola, this leads to the equation:
+
+$
+\frac{x^2}{a^2}-\frac{y^2}{c^2-a^2}=1.
+$
+
+Comparing this with:
+
+$
+\frac{x^2}{a^2}-\frac{y^2}{b^2}=1,
+$
+
+we obtain:
+
+$
+b^2=c^2-a^2
+$
+
+and therefore:
+
+$
+\boxed{c^2=a^2+b^2}.
+$
+
+So the foci are:
+
+$
+\boxed{(\pm c,0)}
+$
+
+for a horizontal hyperbola, and:
+
+$
+\boxed{(0,\pm c)}
+$
+
+for a vertical hyperbola.
 
 Notice the critical difference:
 
@@ -1148,11 +1218,15 @@ $$
 
 # 33. Latus Rectum of a Hyperbola
 
-The length of the latus rectum is:
+For the standard horizontal hyperbola, the latus rectum is the chord through a focus perpendicular to the transverse axis.
 
-$$
+Its length is:
+
+$
 \boxed{\frac{2b^2}{a}}
-$$
+$
+
+The same length formula applies to the standard vertical hyperbola, with the orientation rotated by $90^\circ$.
 
 Notice that this has the same algebraic form as the ellipse's latus rectum.
 
@@ -1173,29 +1247,31 @@ Notice that this has the same algebraic form as the ellipse's latus rectum.
 
 # 35. Conic Recognition by Equation
 
+These are **standard-form recognition rules**. For a general second-degree equation, do not classify it from signs alone until you have simplified or transformed it appropriately.
+
 ### Circle
 
-$$
+$
 \boxed{x^2+y^2=r^2}
-$$
+$
 
-Both squared terms have equal positive coefficients.
+In standard Cartesian form, the $x^2$ and $y^2$ terms have equal positive coefficients and there is no $xy$ term.
 
 ---
 
 ### Parabola
 
-Only **one variable is squared**:
+Only **one variable is squared** in the standard axis-aligned form:
 
-$$
+$
 \boxed{y^2=4ax}
-$$
+$
 
 or:
 
-$$
-\boxed{x^2=4ay}
-$$
+$
+\boxed{x^2=4ay}.
+$
 
 ---
 
@@ -1203,65 +1279,69 @@ $$
 
 Both variables are squared and the terms are **added**:
 
-$$
+$
 \boxed{
 \frac{x^2}{a^2}+
 \frac{y^2}{b^2}=1
 }
-$$
+$
+
+A circle is the special case where the two squared terms have equal scale.
 
 ---
 
 ### Hyperbola
 
-Both variables are squared but the terms are **subtracted**:
+Both variables are squared but the terms have **opposite signs**:
 
-$$
+$
 \boxed{
 \frac{x^2}{a^2}-
-\frac{y^2}{b^2}=1
+\frac{y^2}{b^2}=1.
 }
-$$
+$
+
+For rotated or fully general conics, additional analysis may be required.
 
 ---
 
 # 36. High-Speed NET Recognition
 
-If you see:
+For the common axis-aligned standard forms:
 
-$$
-x^2+y^2=\text{constant}
-$$
-
-think:
-
-$$
+$
+x^2+y^2=\text{constant}>0
+\quad\Rightarrow\quad
 \boxed{\text{Circle}}
-$$
+$
 
-If only one variable is squared:
+If exactly one variable is squared:
 
-$$
-x^2=\text{something involving }y
-$$
+$
+x^2=\text{linear expression in }y
+\quad\text{or}\quad
+y^2=\text{linear expression in }x
+$
 
 think:
 
-$$
-\boxed{\text{Parabola}}
-$$
+$
+\boxed{\text{Parabola}}.
+$
 
-If both squared terms are added:
+If both squared terms are added with positive coefficients, think:
 
-$$
+$
 \boxed{\text{Ellipse}}
-$$
+$
 
-If both squared terms are subtracted:
+(with the circle as the equal-scale special case).
 
-$$
-\boxed{\text{Hyperbola}}
-$$
+If both squared terms have opposite signs, think:
+
+$
+\boxed{\text{Hyperbola}}.
+$
 
 ---
 
@@ -1553,9 +1633,9 @@ $$
 
 Radius:
 
-$$
-\boxed r
-$$
+$
+\boxed{r}
+$
 
 ---
 
