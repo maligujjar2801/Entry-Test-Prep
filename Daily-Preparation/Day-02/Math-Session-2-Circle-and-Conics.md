@@ -1,998 +1,1879 @@
-# Math Session 2 — Circle and Conics
+# Mathematics Session 2 — Circle and Conic Sections
 
-> **Admission-test track:** NUST NET + FAST/NUCES  
-> **Study method:** Concept → Recognition → Derivation → Worked Examples → MCQ Practice → Timed Test → Error Analysis
+## 1. Session Objective
 
-## 1. What Are Conic Sections?
-
-A conic section is a curve obtained from the intersection of a plane with a double cone.
-
-The four basic non-degenerate conics are:
+This session covers:
 
 1. Circle
 2. Parabola
 3. Ellipse
 4. Hyperbola
+5. Focus and directrix
+6. Eccentricity
+7. Latus rectum
+8. Standard equations
+9. Graph recognition
+10. NET / FAST recognition patterns
+11. Common traps
 
-For entry tests, the most important skill is recognizing the equation and extracting its geometric information quickly.
+The most important skill is not simply memorizing formulas.
 
----
+You should be able to look at an equation and immediately identify:
 
-# Part I — Circle
-
-## 2. Definition of a Circle
-
-A circle is the set of all points whose distance from a fixed point is constant.
-
-- Fixed point = **centre**
-- Constant distance = **radius**
-
-Let the centre be
-
-\[
-C(h,k)
-\]
-
-and an arbitrary point on the circle be
-
-\[
-P(x,y).
-\]
-
-The radius is
-
-\[
-CP=r.
-\]
-
-Using the distance formula,
-
-\[
-r=\sqrt{(x-h)^2+(y-k)^2}.
-\]
-
-Squaring,
-
-\[
-\boxed{(x-h)^2+(y-k)^2=r^2}.
-\]
-
-This is the standard equation of a circle.
-
-### Fast recognition
-
-\[
-(x-h)^2+(y-k)^2=r^2
-\]
-
-immediately gives
-
-\[
-\boxed{\text{Centre}=(h,k),\quad \text{Radius}=r}.
-\]
+- the conic
+- its center or vertex
+- orientation
+- radius or semi-axes
+- focus
+- directrix
+- eccentricity
+- asymptotes where applicable
 
 ---
 
-## 3. Circle in Expanded Form
+# PART I — CIRCLE
 
-Start with
+# 2. Definition of a Circle
 
-\[
-(x-h)^2+(y-k)^2=r^2.
-\]
+A circle is the locus of all points that are at a fixed distance from a fixed point.
 
-Expand:
+The fixed point is called the:
 
-\[
-x^2-2hx+h^2+y^2-2ky+k^2=r^2.
-\]
+$$
+\boxed{\text{center}}
+$$
 
-Therefore,
+The fixed distance is called the:
 
-\[
-x^2+y^2-2hx-2ky+(h^2+k^2-r^2)=0.
-\]
-
-A general circle can be written as
-
-\[
-\boxed{x^2+y^2+Dx+Ey+F=0}.
-\]
-
-Comparing coefficients,
-
-\[
-\boxed{h=-\frac D2,\qquad k=-\frac E2}
-\]
-
-and
-
-\[
-\boxed{r=\sqrt{\frac{D^2+E^2}{4}-F}}.
-\]
+$$
+\boxed{\text{radius}}
+$$
 
 ---
 
-## 4. Completing the Square
+# 3. Derivation of the Equation of a Circle
 
-Example:
+Let the center be:
 
-\[
-x^2+y^2-6x+4y-3=0.
-\]
+$$
+(h,k)
+$$
 
-Group terms:
+and let any point on the circle be:
 
-\[
-(x^2-6x)+(y^2+4y)=3.
-\]
+$$
+(x,y)
+$$
 
-Complete squares:
+The distance between these two points is the radius $$r$$.
 
-\[
-(x-3)^2-9+(y+2)^2-4=3.
-\]
+Using the distance formula:
 
-Hence,
-
-\[
-(x-3)^2+(y+2)^2=16.
-\]
-
-Therefore,
-
-\[
-\boxed{C=(3,-2),\quad r=4}.
-\]
-
----
-
-# Part II — Parabola
-
-## 5. Definition
-
-A parabola is the set of points that are equally distant from:
-
-- a fixed point called the **focus**, and
-- a fixed line called the **directrix**.
-
-This definition is extremely important because it explains the standard equation.
-
----
-
-## 6. Derivation of \(y^2=4ax\)
-
-Take the focus as
-
-\[
-F(a,0)
-\]
-
-and the directrix as
-
-\[
-x=-a.
-\]
-
-Let
-
-\[
-P(x,y)
-\]
-
-be any point on the parabola.
-
-### Distance from \(P\) to the focus
-
-\[
-PF=\sqrt{(x-a)^2+y^2}.
-\]
-
-### Distance from \(P\) to the directrix
-
-The directrix is \(x=-a\), so
-
-\[
-PD=x+a.
-\]
-
-By the definition of a parabola,
-
-\[
-PF=PD.
-\]
-
-Therefore,
-
-\[
-\sqrt{(x-a)^2+y^2}=x+a.
-\]
+$$
+r=
+\sqrt{(x-h)^2+(y-k)^2}
+$$
 
 Square both sides:
 
-\[
-(x-a)^2+y^2=(x+a)^2.
-\]
-
-Expand:
-
-\[
-x^2-2ax+a^2+y^2=x^2+2ax+a^2.
-\]
-
-Cancel common terms:
-
-\[
-y^2=4ax.
-\]
-
-Thus,
-
-\[
-\boxed{y^2=4ax}.
-\]
-
----
-
-## 7. Parts of \(y^2=4ax\)
-
-For
-
-\[
-y^2=4ax,
-\]
-
-we have:
-
-- Vertex: \(\boxed{(0,0)}\)
-- Focus: \(\boxed{(a,0)}\)
-- Directrix: \(\boxed{x=-a}\)
-- Axis: \(x\)-axis
-- Opens right if \(a>0\)
-- Opens left if \(a<0\)
-
-The length of the latus rectum is
-
-\[
-\boxed{4|a|}.
-\]
-
----
-
-## 8. Other Standard Parabola Forms
-
-### Opens left/right
-
-\[
-\boxed{(y-k)^2=4a(x-h)}
-\]
-
-Vertex:
-
-\[
-\boxed{(h,k)}
-\]
-
-Focus:
-
-\[
-\boxed{(h+a,k)}
-\]
-
-Directrix:
-
-\[
-\boxed{x=h-a}.
-\]
-
-### Opens up/down
-
-\[
-\boxed{(x-h)^2=4a(y-k)}
-\]
-
-Vertex:
-
-\[
-\boxed{(h,k)}
-\]
-
-Focus:
-
-\[
-\boxed{(h,k+a)}
-\]
-
-Directrix:
-
-\[
-\boxed{y=k-a}.
-\]
-
-**Recognition:** the squared variable tells you the direction.
-
-- \(y^2\) → opens horizontally.
-- \(x^2\) → opens vertically.
-
----
-
-# Part III — Ellipse
-
-## 9. Definition
-
-An ellipse is the set of points for which the **sum of the distances from two fixed points** is constant.
-
-The two fixed points are the **foci**.
-
----
-
-## 10. Standard Horizontal Ellipse
-
-The standard equation is
-
-\[
-\boxed{
-\frac{x^2}{a^2}+\frac{y^2}{b^2}=1
-}
-\]
-
-with the conventional notation
-
-\[
-\boxed{a>b>0}.
-\]
-
-For a horizontal major axis:
-
-- Centre: \((0,0)\)
-- Vertices: \((\pm a,0)\)
-- Co-vertices: \((0,\pm b)\)
-- Foci: \((\pm c,0)\)
-
-The relationship is
-
-\[
-\boxed{c^2=a^2-b^2}.
-\]
-
----
-
-## 11. Why \(c^2=a^2-b^2\)?
-
-For an ellipse, the semi-major axis, semi-minor axis, and focal distance satisfy
-
-\[
-a^2=b^2+c^2.
-\]
-
-Rearranging gives
-
-\[
-\boxed{c^2=a^2-b^2}.
-\]
-
-The eccentricity is
-
-\[
-\boxed{e=\frac ca}.
-\]
-
-For an ellipse,
-
-\[
-\boxed{0<e<1}.
-\]
-
----
-
-## 12. Vertical Ellipse
-
-If
-
-\[
-\boxed{
-\frac{x^2}{b^2}+\frac{y^2}{a^2}=1
-}
-\]
-
-then the major axis is vertical.
-
-The foci are
-
-\[
-(0,\pm c)
-\]
-
-where
-
-\[
-c^2=a^2-b^2.
-\]
-
-### Shifted ellipse
-
-Horizontal:
-
-\[
-\boxed{
-\frac{(x-h)^2}{a^2}+
-\frac{(y-k)^2}{b^2}=1
-}
-\]
-
-Centre:
-
-\[
-\boxed{(h,k)}.
-\]
-
----
-
-## 13. Latus Rectum of an Ellipse
-
-The length of the latus rectum is
-
-\[
-\boxed{\frac{2b^2}{a}}.
-\]
-
-This is a useful formula for direct MCQs.
-
----
-
-# Part IV — Hyperbola
-
-## 14. Definition
-
-A hyperbola is the set of points for which the **absolute difference of the distances from two fixed points** is constant.
-
-The fixed points are the foci.
-
-The defining difference distinguishes a hyperbola from an ellipse.
-
----
-
-## 15. Standard Horizontal Hyperbola
-
-The standard equation is
-
-\[
-\boxed{
-\frac{x^2}{a^2}-\frac{y^2}{b^2}=1
-}.
-\]
-
-For a horizontal hyperbola:
-
-- Centre: \((0,0)\)
-- Vertices: \((\pm a,0)\)
-- Foci: \((\pm c,0)\)
-
-The focal relationship is
-
-\[
-\boxed{c^2=a^2+b^2}.
-\]
-
-The eccentricity is
-
-\[
-\boxed{e=\frac ca}.
-\]
-
-Since \(c>a\),
-
-\[
-\boxed{e>1}.
-\]
-
----
-
-## 16. Vertical Hyperbola
-
-\[
-\boxed{
-\frac{y^2}{a^2}-\frac{x^2}{b^2}=1
-}.
-\]
-
-The transverse axis is vertical and the foci are
-
-\[
-(0,\pm c).
-\]
-
-Again,
-
-\[
-\boxed{c^2=a^2+b^2}.
-\]
-
----
-
-## 17. Asymptotes of a Hyperbola
-
-For
-
-\[
-\frac{x^2}{a^2}-\frac{y^2}{b^2}=1,
-\]
-
-replace the right side by zero to obtain the asymptotic equation:
-
-\[
-\frac{x^2}{a^2}-\frac{y^2}{b^2}=0.
-\]
-
-Therefore,
-
-\[
-\frac{x^2}{a^2}=\frac{y^2}{b^2}.
-\]
-
-Taking square roots,
-
-\[
-\frac xa=\pm\frac yb.
-\]
-
-Hence,
-
-\[
-\boxed{y=\pm\frac ba x}.
-\]
-
-For a shifted hyperbola,
-
-\[
-\boxed{
-\frac{(x-h)^2}{a^2}
--\frac{(y-k)^2}{b^2}=1
-}
-\]
-
-the asymptotes are
-
-\[
-\boxed{
-y-k=\pm\frac ba(x-h)
-}.
-\]
-
----
-
-## 18. Latus Rectum of a Hyperbola
-
-The length is
-
-\[
-\boxed{\frac{2b^2}{a}}.
-\]
-
----
-
-# Part V — Conic Recognition
-
-## 19. The Fastest Recognition Table
-
-| Conic | Standard equation | Key relationship |
-|---|---|---|
-| Circle | \((x-h)^2+(y-k)^2=r^2\) | radius \(r\) |
-| Parabola | \(y^2=4ax\) or \(x^2=4ay\) | focus/directrix |
-| Ellipse | \(x^2/a^2+y^2/b^2=1\) | \(c^2=a^2-b^2\) |
-| Hyperbola | \(x^2/a^2-y^2/b^2=1\) | \(c^2=a^2+b^2\) |
-
-### The sign test
-
-- Both squared terms **positive and equal scale** → often circle.
-- Both squared terms **positive but different denominators** → ellipse.
-- Squared terms with **opposite signs** → hyperbola.
-- Only **one variable squared** → parabola.
-
----
-
-# 20. The Important \(a>b\) Clarification
-
-A major source of confusion is the statement
-
-\[
-a>b.
-\]
-
-For an ellipse, \(a\) conventionally denotes the semi-major axis, so
-
-\[
-\boxed{a>b}.
-\]
-
-For a hyperbola, do **not** blindly apply the ellipse rule.
-
-In
-
-\[
-\frac{x^2}{a^2}-\frac{y^2}{b^2}=1,
-\]
-
-\(a\) is associated with the transverse direction and \(b\) with the conjugate direction. The key relationship is
-
-\[
-\boxed{c^2=a^2+b^2},
-\]
-
-not \(a>b\).
-
-Therefore, when solving an entry-test question, use the definitions and formula appropriate to the conic rather than importing the ellipse convention into the hyperbola.
-
----
-
-# 21. Worked Examples
-
-## Example 1 — Circle
-
-Find the centre and radius:
-
-\[
-(x-4)^2+(y+2)^2=25.
-\]
-
-Compare with
-
-\[
-(x-h)^2+(y-k)^2=r^2.
-\]
-
-Thus,
-
-\[
-h=4,\qquad k=-2,\qquad r=5.
-\]
-
-Answer:
-
-\[
-\boxed{C=(4,-2),\quad r=5}.
-\]
-
----
-
-## Example 2 — Parabola
-
-For
-
-\[
-y^2=12x,
-\]
-
-compare with
-
-\[
-y^2=4ax.
-\]
-
-Thus,
-
-\[
-4a=12
-\]
-
-so
-
-\[
-a=3.
-\]
+$$
+r^2=(x-h)^2+(y-k)^2
+$$
 
 Therefore:
 
-\[
-\boxed{\text{Vertex}=(0,0)}
-\]
+$$
+\boxed{
+(x-h)^2+(y-k)^2=r^2
+}
+$$
 
-\[
-\boxed{\text{Focus}=(3,0)}
-\]
-
-\[
-\boxed{\text{Directrix}:x=-3}.
-\]
+This is the **standard equation of a circle**.
 
 ---
 
-## Example 3 — Ellipse
+# 4. Reading the Circle Equation
 
-Given
+Given:
 
-\[
-\frac{x^2}{25}+\frac{y^2}{9}=1,
-\]
+$$
+(x-h)^2+(y-k)^2=r^2
+$$
 
-we identify
+the center is:
 
-\[
-a^2=25,\qquad b^2=9.
-\]
+$$
+\boxed{(h,k)}
+$$
 
-Thus,
+and radius:
 
-\[
-a=5,\qquad b=3.
-\]
+$$
+\boxed{r}
+$$
 
-Find \(c\):
+### Important sign rule
 
-\[
+If:
+
+$$
+(x-3)^2+(y+4)^2=25
+$$
+
+then:
+
+$$
+h=3
+$$
+
+and:
+
+$$
+k=-4
+$$
+
+Therefore:
+
+$$
+\boxed{\text{center}=(3,-4)}
+$$
+
+and:
+
+$$
+\boxed{r=5}
+$$
+
+The sign inside the bracket is opposite to the coordinate.
+
+---
+
+# 5. Circle With Center at Origin
+
+If:
+
+$$
+h=0,\qquad k=0
+$$
+
+then:
+
+$$
+(x-0)^2+(y-0)^2=r^2
+$$
+
+so:
+
+$$
+\boxed{x^2+y^2=r^2}
+$$
+
+---
+
+# 6. Expanded Form of a Circle
+
+Starting from:
+
+$$
+(x-h)^2+(y-k)^2=r^2
+$$
+
+Expand:
+
+$$
+x^2-2hx+h^2+y^2-2ky+k^2=r^2
+$$
+
+Rearrange:
+
+$$
+x^2+y^2-2hx-2ky+h^2+k^2-r^2=0
+$$
+
+The general form can therefore be written:
+
+$$
+\boxed{
+x^2+y^2+Dx+Ey+F=0
+}
+$$
+
+where:
+
+$$
+D=-2h
+$$
+
+$$
+E=-2k
+$$
+
+$$
+F=h^2+k^2-r^2
+$$
+
+Therefore:
+
+$$
+\boxed{
+h=-\frac D2
+}
+$$
+
+$$
+\boxed{
+k=-\frac E2
+}
+$$
+
+and:
+
+$$
+\boxed{
+r=\sqrt{h^2+k^2-F}
+}
+$$
+
+---
+
+# 7. NET Circle Recognition
+
+If you see:
+
+$$
+x^2+y^2
+$$
+
+with equal coefficients and no $$xy$$ term, immediately investigate a circle.
+
+If the equation is:
+
+$$
+(x-h)^2+(y-k)^2=r^2
+$$
+
+you should be able to identify the center and radius almost instantly.
+
+---
+
+# PART II — PARABOLA
+
+# 8. Definition of a Parabola
+
+A parabola is the locus of a point whose distance from:
+
+- a fixed point
+- and a fixed line
+
+is equal.
+
+The fixed point is:
+
+$$
+\boxed{\text{focus}}
+$$
+
+The fixed line is:
+
+$$
+\boxed{\text{directrix}}
+$$
+
+Therefore, for every point $$P$$ on the parabola:
+
+$$
+\boxed{PF=PD}
+$$
+
+where $$F$$ is the focus and $$D$$ represents the perpendicular distance to the directrix.
+
+---
+
+# 9. Derivation of Standard Parabola
+
+Consider a parabola opening to the right.
+
+Let its vertex be:
+
+$$
+(0,0)
+$$
+
+Let the focus be:
+
+$$
+(a,0)
+$$
+
+and directrix:
+
+$$
+x=-a
+$$
+
+Take a general point:
+
+$$
+P(x,y)
+$$
+
+Distance from $$P$$ to the focus:
+
+$$
+PF=\sqrt{(x-a)^2+y^2}
+$$
+
+Distance from $$P$$ to the directrix $$x=-a$$:
+
+$$
+PD=x+a
+$$
+
+By definition:
+
+$$
+PF=PD
+$$
+
+Therefore:
+
+$$
+\sqrt{(x-a)^2+y^2}=x+a
+$$
+
+Square:
+
+$$
+(x-a)^2+y^2=(x+a)^2
+$$
+
+Expand:
+
+$$
+x^2-2ax+a^2+y^2=x^2+2ax+a^2
+$$
+
+Cancel:
+
+$$
+-2ax+y^2=2ax
+$$
+
+Therefore:
+
+$$
+\boxed{y^2=4ax}
+$$
+
+This is the standard equation of a parabola opening to the right.
+
+---
+
+# 10. Standard Parabola Equations
+
+## Opens right
+
+$$
+\boxed{y^2=4ax}
+$$
+
+Vertex:
+
+$$
+\boxed{(0,0)}
+$$
+
+Focus:
+
+$$
+\boxed{(a,0)}
+$$
+
+Directrix:
+
+$$
+\boxed{x=-a}
+$$
+
+---
+
+## Opens left
+
+$$
+\boxed{y^2=-4ax}
+$$
+
+Focus:
+
+$$
+\boxed{(-a,0)}
+$$
+
+Directrix:
+
+$$
+\boxed{x=a}
+$$
+
+---
+
+## Opens upward
+
+$$
+\boxed{x^2=4ay}
+$$
+
+Focus:
+
+$$
+\boxed{(0,a)}
+$$
+
+Directrix:
+
+$$
+\boxed{y=-a}
+$$
+
+---
+
+## Opens downward
+
+$$
+\boxed{x^2=-4ay}
+$$
+
+Focus:
+
+$$
+\boxed{(0,-a)}
+$$
+
+Directrix:
+
+$$
+\boxed{y=a}
+$$
+
+---
+
+# 11. Parabola With a Shifted Vertex
+
+If the vertex is:
+
+$$
+(h,k)
+$$
+
+then:
+
+### Horizontal parabola
+
+$$
+\boxed{(y-k)^2=4a(x-h)}
+$$
+
+Focus:
+
+$$
+\boxed{(h+a,k)}
+$$
+
+Directrix:
+
+$$
+\boxed{x=h-a}
+$$
+
+---
+
+### Vertical parabola
+
+$$
+\boxed{(x-h)^2=4a(y-k)}
+$$
+
+Focus:
+
+$$
+\boxed{(h,k+a)}
+$$
+
+Directrix:
+
+$$
+\boxed{y=k-a}
+$$
+
+---
+
+# 12. Latus Rectum of a Parabola
+
+The latus rectum is the chord passing through the focus and perpendicular to the axis.
+
+For:
+
+$$
+y^2=4ax
+$$
+
+its length is:
+
+$$
+\boxed{4a}
+$$
+
+The endpoints are:
+
+$$
+\boxed{(a,2a)}
+$$
+
+and:
+
+$$
+\boxed{(a,-2a)}
+$$
+
+because at the focus:
+
+$$
+x=a
+$$
+
+Substitute:
+
+$$
+y^2=4a(a)
+$$
+
+$$
+y^2=4a^2
+$$
+
+$$
+y=\pm2a
+$$
+
+Therefore the length is:
+
+$$
+2a-(-2a)=4a
+$$
+
+---
+
+# 13. Parabola Recognition Trick
+
+Look at which variable is squared.
+
+### $$y^2$$
+
+If:
+
+$$
+y^2=4ax
+$$
+
+the parabola opens horizontally.
+
+### $$x^2$$
+
+If:
+
+$$
+x^2=4ay
+$$
+
+the parabola opens vertically.
+
+The sign tells the direction.
+
+---
+
+# PART III — ELLIPSE
+
+# 14. Definition of an Ellipse
+
+An ellipse is the locus of a point for which the **sum of its distances from two fixed points** is constant.
+
+The two fixed points are called:
+
+$$
+\boxed{\text{foci}}
+$$
+
+---
+
+# 15. Standard Ellipse Equation
+
+For an ellipse centered at the origin with its major axis along the x-axis:
+
+$$
+\boxed{
+\frac{x^2}{a^2}+\frac{y^2}{b^2}=1
+}
+$$
+
+For the conventional notation:
+
+$$
+\boxed{a>b>0}
+$$
+
+Here $$a$$ represents the semi-major axis.
+
+---
+
+# 16. Why Is $$a>b$$?
+
+For:
+
+$$
+\frac{x^2}{a^2}+\frac{y^2}{b^2}=1
+$$
+
+the x-intercepts occur when:
+
+$$
+y=0
+$$
+
+so:
+
+$$
+\frac{x^2}{a^2}=1
+$$
+
+$$
+x=\pm a
+$$
+
+The y-intercepts occur when:
+
+$$
+x=0
+$$
+
+giving:
+
+$$
+y=\pm b
+$$
+
+Therefore:
+
+- horizontal semi-axis = $$a$$
+- vertical semi-axis = $$b$$
+
+If the major axis is horizontal, then:
+
+$$
+\boxed{a>b}
+$$
+
+---
+
+# 17. Vertical Ellipse
+
+If the major axis is vertical:
+
+$$
+\boxed{
+\frac{x^2}{b^2}+\frac{y^2}{a^2}=1
+}
+$$
+
+with:
+
+$$
+\boxed{a>b}
+$$
+
+Again, $$a$$ is the semi-major axis.
+
+---
+
+# 18. Center and Vertices
+
+For:
+
+$$
+\frac{x^2}{a^2}+\frac{y^2}{b^2}=1
+$$
+
+center:
+
+$$
+\boxed{(0,0)}
+$$
+
+Horizontal vertices:
+
+$$
+\boxed{(\pm a,0)}
+$$
+
+Co-vertices:
+
+$$
+\boxed{(0,\pm b)}
+$$
+
+---
+
+# 19. Shifted Ellipse
+
+For a horizontal major axis:
+
+$$
+\boxed{
+\frac{(x-h)^2}{a^2}
++
+\frac{(y-k)^2}{b^2}
+=1
+}
+$$
+
+where:
+
+$$
+a>b
+$$
+
+Center:
+
+$$
+\boxed{(h,k)}
+$$
+
+Vertices:
+
+$$
+\boxed{(h\pm a,k)}
+$$
+
+Co-vertices:
+
+$$
+\boxed{(h,k\pm b)}
+$$
+
+---
+
+# 20. Focus of an Ellipse
+
+For an ellipse:
+
+$$
+\boxed{
 c^2=a^2-b^2
-\]
+}
+$$
 
-\[
-=25-9=16.
-\]
+where $$c$$ is the distance from the center to either focus.
 
-Hence,
+For a horizontal ellipse:
 
-\[
-c=4.
-\]
+$$
+\boxed{\text{foci}=(h\pm c,k)}
+$$
 
-The foci are
+For a vertical ellipse:
 
-\[
-\boxed{(\pm4,0)}.
-\]
-
-Eccentricity:
-
-\[
-e=\frac45.
-\]
+$$
+\boxed{\text{foci}=(h,k\pm c)}
+$$
 
 ---
 
-## Example 4 — Hyperbola
+# 21. Eccentricity of an Ellipse
 
-Given
+Eccentricity is:
 
-\[
-\frac{x^2}{16}-\frac{y^2}{9}=1,
-\]
+$$
+\boxed{e=\frac ca}
+$$
 
-we have
+Since:
 
-\[
-a=4,\qquad b=3.
-\]
+$$
+c^2=a^2-b^2
+$$
 
-Then
+and:
 
-\[
+$$
+c<a
+$$
+
+we get:
+
+$$
+\boxed{0<e<1}
+$$
+
+This is a very important recognition fact.
+
+---
+
+# 22. Deriving the Ellipse Focus Relation
+
+For an ellipse:
+
+$$
+\frac{x^2}{a^2}+\frac{y^2}{b^2}=1
+$$
+
+the focus distance $$c$$ satisfies:
+
+$$
+\boxed{c^2=a^2-b^2}
+$$
+
+Therefore:
+
+$$
+c=\sqrt{a^2-b^2}
+$$
+
+This relation allows you to find the foci immediately once $$a$$ and $$b$$ are known.
+
+### Example
+
+Given:
+
+$$
+\frac{x^2}{25}+\frac{y^2}{9}=1
+$$
+
+we identify:
+
+$$
+a^2=25
+$$
+
+$$
+b^2=9
+$$
+
+Therefore:
+
+$$
+a=5,\qquad b=3
+$$
+
+Now:
+
+$$
+c^2=25-9
+$$
+
+$$
+c^2=16
+$$
+
+$$
+c=4
+$$
+
+So the foci are:
+
+$$
+\boxed{(\pm4,0)}
+$$
+
+---
+
+# 23. Latus Rectum of an Ellipse
+
+For an ellipse, the length of the latus rectum is:
+
+$$
+\boxed{\frac{2b^2}{a}}
+$$
+
+This is a common formula-based entry-test question.
+
+---
+
+# PART IV — HYPERBOLA
+
+# 24. Definition of a Hyperbola
+
+A hyperbola is the locus of a point for which the **absolute difference of its distances from two fixed points** is constant.
+
+The fixed points are the foci.
+
+Thus:
+
+$$
+\boxed{|PF_1-PF_2|=\text{constant}}
+$$
+
+---
+
+# 25. Standard Horizontal Hyperbola
+
+The standard equation is:
+
+$$
+\boxed{
+\frac{x^2}{a^2}
+-
+\frac{y^2}{b^2}
+=1
+}
+$$
+
+The positive term is associated with the direction in which the hyperbola opens.
+
+Therefore this hyperbola opens:
+
+$$
+\boxed{\text{left and right}}
+$$
+
+---
+
+# 26. Center and Vertices
+
+For:
+
+$$
+\frac{x^2}{a^2}-\frac{y^2}{b^2}=1
+$$
+
+center:
+
+$$
+\boxed{(0,0)}
+$$
+
+vertices:
+
+$$
+\boxed{(\pm a,0)}
+$$
+
+---
+
+# 27. Vertical Hyperbola
+
+The equation:
+
+$$
+\boxed{
+\frac{y^2}{a^2}
+-
+\frac{x^2}{b^2}
+=1
+}
+$$
+
+opens:
+
+$$
+\boxed{\text{upward and downward}}
+$$
+
+Vertices:
+
+$$
+\boxed{(0,\pm a)}
+$$
+
+---
+
+# 28. Focus of a Hyperbola
+
+For a hyperbola:
+
+$$
+\boxed{
 c^2=a^2+b^2
-\]
+}
+$$
 
-\[
-=16+9=25.
-\]
+Notice the critical difference:
 
-So
+### Ellipse
 
-\[
-c=5.
-\]
+$$
+\boxed{c^2=a^2-b^2}
+$$
 
-Foci:
+### Hyperbola
 
-\[
-\boxed{(\pm5,0)}.
-\]
+$$
+\boxed{c^2=a^2+b^2}
+$$
+
+This is one of the most important conic traps.
+
+---
+
+# 29. Eccentricity of a Hyperbola
+
+$$
+\boxed{e=\frac ca}
+$$
+
+Since:
+
+$$
+c^2=a^2+b^2
+$$
+
+we have:
+
+$$
+c>a
+$$
+
+Therefore:
+
+$$
+\boxed{e>1}
+$$
+
+---
+
+# 30. Asymptotes of a Hyperbola
+
+For:
+
+$$
+\frac{x^2}{a^2}
+-
+\frac{y^2}{b^2}
+=1
+$$
+
+the asymptotes are:
+
+$$
+\boxed{
+y=\pm\frac ba x
+}
+$$
+
+These lines guide the shape of the hyperbola.
+
+---
+
+# 31. Derivation of Hyperbola Asymptotes
+
+Starting with:
+
+$$
+\frac{x^2}{a^2}-\frac{y^2}{b^2}=1
+$$
+
+Far from the center, the constant $$1$$ becomes relatively insignificant compared with the large squared terms.
+
+So approximately:
+
+$$
+\frac{x^2}{a^2}-\frac{y^2}{b^2}\approx0
+$$
+
+Therefore:
+
+$$
+\frac{x^2}{a^2}\approx\frac{y^2}{b^2}
+$$
+
+Taking square roots:
+
+$$
+\frac{x}{a}\approx\pm\frac{y}{b}
+$$
+
+Thus:
+
+$$
+\boxed{y=\pm\frac ba x}
+$$
+
+---
+
+# 32. Shifted Hyperbola
+
+Horizontal:
+
+$$
+\boxed{
+\frac{(x-h)^2}{a^2}
+-
+\frac{(y-k)^2}{b^2}
+=1
+}
+$$
+
+Center:
+
+$$
+\boxed{(h,k)}
+$$
 
 Asymptotes:
 
-\[
-y=\pm\frac34x.
-\]
+$$
+\boxed{
+y-k=\pm\frac ba(x-h)
+}
+$$
 
-Eccentricity:
+Vertical:
 
-\[
-e=\frac54.
-\]
+$$
+\boxed{
+\frac{(y-k)^2}{a^2}
+-
+\frac{(x-h)^2}{b^2}
+=1
+}
+$$
+
+Asymptotes:
+
+$$
+\boxed{
+y-k=\pm\frac ab(x-h)
+}
+$$
 
 ---
 
-# 22. Entry-Test Recognition Workflow
+# 33. Latus Rectum of a Hyperbola
 
-When you see a conic equation:
+The length of the latus rectum is:
 
-### Step 1 — Look at the squared terms
+$$
+\boxed{\frac{2b^2}{a}}
+$$
 
-Are there two squared variables or only one?
+Notice that this has the same algebraic form as the ellipse's latus rectum.
 
-### Step 2 — Look at the signs
+---
 
-\[
-+\,+ \quad\Rightarrow\quad \text{circle/ellipse}
-\]
+# 34. The Most Important Conic Comparison
 
-\[
-+\,- \quad\Rightarrow\quad \text{hyperbola}
-\]
+| Property | Parabola | Ellipse | Hyperbola |
+|---|---|---|---|
+| Definition | Equal distance | Sum of distances | Difference of distances |
+| Eccentricity | $$e=1$$ | $$0<e<1$$ | $$e>1$$ |
+| Standard relation | — | $$c^2=a^2-b^2$$ | $$c^2=a^2+b^2$$ |
+| Asymptotes | No | No | Yes |
+| Closed curve? | No | Yes | No |
+| Number of branches | 1 | 1 | 2 |
 
-one squared variable → parabola.
+---
 
-### Step 3 — Match the standard form
+# 35. Conic Recognition by Equation
 
-Do not start calculating until the equation has been matched.
+### Circle
 
-### Step 4 — Extract only what is asked
+$$
+\boxed{x^2+y^2=r^2}
+$$
+
+Both squared terms have equal positive coefficients.
+
+---
+
+### Parabola
+
+Only **one variable is squared**:
+
+$$
+\boxed{y^2=4ax}
+$$
+
+or:
+
+$$
+\boxed{x^2=4ay}
+$$
+
+---
+
+### Ellipse
+
+Both variables are squared and the terms are **added**:
+
+$$
+\boxed{
+\frac{x^2}{a^2}+
+\frac{y^2}{b^2}=1
+}
+$$
+
+---
+
+### Hyperbola
+
+Both variables are squared but the terms are **subtracted**:
+
+$$
+\boxed{
+\frac{x^2}{a^2}-
+\frac{y^2}{b^2}=1
+}
+$$
+
+---
+
+# 36. High-Speed NET Recognition
+
+If you see:
+
+$$
+x^2+y^2=\text{constant}
+$$
+
+think:
+
+$$
+\boxed{\text{Circle}}
+$$
+
+If only one variable is squared:
+
+$$
+x^2=\text{something involving }y
+$$
+
+think:
+
+$$
+\boxed{\text{Parabola}}
+$$
+
+If both squared terms are added:
+
+$$
+\boxed{\text{Ellipse}}
+$$
+
+If both squared terms are subtracted:
+
+$$
+\boxed{\text{Hyperbola}}
+$$
+
+---
+
+# 37. Major Axis vs Minor Axis — Critical Clarification
+
+For an ellipse, we conventionally define:
+
+$$
+\boxed{a>b}
+$$
+
+where $$a$$ is the semi-major axis.
 
 For example:
 
-- centre?
-- radius?
-- focus?
-- directrix?
-- eccentricity?
-- asymptotes?
-- vertices?
+$$
+\frac{x^2}{25}+\frac{y^2}{9}=1
+$$
 
-### Step 5 — Apply the correct relation
+Here:
 
-Ellipse:
+$$
+a=5,\qquad b=3
+$$
 
-\[
-c^2=a^2-b^2.
-\]
+because:
 
-Hyperbola:
+$$
+25>9
+$$
 
-\[
-c^2=a^2+b^2.
-\]
+However, **do not blindly apply $$a>b$$ to hyperbolas in the same way**.
 
----
+For:
 
-# 23. Common Traps
+$$
+\frac{x^2}{a^2}-\frac{y^2}{b^2}=1
+$$
 
-1. Reading the centre signs incorrectly.
-   - \((x-h)^2\) → centre \(x=h\)
-   - \((y-k)^2\) → centre \(y=k\)
+$$a$$ and $$b$$ have specific roles in the hyperbola formula, and the key relation is:
 
-2. Confusing ellipse and hyperbola focal formulas.
+$$
+\boxed{c^2=a^2+b^2}
+$$
 
-3. Assuming \(a>b\) is a universal rule for every conic.
-
-4. Forgetting that \(y^2=4ax\) opens horizontally.
-
-5. Forgetting that \(x^2=4ay\) opens vertically.
-
-6. Using the wrong sign for the parabola directrix.
-
-7. Forgetting the square root when finding \(c\).
-
-8. For hyperbola asymptotes, forgetting the \(\pm\).
+The earlier confusion between ellipse notation and hyperbola notation is therefore a notation/teaching issue, not a reason to assume the hyperbola behaves like an ellipse.
 
 ---
 
-# 24. Session 2 Test Record
+# 38. Worked Example — Circle
 
-- MCQs attempted: **25**
+Find the center and radius:
+
+$$
+(x-4)^2+(y+2)^2=36
+$$
+
+Compare with:
+
+$$
+(x-h)^2+(y-k)^2=r^2
+$$
+
+Therefore:
+
+$$
+h=4
+$$
+
+$$
+k=-2
+$$
+
+and:
+
+$$
+r^2=36
+$$
+
+so:
+
+$$
+r=6
+$$
+
+Answer:
+
+$$
+\boxed{\text{Center}=(4,-2)}
+$$
+
+$$
+\boxed{r=6}
+$$
+
+---
+
+# 39. Worked Example — Parabola
+
+Given:
+
+$$
+y^2=12x
+$$
+
+Compare with:
+
+$$
+y^2=4ax
+$$
+
+Therefore:
+
+$$
+4a=12
+$$
+
+$$
+a=3
+$$
+
+Focus:
+
+$$
+\boxed{(3,0)}
+$$
+
+Directrix:
+
+$$
+\boxed{x=-3}
+$$
+
+Latus rectum:
+
+$$
+4a=12
+$$
+
+Therefore:
+
+$$
+\boxed{\text{Latus rectum}=12}
+$$
+
+---
+
+# 40. Worked Example — Ellipse
+
+Given:
+
+$$
+\frac{x^2}{36}+\frac{y^2}{16}=1
+$$
+
+Therefore:
+
+$$
+a^2=36
+$$
+
+$$
+b^2=16
+$$
+
+so:
+
+$$
+a=6,\qquad b=4
+$$
+
+Find $$c$$:
+
+$$
+c^2=a^2-b^2
+$$
+
+$$
+c^2=36-16
+$$
+
+$$
+c^2=20
+$$
+
+$$
+c=2\sqrt5
+$$
+
+Therefore foci:
+
+$$
+\boxed{(\pm2\sqrt5,0)}
+$$
+
+Eccentricity:
+
+$$
+e=\frac ca
+$$
+
+$$
+e=\frac{2\sqrt5}{6}
+$$
+
+$$
+\boxed{e=\frac{\sqrt5}{3}}
+$$
+
+---
+
+# 41. Worked Example — Hyperbola
+
+Given:
+
+$$
+\frac{x^2}{25}-\frac{y^2}{9}=1
+$$
+
+Therefore:
+
+$$
+a=5
+$$
+
+$$
+b=3
+$$
+
+Find $$c$$:
+
+$$
+c^2=a^2+b^2
+$$
+
+$$
+c^2=25+9
+$$
+
+$$
+c^2=34
+$$
+
+$$
+c=\sqrt{34}
+$$
+
+Foci:
+
+$$
+\boxed{(\pm\sqrt{34},0)}
+$$
+
+Eccentricity:
+
+$$
+\boxed{e=\frac{\sqrt{34}}5}
+$$
+
+Asymptotes:
+
+$$
+y=\pm\frac ba x
+$$
+
+Therefore:
+
+$$
+\boxed{
+y=\pm\frac35x
+}
+$$
+
+---
+
+# 42. Conic Formula Master Sheet
+
+## Circle
+
+$$
+\boxed{(x-h)^2+(y-k)^2=r^2}
+$$
+
+Center:
+
+$$
+\boxed{(h,k)}
+$$
+
+Radius:
+
+$$
+\boxed r
+$$
+
+---
+
+## Parabola
+
+$$
+\boxed{(y-k)^2=4a(x-h)}
+$$
+
+Focus:
+
+$$
+\boxed{(h+a,k)}
+$$
+
+Directrix:
+
+$$
+\boxed{x=h-a}
+$$
+
+Latus rectum:
+
+$$
+\boxed{4a}
+$$
+
+---
+
+$$
+\boxed{(x-h)^2=4a(y-k)}
+$$
+
+Focus:
+
+$$
+\boxed{(h,k+a)}
+$$
+
+Directrix:
+
+$$
+\boxed{y=k-a}
+$$
+
+---
+
+## Ellipse
+
+$$
+\boxed{
+\frac{(x-h)^2}{a^2}
++
+\frac{(y-k)^2}{b^2}=1
+}
+$$
+
+with conventional:
+
+$$
+\boxed{a>b}
+$$
+
+Focus relation:
+
+$$
+\boxed{c^2=a^2-b^2}
+$$
+
+Eccentricity:
+
+$$
+\boxed{e=\frac ca<1}
+$$
+
+Latus rectum:
+
+$$
+\boxed{\frac{2b^2}{a}}
+$$
+
+---
+
+## Hyperbola
+
+$$
+\boxed{
+\frac{(x-h)^2}{a^2}
+-
+\frac{(y-k)^2}{b^2}=1
+}
+$$
+
+Focus relation:
+
+$$
+\boxed{c^2=a^2+b^2}
+$$
+
+Eccentricity:
+
+$$
+\boxed{e=\frac ca>1}
+$$
+
+Asymptotes:
+
+$$
+\boxed{
+y-k=\pm\frac ba(x-h)
+}
+$$
+
+Latus rectum:
+
+$$
+\boxed{\frac{2b^2}{a}}
+$$
+
+---
+
+# 43. Critical Memory Rules
+
+### Circle
+
+$$
+\boxed{\text{radius}^2=\text{RHS}}
+$$
+
+---
+
+### Parabola
+
+$$
+\boxed{4a\text{ appears in the equation}}
+$$
+
+Don't confuse $$a$$ with $$4a$$.
+
+If:
+
+$$
+y^2=20x
+$$
+
+then:
+
+$$
+4a=20
+$$
+
+not:
+
+$$
+a=20
+$$
+
+Therefore:
+
+$$
+a=5
+$$
+
+---
+
+### Ellipse
+
+$$
+\boxed{c^2=a^2-b^2}
+$$
+
+---
+
+### Hyperbola
+
+$$
+\boxed{c^2=a^2+b^2}
+$$
+
+---
+
+### Eccentricity
+
+$$
+\boxed{
+e=1\text{ parabola}
+}
+$$
+
+$$
+\boxed{
+e<1\text{ ellipse}
+}
+$$
+
+$$
+\boxed{
+e>1\text{ hyperbola}
+}
+$$
+
+---
+
+# 44. Session 2 Error Analysis
+
+## Q2 — Circle
+
+The issue was a genuine radius/form extraction mistake.
+
+### Correct approach
+
+Always compare directly with:
+
+$$
+(x-h)^2+(y-k)^2=r^2
+$$
+
+Then extract:
+
+$$
+r=\sqrt{\text{RHS}}
+$$
+
+Do not accidentally use $$r^2$$ as $$r$$.
+
+---
+
+## Q3 — Defective MCQ
+
+The question had two valid answers.
+
+Therefore this should **not** be treated as a mathematical weakness.
+
+When a question appears to have multiple mathematically valid choices:
+
+1. substitute each candidate
+2. verify the equation
+3. check whether the question itself is defective
+
+Never force yourself to choose an answer merely because the test expects one.
+
+---
+
+## Q24 — Ellipse / Hyperbola Notation
+
+The confusion came from applying the ellipse convention:
+
+$$
+a>b
+$$
+
+too broadly.
+
+For ellipse notation:
+
+$$
+\boxed{a>b}
+$$
+
+is the conventional definition of the semi-major axis.
+
+For hyperbolas, focus on:
+
+$$
+\boxed{c^2=a^2+b^2}
+$$
+
+and on which term is positive to determine the opening direction.
+
+---
+
+# 45. Final Session 2 Checklist
+
+You should now be able to answer questions involving:
+
+- Circle center
+- Circle radius
+- Circle expanded equation
+- Completing the square
+- Parabola orientation
+- Parabola vertex
+- Parabola focus
+- Parabola directrix
+- Parabola latus rectum
+- Ellipse center
+- Ellipse major/minor axes
+- Ellipse vertices
+- Ellipse foci
+- Ellipse eccentricity
+- Ellipse latus rectum
+- Hyperbola center
+- Hyperbola vertices
+- Hyperbola foci
+- Hyperbola eccentricity
+- Hyperbola asymptotes
+- Hyperbola latus rectum
+- Conic identification from equations
+
+---
+
+# Session 2 Performance Record
+
+### Timed Test
+
+- Questions: **25**
 - Time: **23 minutes**
 
 ### Recorded issues
 
-**Q2 — Circle:** a genuine radius/form extraction error.  
-**Correction:** first rewrite the equation in standard circle form before reading \(r\).
+- Q2 — circle radius/form extraction error
+- Q3 — defective MCQ with two valid answers
+- Q24 — notation/teaching clarification involving ellipse $$a>b$$ versus hyperbola notation
 
-**Q3 — Defective question:** the question allowed two valid answers.  
-**Lesson:** do not treat a flawed MCQ as evidence of a conceptual weakness.
+### Revision priority
 
-**Q24 — Hyperbola/ellipse notation:** confusion arose from applying the ellipse convention \(a>b\) too broadly.  
-**Correction:** for hyperbolas, prioritize
-
-\[
-c^2=a^2+b^2
-\]
-
-and the equation's transverse/conjugate directions.
-
----
-
-# 25. Master Formula Sheet
-
-## Circle
-
-\[
-\boxed{(x-h)^2+(y-k)^2=r^2}
-\]
-
-\[
-\boxed{C=(h,k)}
-\]
-
-\[
-\boxed{r=r}
-\]
-
-## Parabola
-
-\[
-\boxed{y^2=4ax}
-\]
-
-\[
-\boxed{F=(a,0)}
-\]
-
-\[
-\boxed{x=-a}
-\]
-
-\[
-\boxed{x^2=4ay}
-\]
-
-\[
-\boxed{F=(0,a)}
-\]
-
-\[
-\boxed{y=-a}
-\]
-
-## Ellipse
-
-\[
-\boxed{\frac{x^2}{a^2}+\frac{y^2}{b^2}=1}
-\]
-
-\[
-\boxed{c^2=a^2-b^2}
-\]
-
-\[
-\boxed{e=\frac ca<1}
-\]
-
-\[
-\boxed{\text{Latus rectum}=\frac{2b^2}{a}}
-\]
-
-## Hyperbola
-
-\[
-\boxed{\frac{x^2}{a^2}-\frac{y^2}{b^2}=1}
-\]
-
-\[
-\boxed{c^2=a^2+b^2}
-\]
-
-\[
-\boxed{e=\frac ca>1}
-\]
-
-\[
-\boxed{y=\pm\frac ba x}
-\]
-
-\[
-\boxed{\text{Latus rectum}=\frac{2b^2}{a}}
-\]
-
----
-
-# 26. Final Revision Checklist
-
-Before treating this session as secure, you should be able to:
-
-- derive the circle equation from the distance formula;
-- convert an expanded circle into standard form;
-- derive \(y^2=4ax\) from the focus/directrix definition;
-- identify parabola vertex, focus and directrix;
-- distinguish horizontal and vertical parabolas;
-- identify ellipse centre, axes and foci;
-- use \(c^2=a^2-b^2\);
-- identify hyperbola centre, vertices and foci;
-- use \(c^2=a^2+b^2\);
-- derive hyperbola asymptotes;
-- distinguish ellipse notation from hyperbola notation;
-- recognize a conic quickly from its equation.
-
+1. Circle equation → center/radius extraction
+2. Parabola $$4a$$ interpretation
+3. Ellipse $$c^2=a^2-b^2$$
+4. Hyperbola $$c^2=a^2+b^2$$
+5. Asymptote recognition
+6. Fast conic identification
