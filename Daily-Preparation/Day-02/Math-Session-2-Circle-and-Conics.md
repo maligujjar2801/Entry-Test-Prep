@@ -847,25 +847,55 @@ This is a very important recognition fact.
 
 # 22. Deriving the Ellipse Focus Relation
 
-For an ellipse:
+For the horizontal ellipse:
 
-$$
+$
 \frac{x^2}{a^2}+\frac{y^2}{b^2}=1
-$$
+$
 
-the focus distance $$c$$ satisfies:
+take the point $P=(0,b)$ and the foci
 
-$$
-\boxed{c^2=a^2-b^2}
-$$
+$
+F_1=(-c,0),\\qquad F_2=(c,0).
+$
+
+The two distances are equal:
+
+$
+PF_1=PF_2=\sqrt{c^2+b^2}.
+$
+
+By the defining property of an ellipse, their sum is $2a$:
+
+$
+2\sqrt{c^2+b^2}=2a.
+$
 
 Therefore:
 
-$$
-c=\sqrt{a^2-b^2}
-$$
+$
+\sqrt{c^2+b^2}=a
+$
 
-This relation allows you to find the foci immediately once $$a$$ and $$b$$ are known.
+Squaring:
+
+$
+c^2+b^2=a^2.
+$
+
+Hence:
+
+$
+\boxed{c^2=a^2-b^2}
+$
+
+and:
+
+$
+\boxed{c=\sqrt{a^2-b^2}}.
+$
+
+For a vertical ellipse, the same relation holds; only the foci rotate to the vertical axis.
 
 ### Example
 
@@ -1018,7 +1048,7 @@ $$
 For a horizontal hyperbola, the foci are:
 
 $
-F_1=(-c,0),\qquad F_2=(c,0).
+F_1=(-c,0),\\qquad F_2=(c,0).
 $
 
 The defining property is that the absolute difference of the distances from the two foci is constant:
