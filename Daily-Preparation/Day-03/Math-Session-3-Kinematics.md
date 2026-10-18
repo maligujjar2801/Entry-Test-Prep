@@ -41,21 +41,21 @@ Negative velocity means motion in the chosen negative direction. It does not aut
 
 ## 5. Distance, Displacement, Average Speed and Average Velocity
 
-$
+$$
 \boxed{\Delta x=x_f-x_i}
-$
+$$
 
 Distance is total path length; displacement is final position minus initial position. Therefore,
 
-$
+$$
 \boxed{\text{distance}\geq |\Delta x|}
-$
+$$
 
-$
+$$
 \boxed{\text{Average speed}=\frac{\text{total distance}}{\text{total time}}}
 \qquad
 \boxed{\bar v=\frac{\text{net displacement}}{\text{total time}}}
-$
+$$
 
 ### Worked Example 1 — Out-and-Back Journey
 
@@ -73,22 +73,22 @@ Use the same total elapsed time for both averages, but different numerators.
 
 If position $x(t)$ is given as a function of time,
 
-$
+$$
 \boxed{v(t)=\frac{dx}{dt}},\qquad
 \boxed{\text{instantaneous speed}=|v(t)|}
-$
+$$
 
 Acceleration is the rate of change of velocity:
 
-$
+$$
 \boxed{a(t)=\frac{dv}{dt}=\frac{d^2x}{dt^2}}
-$
+$$
 
 If velocity is expressed as a function of position, the chain rule gives
 
-$
+$$
 \boxed{a=v\frac{dv}{dx}}
-$
+$$
 
 Units: displacement in metres (m), velocity in m/s and acceleration in m/s².
 
@@ -96,15 +96,15 @@ Units: displacement in metres (m), velocity in m/s and acceleration in m/s².
 
 Let $x(t)=2t^3-3t^2+4$, with position in metres and time in seconds.
 
-$
+$$
 v(t)=\frac{dx}{dt}=6t^2-6t
-$
+$$
 
 At $t=2$, $v=24-12=\boxed{12\text{ m/s}}$.
 
-$
+$$
 a(t)=\frac{dv}{dt}=12t-6
-$
+$$
 
 At $t=2$, $a=24-6=\boxed{18\text{ m/s}^2}$.
 
@@ -123,27 +123,27 @@ At $t=2$, $a=24-6=\boxed{18\text{ m/s}^2}$.
 
 If acceleration is given, integrate to obtain velocity; integrate velocity to obtain position. Use initial conditions to determine the integration constants.
 
-$
+$$
 a(t)=\frac{dv}{dt}\Rightarrow v(t)=\int a(t)\,dt+C
-$
+$$
 
-$
+$$
 v(t)=\frac{dx}{dt}\Rightarrow x(t)=\int v(t)\,dt+C_1
-$
+$$
 
 ### Worked Example 3 — Apply Initial Conditions
 
 Suppose $a(t)=6t$, $v(0)=2\text{ m/s}$, and $x(0)=0$.
 
-$
+$$
 v(t)=\int6t\,dt=3t^2+C
-$
+$$
 
 Since $v(0)=2$, $C=2$, so $\boxed{v(t)=3t^2+2}$.
 
-$
+$$
 x(t)=\int(3t^2+2)\,dt=t^3+2t+C_1
-$
+$$
 
 Since $x(0)=0$, $C_1=0$, so $\boxed{x(t)=t^3+2t}$.
 
@@ -157,9 +157,9 @@ Do not discard integration constants before using the initial conditions.
 
 Time is on the horizontal axis and displacement/position on the vertical axis. **Slope gives velocity**:
 
-$
+$$
 \boxed{v=\frac{dx}{dt}=\text{slope of the displacement-time graph}}
-$
+$$
 
 - Horizontal segment: zero velocity; position is constant.
 - Rising straight line: constant positive velocity.
@@ -171,39 +171,39 @@ $
 
 Position changes from 4 m at $t=0$ to 28 m at $t=6$ s along a straight segment:
 
-$
+$$
 v=\frac{28-4}{6-0}=\boxed{4\text{ m/s}}
-$
+$$
 
 ## 9. Velocity-Time Graph
 
 Time is horizontal and velocity is vertical. Two key rules:
 
-$
+$$
 \boxed{\text{slope}=\text{acceleration}}
 \qquad
 \boxed{\text{signed area}=\text{displacement}}
-$
+$$
 
 Areas above the time axis contribute positive displacement; areas below contribute negative displacement. For **total distance**, add the magnitudes of the areas.
 
 For uniform acceleration, velocity changes linearly and displacement can be calculated as trapezoid area:
 
-$
+$$
 \boxed{s=\frac{u+v}{2}t}
-$
+$$
 
 ### Worked Example 5
 
 Velocity increases uniformly from 2 m/s to 14 m/s in 4 s.
 
-$
+$$
 a=\frac{14-2}{4}=\boxed{3\text{ m/s}^2}
-$
+$$
 
-$
+$$
 s=\frac{2+14}{2}\times4=\boxed{32\text{ m}}
-$
+$$
 
 **Graph traps:** slope of displacement-time means velocity; slope of velocity-time means acceleration; signed area under velocity-time means displacement, not automatically distance.
 
@@ -223,17 +223,17 @@ Use these only when acceleration is constant throughout the interval.
 | $t$ | Elapsed time |
 | $s$ | Displacement |
 
-$
+$$
 \boxed{v=u+at}
-$
+$$
 
-$
+$$
 \boxed{s=ut+\frac12at^2}
-$
+$$
 
-$
+$$
 \boxed{v^2=u^2+2as}
-$
+$$
 
 A useful companion is $s=\frac12(u+v)t$, valid for constant acceleration.
 
@@ -252,27 +252,27 @@ A useful companion is $s=\frac12(u+v)t$, valid for constant acceleration.
 
 A vehicle begins at 5 m/s and accelerates at 2 m/s² for 4 s.
 
-$
+$$
 v=5+2(4)=\boxed{13\text{ m/s}}
-$
+$$
 
-$
+$$
 s=5(4)+\frac12(2)(4^2)=20+16=\boxed{36\text{ m}}
-$
+$$
 
 ### Worked Example 7 — Braking
 
 A car travels at 20 m/s and brakes at $-4\text{ m/s}^2$. At rest, $v=0$:
 
-$
+$$
 0=20-4t\Rightarrow\boxed{t=5\text{ s}}
-$
+$$
 
 Without needing time, use $v^2=u^2+2as$:
 
-$
+$$
 0=20^2+2(-4)s\Rightarrow\boxed{s=50\text{ m}}
-$
+$$
 
 The displacement is positive because the car still moves forward while braking.
 
@@ -289,11 +289,11 @@ Near Earth's surface, $g\approx9.8\text{ m/s}^2$, unless the question specifies 
 
 For upward-positive motion:
 
-$
+$$
 \boxed{v=u-gt},\quad
 \boxed{s=ut-\frac12gt^2},\quad
 \boxed{v^2=u^2-2gs}
-$
+$$
 
 At the highest point, velocity is zero but acceleration is still $-g$.
 
@@ -303,9 +303,9 @@ A stone is dropped from 20 m. Neglect air resistance and use $g=9.8\text{ m/s}^2
 
 Since $u=0$, $h=\frac12gt^2$:
 
-$
+$$
 20=4.9t^2\Rightarrow t=\sqrt{40/9.8}\approx\boxed{2.02\text{ s}}
-$
+$$
 
 Impact speed $v=gt\approx9.8(2.02)=\boxed{19.8\text{ m/s downward}}$.
 
@@ -313,13 +313,13 @@ Impact speed $v=gt\approx9.8(2.02)=\boxed{19.8\text{ m/s downward}}$.
 
 A ball is thrown upward at 19.6 m/s. At maximum height, $v=0$:
 
-$
+$$
 0=19.6-9.8t\Rightarrow\boxed{t=2\text{ s}}
-$
+$$
 
-$
+$$
 s=19.6(2)-\frac12(9.8)(2^2)=\boxed{19.6\text{ m}}
-$
+$$
 
 **Vertical-motion traps:** dropped means $u=0$; thrown downward may have nonzero $u$; gravity does not become zero at the top; declare your positive direction before substituting.
 
@@ -506,9 +506,9 @@ Fill this in only after attempting the test without the key.
 | Time taken | ___ min ___ sec |
 | Guessed answers | ___ |
 
-$
+$$
 \text{Accuracy}=\frac{\text{correct answers}}{25}\times100\%
-$
+$$
 
 | Question | Error type | Why it happened | Correct rule | Retry |
 |---|---|---|---|---|
