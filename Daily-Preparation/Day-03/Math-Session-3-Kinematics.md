@@ -494,29 +494,61 @@ A. adding all absolute areas  B. subtracting every area from zero  C. taking the
 
 A score band is a revision guide, not a judgement. Focus on what caused each error.
 
-# PART VIII — TEST RECORD AND ERROR ANALYSIS
+# PART VIII — PERFORMANCE AND RESULT CARD
 
-Fill this in only after attempting the test without the key.
+**Attempt date:** 2026-10-19
 
 | Measure | Result |
-|---|---|
-| Questions attempted | ___ / 25 |
-| Correct answers | ___ / 25 |
-| Accuracy | ___ % |
-| Time taken | ___ min ___ sec |
-| Guessed answers | ___ |
+|---|---:|
+| Questions attempted | 25 / 25 |
+| Correct answers | 23 / 25 |
+| Accuracy | 92% |
+| Incorrect answers | Q4, Q22 |
+| Time taken | Not provided |
+| Guessed answers | Not provided |
 
 $$
-\text{Accuracy}=\frac{\text{correct answers}}{25}\times100\%
+\text{Accuracy}=\frac{23}{25}\times100\%=92\%
 $$
 
-| Question | Error type | Why it happened | Correct rule | Retry |
+## Answer Check
+
+| Q | My answer | Key | Result |
+|---:|:---:|:---:|:---:|
+| 1 | B | B | ✓ |
+| 2 | B | B | ✓ |
+| 3 | C | C | ✓ |
+| 4 | D | A | ✗ |
+| 5 | C | C | ✓ |
+| 6 | C | C | ✓ |
+| 7 | C | C | ✓ |
+| 8 | C | C | ✓ |
+| 9 | B | B | ✓ |
+| 10 | C | C | ✓ |
+| 11 | C | C | ✓ |
+| 12 | D | D | ✓ |
+| 13 | C | C | ✓ |
+| 14 | C | C | ✓ |
+| 15 | C | C | ✓ |
+| 16 | B | B | ✓ |
+| 17 | B | B | ✓ |
+| 18 | B | B | ✓ |
+| 19 | D | D | ✓ |
+| 20 | B | B | ✓ |
+| 21 | B | B | ✓ |
+| 22 | B | C | ✗ |
+| 23 | C | C | ✓ |
+| 24 | C | C | ✓ |
+| 25 | C | C | ✓ |
+
+## Error Analysis
+
+| Question | Error type | Review point | Correct rule | Retry |
 |---|---|---|---|---|
-| ___ | Concept / Formula / Sign / Algebra / Units / Graph / Guess | ___ | ___ | ___ |
-| ___ | Concept / Formula / Sign / Algebra / Units / Graph / Guess | ___ | ___ | ___ |
-| ___ | Concept / Formula / Sign / Algebra / Units / Graph / Guess | ___ | ___ | ___ |
+| Q4 | Sign / concept | The selected option gives the wrong direction and magnitude. Net displacement is 60 − 20 = 40 m east over 30 s. | Average velocity = net displacement ÷ total time = 4/3 m/s east (A). | Pending |
+| Q22 | Sign / concept | The selected option does not account for gravity continuing to act at the highest point. | With upward positive, acceleration remains −g = −9.8 m/s² (C), even when instantaneous velocity is zero. | Pending |
 
-Do not label every error “careless.” Identify the actual step: wrong quantity, formula choice, sign, derivative, unit, or graph interpretation.
+Time taken, guessed-answer count, and retry status were not provided; they remain unrecorded.
 
 ## Final Checklist
 
