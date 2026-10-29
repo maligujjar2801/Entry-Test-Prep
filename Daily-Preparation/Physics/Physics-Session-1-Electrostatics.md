@@ -30,9 +30,11 @@ Think of electrostatics through three linked questions:
 
 The field is a property of the location created by source charges. The force depends on both the field and the charge placed there.
 
-\[
+$
+
 \boxed{\vec F=q\vec E}
-\]
+
+$
 
 A positive test charge accelerates in the direction of the electric field; a negative charge experiences force opposite to the field.
 
@@ -48,13 +50,15 @@ There are two kinds of electric charge: positive and negative. Like charges repe
 
 **Quantization:** Charge on an isolated object is an integer multiple of the elementary charge:
 
-\[
+$
+
 q=ne,\qquad n=0,\pm1,\pm2,\ldots
-\]
 
-where \(e=1.602\times10^{-19}\,\text{C}\). The magnitude of the electron's charge is \(e\); its charge is \(-e\), while a proton carries \(+e\).
+$
 
-**Additivity:** Total charge is the algebraic sum of the charges. For example, \(+5\,\text{C}\) and \(-2\,\text{C}\) together have net charge \(+3\,\text{C}\).
+where $e=1.602\times10^{-19}\,\text{C}$. The magnitude of the electron's charge is $e$; its charge is $-e$, while a proton carries $+e$.
+
+**Additivity:** Total charge is the algebraic sum of the charges. For example, $+5\,\text{C}$ and $-2\,\text{C}$ together have net charge $+3\,\text{C}$.
 
 ### Charging by transfer
 
@@ -76,17 +80,21 @@ A charged object can cause charges inside a nearby object to redistribute withou
 
 ## 2. Coulomb's law
 
-For two stationary point charges separated by distance \(r\), the magnitude of the electric force is
+For two stationary point charges separated by distance $r$, the magnitude of the electric force is
 
-\[
+$
+
 F=k\frac{|q_1q_2|}{r^2}
-\]
+
+$
 
 where
 
-\[
+$
+
 k\approx8.99\times10^9\,\text{N m}^2/\text{C}^2
-\]
+
+$
 
 in vacuum (approximately the same value in air for typical entry-test calculations).
 
@@ -99,15 +107,17 @@ in vacuum (approximately the same value in air for typical entry-test calculatio
 - The force acts along the line joining the charges.
 - Like charges repel; unlike charges attract.
 
-The absolute-value bars calculate magnitude. The signs of \(q_1\) and \(q_2\) determine whether the force is attractive or repulsive.
+The absolute-value bars calculate magnitude. The signs of $q_1$ and $q_2$ determine whether the force is attractive or repulsive.
 
 ### Scaling rule
 
-If \(|q_1q_2|\) changes by a factor \(a\) and separation changes by a factor \(b\), then
+If $|q_1q_2|$ changes by a factor $a$ and separation changes by a factor $b$, then
 
-\[
+$
+
 \frac{F'}{F}=\frac{a}{b^2}
-\]
+
+$
 
 This ratio is often faster than substituting constants.
 
@@ -115,9 +125,11 @@ This ratio is often faster than substituting constants.
 
 The force exerted by charge 1 on charge 2 and the force exerted by charge 2 on charge 1 have equal magnitudes and opposite directions:
 
-\[
+$
+
 \vec F_{12}=-\vec F_{21}
-\]
+
+$
 
 Different charges do not exert unequal mutual forces simply because one charge is larger. Their accelerations can differ because their masses differ.
 
@@ -127,17 +139,21 @@ Different charges do not exert unequal mutual forces simply because one charge i
 
 The electric field describes the force per unit positive test charge at a point:
 
-\[
+$
+
 \vec E=\frac{\vec F}{q_0}
-\]
 
-where \(q_0\) is a small positive test charge. The unit is \(\text{N/C}\) (equivalently \(\text{V/m}\), though potential is not the focus of this session).
+$
 
-For a point source charge \(Q\), the field magnitude at distance \(r\) is
+where $q_0$ is a small positive test charge. The unit is $\text{N/C}$ (equivalently $\text{V/m}$, though potential is not the focus of this session).
 
-\[
+For a point source charge $Q$, the field magnitude at distance $r$ is
+
+$
+
 E=k\frac{|Q|}{r^2}
-\]
+
+$
 
 Its direction is:
 
@@ -148,7 +164,7 @@ The field direction is defined using a positive test charge. A negative particle
 
 ### Field versus force
 
-| Electric field \(\vec E\) | Electric force \(\vec F\) |
+| Electric field $\vec E$ | Electric force $\vec F$ |
 |---|---|
 | Created by source charges | Acts on a charge placed in the field |
 | Does not depend on the test charge used to measure it | Depends on the charge experiencing it |
@@ -163,9 +179,11 @@ If the test charge is doubled, the force doubles, but the field at that location
 
 When several source charges are present, each produces its own field. The net field is the **vector sum**:
 
-\[
+$
+
 \vec E_{\text{net}}=\vec E_1+\vec E_2+\cdots+\vec E_n
-\]
+
+$
 
 Do not add magnitudes blindly. First determine each field's direction.
 
@@ -187,7 +205,7 @@ Place a positive charge on the left and an equal negative charge on the right. A
 
 1. Sketch source charges and the point of interest.
 2. Draw each field direction using “away from +, toward −”.
-3. Compare magnitudes using \(E\propto |Q|/r^2\).
+3. Compare magnitudes using $E\propto |Q|/r^2$.
 4. Add vectors and check whether cancellation is possible.
 
 For two like charges, a zero-field point can lie between them, where the fields oppose. For two opposite charges, the fields between them point in the same direction, so they cannot cancel between the charges. In the unequal opposite-charge case, a zero-field point may lie outside the pair, on the side of the smaller-magnitude charge. Equal and opposite charges have no finite zero-field point on the line.
@@ -198,54 +216,64 @@ For two like charges, a zero-field point can lie between them, where the fields 
 
 ### Example 1 — Coulomb force
 
-Two charges of magnitudes \(2\,\mu\text{C}\) and \(3\,\mu\text{C}\) are separated by \(0.30\,\text{m}\) in air. Find the force magnitude.
+Two charges of magnitudes $2\,\mu\text{C}$ and $3\,\mu\text{C}$ are separated by $0.30\,\text{m}$ in air. Find the force magnitude.
 
 Convert microcoulombs first:
 
-\[
+$
+
 q_1=2\times10^{-6}\,\text{C},\quad
 q_2=3\times10^{-6}\,\text{C}
-\]
+
+$
 
 Substitute:
 
-\[
+$
+
 F=8.99\times10^9
 \frac{(2\times10^{-6})(3\times10^{-6})}{(0.30)^2}
 \approx0.60\,\text{N}
-\]
 
-The force is approximately \(0.60\,\text{N}\). Whether it is attractive or repulsive depends on the signs of the charges, not their magnitudes alone.
+$
+
+The force is approximately $0.60\,\text{N}$. Whether it is attractive or repulsive depends on the signs of the charges, not their magnitudes alone.
 
 ### Example 2 — distance scaling
 
 If the separation becomes three times larger while the charges remain unchanged:
 
-\[
+$
+
 F'=F\left(\frac{1}{3}\right)^2=\frac{F}{9}
-\]
+
+$
 
 The new force is one-ninth of the original.
 
 ### Example 3 — field due to a point charge
 
-A \(+4\,\mu\text{C}\) point charge produces a field at a point \(0.20\,\text{m}\) away:
+A $+4\,\mu\text{C}$ point charge produces a field at a point $0.20\,\text{m}$ away:
 
-\[
+$
+
 E=8.99\times10^9\frac{4\times10^{-6}}{(0.20)^2}
 \approx8.99\times10^5\,\text{N/C}
-\]
+
+$
 
 The field points away from the positive charge.
 
 ### Example 4 — force from a known field
 
-A charge \(q=-2\,\mu\text{C}\) is placed in a uniform field of magnitude \(300\,\text{N/C}\). The force magnitude is
+A charge $q=-2\,\mu\text{C}$ is placed in a uniform field of magnitude $300\,\text{N/C}$. The force magnitude is
 
-\[
+$
+
 F=|q|E=(2\times10^{-6})(300)
 =6.0\times10^{-4}\,\text{N}
-\]
+
+$
 
 Its force direction is opposite to the electric field because the charge is negative.
 
@@ -270,8 +298,8 @@ Its force direction is opposite to the electric field because the charge is nega
 
 When you see an MCQ, identify its type before calculating:
 
-- **Force ratio:** use \(F\propto |q_1q_2|/r^2\).
-- **Field ratio:** use \(E\propto |Q|/r^2\).
+- **Force ratio:** use $F\propto |q_1q_2|/r^2$.
+- **Field ratio:** use $E\propto |Q|/r^2$.
 - **Direction:** “away from +, toward −”; reverse force for a negative test charge.
 - **Multiple charges:** draw arrows and use vector addition.
 - **Zero field:** cancellation requires equal magnitudes in opposite directions.
@@ -286,12 +314,12 @@ When you see an MCQ, identify its type before calculating:
 **Suggested time:** 30 minutes.  
 **Rules:** Attempt all questions before opening the answer key. Choose one best answer per question. Mark each response as **confident**, **unsure**, or **guess** in your rough work. Do not use the answer key during the timed attempt.
 
-### Q1. Two identical conducting spheres carry charges \(+6\,\mu\text{C}\) and \(-2\,\mu\text{C}\). They are touched together and separated, with no charge escaping. What charge does each sphere carry?
+### Q1. Two identical conducting spheres carry charges $+6\,\mu\text{C}$ and $-2\,\mu\text{C}$. They are touched together and separated, with no charge escaping. What charge does each sphere carry?
 
-A. \(+4\,\mu\text{C}\)  
-B. \(+2\,\mu\text{C}\)  
-C. \(-2\,\mu\text{C}\)  
-D. \(+8\,\mu\text{C}\)
+A. $+4\,\mu\text{C}$  
+B. $+2\,\mu\text{C}$  
+C. $-2\,\mu\text{C}$  
+D. $+8\,\mu\text{C}$
 
 ### Q2. An object becomes negatively charged by ordinary rubbing. The best explanation is that it:
 
@@ -309,10 +337,10 @@ D. four times as large
 
 ### Q4. Both charge magnitudes are tripled and their separation is doubled. The new force divided by the original force is:
 
-A. \(3/2\)  
-B. \(9/4\)  
-C. \(9/2\)  
-D. \(3/4\)
+A. $3/2$  
+B. $9/4$  
+C. $9/2$  
+D. $3/4$
 
 ### Q5. Two charges exert an electric force on each other. Which statement is correct?
 
@@ -342,12 +370,12 @@ B. west
 C. north  
 D. zero
 
-### Q9. At a point, the field magnitude is \(200\,\text{N/C}\). A \(+3\,\text{C}\) charge is placed there. The force magnitude is:
+### Q9. At a point, the field magnitude is $200\,\text{N/C}$. A $+3\,\text{C}$ charge is placed there. The force magnitude is:
 
-A. \(200/3\,\text{N}\)  
-B. \(203\,\text{N}\)  
-C. \(600\,\text{N}\)  
-D. \(600/3\,\text{N}\)
+A. $200/3\,\text{N}$  
+B. $203\,\text{N}$  
+C. $600\,\text{N}$  
+D. $600/3\,\text{N}$
 
 ### Q10. If the test charge used to measure a field is doubled, while source charges remain unchanged and the test charge does not disturb them, the measured field:
 
@@ -398,12 +426,12 @@ B. point in the same direction
 C. are both zero at the midpoint  
 D. point away from each other
 
-### Q17. If a point charge is moved from distance \(r\) to \(2r\), the magnitude of its field at the observation point becomes:
+### Q17. If a point charge is moved from distance $r$ to $2r$, the magnitude of its field at the observation point becomes:
 
-A. \(E/2\)  
-B. \(E/4\)  
-C. \(2E\)  
-D. \(4E\)
+A. $E/2$  
+B. $E/4$  
+C. $2E$  
+D. $4E$
 
 ### Q18. Which quantity is a vector?
 
@@ -440,14 +468,14 @@ B. 4
 C. 8  
 D. 1/8
 
-### Q23. A charge experiences a force of \(0.12\,\text{N}\) in a field of \(4\,\text{N/C}\). The magnitude of its charge is:
+### Q23. A charge experiences a force of $0.12\,\text{N}$ in a field of $4\,\text{N/C}$. The magnitude of its charge is:
 
-A. \(0.03\,\text{C}\)  
-B. \(0.48\,\text{C}\)  
-C. \(3\,\text{C}\)  
-D. \(0.33\,\text{C}\)
+A. $0.03\,\text{C}$  
+B. $0.48\,\text{C}$  
+C. $3\,\text{C}$  
+D. $0.33\,\text{C}$
 
-### Q24. Two equal positive charges are at positions \(-a\) and \(+a\). At the midpoint, the net field is zero. The electric potential there (if considering the usual point-charge potential model) is:
+### Q24. Two equal positive charges are at positions $-a$ and $+a$. At the midpoint, the net field is zero. The electric potential there (if considering the usual point-charge potential model) is:
 
 A. necessarily zero  
 B. positive, because scalar potentials add  
@@ -461,19 +489,19 @@ B. Force exists only around negative charges
 C. Field describes force per unit positive test charge; force depends on the charge placed there  
 D. Field and force are always numerically equal
 
-### Q26. A source charge is changed from \(+Q\) to \(-Q\) without changing its magnitude or location. At a fixed observation point, its field:
+### Q26. A source charge is changed from $+Q$ to $-Q$ without changing its magnitude or location. At a fixed observation point, its field:
 
 A. keeps the same direction and magnitude  
 B. reverses direction but keeps the same magnitude  
 C. becomes zero  
 D. doubles in magnitude and reverses direction
 
-### Q27. Three charges contribute fields at a point: \(5\,\text{N/C}\) east, \(5\,\text{N/C}\) west, and \(2\,\text{N/C}\) north. The net field is:
+### Q27. Three charges contribute fields at a point: $5\,\text{N/C}$ east, $5\,\text{N/C}$ west, and $2\,\text{N/C}$ north. The net field is:
 
 A. zero  
-B. \(2\,\text{N/C}\) north  
-C. \(12\,\text{N/C}\) east  
-D. \(8\,\text{N/C}\) north
+B. $2\,\text{N/C}$ north  
+C. $12\,\text{N/C}$ east  
+D. $8\,\text{N/C}$ north
 
 ### Q28. Which change causes the greatest increase in Coulomb force magnitude?
 
@@ -504,15 +532,15 @@ D. zero
 
 | Q | Answer | Explanation |
 |---:|:---:|---|
-| 1 | B | Total charge is \(+4\,\mu\text{C}\). Identical conducting spheres share it equally, so each gets \(+2\,\mu\text{C}\). |
+| 1 | B | Total charge is $+4\,\mu\text{C}$. Identical conducting spheres share it equally, so each gets $+2\,\mu\text{C}$. |
 | 2 | B | Ordinary rubbing transfers electrons; charge is conserved. |
-| 3 | C | Coulomb force varies as \(1/r^2\); doubling distance gives \(1/4\). |
-| 4 | B | Charge product scales by 9; distance squared by 4. Ratio \(9/4\). |
+| 3 | C | Coulomb force varies as $1/r^2$; doubling distance gives $1/4$. |
+| 4 | B | Charge product scales by 9; distance squared by 4. Ratio $9/4$. |
 | 5 | C | Newton's third law: equal and opposite mutual forces. |
 | 6 | B | Field is force per unit positive test charge. |
 | 7 | A | A proton is positive, so force follows field direction. |
 | 8 | B | An electron is negative, so force opposes the field. |
-| 9 | C | \(F=|q|E=3\times200=600\,\text{N}\). |
+| 9 | C | $F=|q|E=3\times200=600\,\text{N}$. |
 | 10 | C | The field is set by source charges, not the measuring test charge. |
 | 11 | B | Field direction is defined away from a positive source. |
 | 12 | A | Equal fields point in opposite directions and cancel. |
@@ -520,13 +548,13 @@ D. zero
 | 14 | B | Net zero can result from cancellation of nonzero fields. |
 | 15 | B | To balance a stronger charge's field, the point must be farther from the stronger charge and therefore closer to the weaker one. |
 | 16 | B | Between opposite charges, the field points from + toward − for both contributions. |
-| 17 | B | Inverse-square scaling: \(E'=E/2^2=E/4\). |
+| 17 | B | Inverse-square scaling: $E'=E/2^2=E/4$. |
 | 18 | C | Electric field has magnitude and direction; charge, constant, and distance are scalars. |
 | 19 | B | Mobile charges redistribute in a conductor, creating induced charge separation and attraction. |
 | 20 | B | Polarization shifts bound charge distributions; the nearer opposite-charge region can attract more strongly. |
 | 21 | B | Unlike charges attract. |
 | 22 | C | Doubling charge gives factor 2; halving distance gives factor 4. Total factor 8. |
-| 23 | A | \(|q|=F/E=0.12/4=0.03\,\text{C}\). |
+| 23 | A | $|q|=F/E=0.12/4=0.03\,\text{C}$. |
 | 24 | B | Electric potential is scalar and the two positive contributions add; zero field does not imply zero potential. |
 | 25 | C | Field characterizes the location; force depends on the charge placed in it. |
 | 26 | B | Same source magnitude and distance mean same field magnitude, but reversing charge sign reverses field direction. |
@@ -580,19 +608,23 @@ For every wrong or guessed answer, record:
 
 ## 11. One-page formula recap
 
-\[
+$
+
 F=k\frac{|q_1q_2|}{r^2}
 \qquad
 E=k\frac{|Q|}{r^2}
 \qquad
 \vec F=q\vec E
-\]
 
-\[
+$
+
+$
+
 \vec E_{\text{net}}=\sum_i\vec E_i
 \qquad
 q=ne
-\]
+
+$
 
 - Coulomb force: along the line joining the two charges.
 - Field of + charge: outward; field of − charge: inward.
@@ -600,7 +632,7 @@ q=ne
 - Force on − test charge: opposite the field.
 - Like charges repel; unlike charges attract.
 - Force pair: equal magnitude, opposite directions.
-- Distance factor \(b\): force/point-charge field scales by \(1/b^2\).
+- Distance factor $b$: force/point-charge field scales by $1/b^2$.
 - Add fields as vectors; add charge and potential as signed scalars.
 - Net field zero means the vector contributions cancel.
 
