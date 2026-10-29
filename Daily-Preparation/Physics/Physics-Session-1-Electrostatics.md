@@ -30,11 +30,11 @@ Think of electrostatics through three linked questions:
 
 The field is a property of the location created by source charges. The force depends on both the field and the charge placed there.
 
-$
+$$
 
 \boxed{\vec F=q\vec E}
 
-$
+$$
 
 A positive test charge accelerates in the direction of the electric field; a negative charge experiences force opposite to the field.
 
@@ -50,11 +50,11 @@ There are two kinds of electric charge: positive and negative. Like charges repe
 
 **Quantization:** Charge on an isolated object is an integer multiple of the elementary charge:
 
-$
+$$
 
 q=ne,\qquad n=0,\pm1,\pm2,\ldots
 
-$
+$$
 
 where $e=1.602\times10^{-19}\,\text{C}$. The magnitude of the electron's charge is $e$; its charge is $-e$, while a proton carries $+e$.
 
@@ -82,19 +82,19 @@ A charged object can cause charges inside a nearby object to redistribute withou
 
 For two stationary point charges separated by distance $r$, the magnitude of the electric force is
 
-$
+$$
 
 F=k\frac{|q_1q_2|}{r^2}
 
-$
+$$
 
 where
 
-$
+$$
 
 k\approx8.99\times10^9\,\text{N m}^2/\text{C}^2
 
-$
+$$
 
 in vacuum (approximately the same value in air for typical entry-test calculations).
 
@@ -113,11 +113,11 @@ The absolute-value bars calculate magnitude. The signs of $q_1$ and $q_2$ determ
 
 If $|q_1q_2|$ changes by a factor $a$ and separation changes by a factor $b$, then
 
-$
+$$
 
 \frac{F'}{F}=\frac{a}{b^2}
 
-$
+$$
 
 This ratio is often faster than substituting constants.
 
@@ -125,11 +125,11 @@ This ratio is often faster than substituting constants.
 
 The force exerted by charge 1 on charge 2 and the force exerted by charge 2 on charge 1 have equal magnitudes and opposite directions:
 
-$
+$$
 
 \vec F_{12}=-\vec F_{21}
 
-$
+$$
 
 Different charges do not exert unequal mutual forces simply because one charge is larger. Their accelerations can differ because their masses differ.
 
@@ -139,21 +139,21 @@ Different charges do not exert unequal mutual forces simply because one charge i
 
 The electric field describes the force per unit positive test charge at a point:
 
-$
+$$
 
 \vec E=\frac{\vec F}{q_0}
 
-$
+$$
 
 where $q_0$ is a small positive test charge. The unit is $\text{N/C}$ (equivalently $\text{V/m}$, though potential is not the focus of this session).
 
 For a point source charge $Q$, the field magnitude at distance $r$ is
 
-$
+$$
 
 E=k\frac{|Q|}{r^2}
 
-$
+$$
 
 Its direction is:
 
@@ -179,11 +179,11 @@ If the test charge is doubled, the force doubles, but the field at that location
 
 When several source charges are present, each produces its own field. The net field is the **vector sum**:
 
-$
+$$
 
 \vec E_{\text{net}}=\vec E_1+\vec E_2+\cdots+\vec E_n
 
-$
+$$
 
 Do not add magnitudes blindly. First determine each field's direction.
 
@@ -220,22 +220,22 @@ Two charges of magnitudes $2\,\mu\text{C}$ and $3\,\mu\text{C}$ are separated by
 
 Convert microcoulombs first:
 
-$
+$$
 
 q_1=2\times10^{-6}\,\text{C},\quad
 q_2=3\times10^{-6}\,\text{C}
 
-$
+$$
 
 Substitute:
 
-$
+$$
 
 F=8.99\times10^9
 \frac{(2\times10^{-6})(3\times10^{-6})}{(0.30)^2}
 \approx0.60\,\text{N}
 
-$
+$$
 
 The force is approximately $0.60\,\text{N}$. Whether it is attractive or repulsive depends on the signs of the charges, not their magnitudes alone.
 
@@ -243,11 +243,11 @@ The force is approximately $0.60\,\text{N}$. Whether it is attractive or repulsi
 
 If the separation becomes three times larger while the charges remain unchanged:
 
-$
+$$
 
 F'=F\left(\frac{1}{3}\right)^2=\frac{F}{9}
 
-$
+$$
 
 The new force is one-ninth of the original.
 
@@ -255,12 +255,12 @@ The new force is one-ninth of the original.
 
 A $+4\,\mu\text{C}$ point charge produces a field at a point $0.20\,\text{m}$ away:
 
-$
+$$
 
 E=8.99\times10^9\frac{4\times10^{-6}}{(0.20)^2}
 \approx8.99\times10^5\,\text{N/C}
 
-$
+$$
 
 The field points away from the positive charge.
 
@@ -268,12 +268,12 @@ The field points away from the positive charge.
 
 A charge $q=-2\,\mu\text{C}$ is placed in a uniform field of magnitude $300\,\text{N/C}$. The force magnitude is
 
-$
+$$
 
 F=|q|E=(2\times10^{-6})(300)
 =6.0\times10^{-4}\,\text{N}
 
-$
+$$
 
 Its force direction is opposite to the electric field because the charge is negative.
 
@@ -608,7 +608,7 @@ For every wrong or guessed answer, record:
 
 ## 11. One-page formula recap
 
-$
+$$
 
 F=k\frac{|q_1q_2|}{r^2}
 \qquad
@@ -616,15 +616,15 @@ E=k\frac{|Q|}{r^2}
 \qquad
 \vec F=q\vec E
 
-$
+$$
 
-$
+$$
 
 \vec E_{\text{net}}=\sum_i\vec E_i
 \qquad
 q=ne
 
-$
+$$
 
 - Coulomb force: along the line joining the two charges.
 - Field of + charge: outward; field of − charge: inward.
