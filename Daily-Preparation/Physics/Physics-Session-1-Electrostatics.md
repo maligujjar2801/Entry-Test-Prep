@@ -558,6 +558,7 @@ E=k\frac{|Q|}{r^2}
 \qquad
 \vec F=q\vec E
 $$
+
 $$
 \vec E_{\text{net}}=\sum_i\vec E_i
 \qquad
