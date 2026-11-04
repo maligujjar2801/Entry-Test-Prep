@@ -5,14 +5,14 @@
 
 ## 1. Coordinate Plane
 
-A point is written as \(P(x,y)\).
+A point is written as $P(x,y)$.
 
-- \(x\): horizontal coordinate, measured from the \(y\)-axis.
-- \(y\): vertical coordinate, measured from the \(x\)-axis.
+- $x$: horizontal coordinate, measured from the $y$-axis.
+- $y$: vertical coordinate, measured from the $x$-axis.
 
 The axes divide the plane into four quadrants:
 
-| Quadrant | Sign of \(x\) | Sign of \(y\) |
+| Quadrant | Sign of $x$ | Sign of $y$ |
 |---|---:|---:|
 | I | + | + |
 | II | − | + |
@@ -27,79 +27,97 @@ The axes divide the plane into four quadrants:
 
 Let
 
-\[
+$$
+
 P_1(x_1,y_1),\qquad P_2(x_2,y_2).
-\]
+
+$$
 
 Draw a right triangle using the horizontal and vertical differences.
 
 The horizontal side is
 
-\[
+$$
+
 \Delta x=x_2-x_1
-\]
+
+$$
 
 and the vertical side is
 
-\[
+$$
+
 \Delta y=y_2-y_1.
-\]
+
+$$
 
 By Pythagoras,
 
-\[
+$$
+
 d^2=(\Delta x)^2+(\Delta y)^2.
-\]
+
+$$
 
 Therefore,
 
-\[
+$$
+
 \boxed{d=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}}.
-\]
+
+$$
 
 The order of the points does not matter because the differences are squared.
 
 ### Example
 
-Find the distance between \(A(2,3)\) and \(B(8,11)\).
+Find the distance between $A(2,3)$ and $B(8,11)$.
 
-\[
+$$
+
 d=\sqrt{(8-2)^2+(11-3)^2}
-\]
 
-\[
+$$
+
+$$
+
 =\sqrt{6^2+8^2}
 =\sqrt{36+64}
 =\boxed{10}.
-\]
 
-**NET/FAST trap:** do not calculate \(x_2-x_1\) and \(y_2-y_1\) as ordinary positive distances and then forget the square-root step.
+$$
+
+**NET/FAST trap:** do not calculate $x_2-x_1$ and $y_2-y_1$ as ordinary positive distances and then forget the square-root step.
 
 ---
 
 ## 3. Slope of a Straight Line
 
-Slope measures how rapidly \(y\) changes as \(x\) changes.
+Slope measures how rapidly $y$ changes as $x$ changes.
 
-For two points \(P_1(x_1,y_1)\) and \(P_2(x_2,y_2)\),
+For two points $P_1(x_1,y_1)$ and $P_2(x_2,y_2)$,
 
-\[
+$$
+
 \boxed{m=\frac{y_2-y_1}{x_2-x_1}}
-\]
 
-provided \(x_2\ne x_1\).
+$$
+
+provided $x_2\ne x_1$.
 
 The numerator is the **rise** and the denominator is the **run**:
 
-\[
+$$
+
 m=\frac{\text{rise}}{\text{run}}.
-\]
+
+$$
 
 ### Meaning of the sign
 
-- \(m>0\): line rises from left to right.
-- \(m<0\): line falls from left to right.
-- \(m=0\): horizontal line.
+- $m>0$: line rises from left to right.
+- $m<0$: line falls from left to right.
+- $m=0$: horizontal line.
 - Undefined slope: vertical line.
 
 ### Optional Conceptual Bridge — From Slope to Derivatives
@@ -108,15 +126,19 @@ The slope formula is more than a way to describe straight lines. It is the start
 
 For a function $y=f(x)$, the average rate of change over an interval is
 
-\[
+$$
+
 \text{Average rate of change}=\frac{\Delta y}{\Delta x}.
-\]
+
+$$
 
 On a straight line, this value is constant. On a curve, the slope changes from point to point. To find the slope at one particular point, imagine bringing two points closer together. The secant-line slope approaches the tangent-line slope. This limiting value is the **derivative**:
 
-\[
+$$
+
 \boxed{\frac{dy}{dx}=\lim_{h\to0}\frac{f(x+h)-f(x)}{h}}.
-\]
+
+$$
 
 The conceptual connection to motion is that time becomes the independent variable and position becomes a function of time:
 
@@ -128,11 +150,13 @@ The conceptual connection to motion is that time becomes the independent variabl
 
 So the same idea used to find the slope of a straight line is generalized to find the instantaneous rate of change of a curve.
 
-\[
+$$
+
 x(t)\xrightarrow{\ d/dt\ }v(t)
 \xrightarrow{\ d/dt\ }a(t)
 \xrightarrow{\ d/dt\ }j(t).
-\]
+
+$$
 
 **Concept check:** slope asks, “How much does the vertical quantity change for a change in the horizontal quantity?” A derivative asks the same question at an instant. In kinematics, the horizontal variable is time.
 
@@ -140,13 +164,15 @@ This is an optional bridge to the kinematics material developed in Day 3; it doe
 
 ### Example
 
-For \(A(1,2)\) and \(B(5,10)\),
+For $A(1,2)$ and $B(5,10)$,
 
-\[
+$$
+
 m=\frac{10-2}{5-1}
 =\frac84
 =\boxed{2}.
-\]
+
+$$
 
 ---
 
@@ -154,16 +180,20 @@ m=\frac{10-2}{5-1}
 
 For a vertical line,
 
-\[
+$$
+
 x_2=x_1.
-\]
+
+$$
 
 Therefore,
 
-\[
+$$
+
 m=\frac{y_2-y_1}{x_2-x_1}
 =\frac{\text{nonzero}}{0}.
-\]
+
+$$
 
 Division by zero is undefined.
 
@@ -171,15 +201,19 @@ So a vertical line has **undefined slope**.
 
 For a horizontal line,
 
-\[
+$$
+
 y_2=y_1,
-\]
+
+$$
 
 hence
 
-\[
+$$
+
 m=\frac0{x_2-x_1}=0.
-\]
+
+$$
 
 ---
 
@@ -189,56 +223,70 @@ A straight line can be represented in several equivalent forms. Entry tests ofte
 
 ### 5.1 Slope-Intercept Form
 
-\[
+$$
+
 \boxed{y=mx+c}
-\]
+
+$$
 
 where:
 
-- \(m\) = slope
-- \(c\) = \(y\)-intercept
+- $m$ = slope
+- $c$ = $y$-intercept
 
 ### Derivation
 
-Suppose a line has slope \(m\) and crosses the \(y\)-axis at \((0,c)\).
+Suppose a line has slope $m$ and crosses the $y$-axis at $(0,c)$.
 
-For an arbitrary point \((x,y)\) on the line,
+For an arbitrary point $(x,y)$ on the line,
 
-\[
+$$
+
 m=\frac{y-c}{x-0}.
-\]
+
+$$
 
 Thus,
 
-\[
+$$
+
 m=\frac{y-c}{x}.
-\]
 
-Multiply by \(x\):
+$$
 
-\[
+Multiply by $x$:
+
+$$
+
 mx=y-c.
-\]
+
+$$
 
 Therefore,
 
-\[
+$$
+
 \boxed{y=mx+c}.
-\]
+
+$$
 
 ### Recognition
 
 If the equation is already
 
-\[
+$$
+
 y=3x-7,
-\]
+
+$$
 
 then immediately:
 
-\[
+$$
+
 m=3,\qquad c=-7.
-\]
+
+$$
 
 ---
 
@@ -246,44 +294,56 @@ m=3,\qquad c=-7.
 
 If you know:
 
-- one point \((x_1,y_1)\), and
-- the slope \(m\),
+- one point $(x_1,y_1)$, and
+- the slope $m$,
 
 use
 
-\[
+$$
+
 \boxed{y-y_1=m(x-x_1)}.
-\]
+
+$$
 
 ### Derivation
 
 Start with the slope formula between the known point and an arbitrary point:
 
-\[
+$$
+
 m=\frac{y-y_1}{x-x_1}.
-\]
 
-Multiply by \(x-x_1\):
+$$
 
-\[
+Multiply by $x-x_1$:
+
+$$
+
 \boxed{y-y_1=m(x-x_1)}.
-\]
+
+$$
 
 ### Example
 
-Find the equation of the line with slope \(4\) through \((2,-3)\).
+Find the equation of the line with slope $4$ through $(2,-3)$.
 
-\[
+$$
+
 y-(-3)=4(x-2)
-\]
 
-\[
+$$
+
+$$
+
 y+3=4x-8
-\]
 
-\[
+$$
+
+$$
+
 \boxed{y=4x-11}.
-\]
+
+$$
 
 ---
 
@@ -291,40 +351,50 @@ y+3=4x-8
 
 If two points are given, first calculate the slope:
 
-\[
+$$
+
 m=\frac{y_2-y_1}{x_2-x_1}.
-\]
+
+$$
 
 Then substitute into point-slope form:
 
-\[
+$$
+
 \boxed{
 y-y_1=
 \frac{y_2-y_1}{x_2-x_1}(x-x_1)
 }.
-\]
+
+$$
 
 ### Example
 
-Find the equation through \((1,2)\) and \((5,10)\).
+Find the equation through $(1,2)$ and $(5,10)$.
 
 First,
 
-\[
+$$
+
 m=\frac{10-2}{5-1}=2.
-\]
 
-Using \((1,2)\),
+$$
 
-\[
+Using $(1,2)$,
+
+$$
+
 y-2=2(x-1).
-\]
+
+$$
 
 Hence,
 
-\[
+$$
+
 \boxed{y=2x}.
-\]
+
+$$
 
 ---
 
@@ -332,51 +402,67 @@ Hence,
 
 The general equation is
 
-\[
+$$
+
 \boxed{Ax+By+C=0}.
-\]
 
-If \(B\ne0\), solve for \(y\):
+$$
 
-\[
+If $B\ne0$, solve for $y$:
+
+$$
+
 By=-Ax-C
-\]
 
-\[
+$$
+
+$$
+
 y=-\frac ABx-\frac CB.
-\]
+
+$$
 
 Comparing with
 
-\[
+$$
+
 y=mx+c,
-\]
+
+$$
 
 we obtain
 
-\[
+$$
+
 \boxed{m=-\frac AB}.
-\]
+
+$$
 
 ### Example
 
 Find the slope of
 
-\[
+$$
+
 3x+2y-8=0.
-\]
+
+$$
 
 Here,
 
-\[
+$$
+
 A=3,\qquad B=2.
-\]
+
+$$
 
 Therefore,
 
-\[
+$$
+
 m=-\frac32.
-\]
+
+$$
 
 ---
 
@@ -384,32 +470,38 @@ m=-\frac32.
 
 ### Horizontal line
 
-A horizontal line has constant \(y\):
+A horizontal line has constant $y$:
 
-\[
+$$
+
 \boxed{y=k}.
-\]
+
+$$
 
 Its slope is
 
-\[
+$$
+
 \boxed{m=0}.
-\]
+
+$$
 
 ### Vertical line
 
-A vertical line has constant \(x\):
+A vertical line has constant $x$:
 
-\[
+$$
+
 \boxed{x=k}.
-\]
+
+$$
 
 Its slope is undefined.
 
 **Fast recognition:**
 
-- \(x=5\) → vertical
-- \(y=-2\) → horizontal
+- $x=5$ → vertical
+- $y=-2$ → horizontal
 
 ---
 
@@ -417,17 +509,21 @@ Its slope is undefined.
 
 Two non-vertical lines are parallel when their slopes are equal:
 
-\[
+$$
+
 \boxed{m_1=m_2}.
-\]
+
+$$
 
 Example:
 
-\[
-y=2x+5,\qquad y=2x-9
-\]
+$$
 
-have the same slope \(2\), so they are parallel.
+y=2x+5,\qquad y=2x-9
+
+$$
+
+have the same slope $2$, so they are parallel.
 
 ---
 
@@ -435,29 +531,37 @@ have the same slope \(2\), so they are parallel.
 
 For non-vertical lines,
 
-\[
+$$
+
 \boxed{m_1m_2=-1}.
-\]
+
+$$
 
 Therefore,
 
-\[
+$$
+
 m_2=-\frac1{m_1}.
-\]
+
+$$
 
 ### Example
 
 If
 
-\[
+$$
+
 m_1=3,
-\]
+
+$$
 
 the perpendicular slope is
 
-\[
+$$
+
 m_2=-\frac13.
-\]
+
+$$
 
 **Trap:** perpendicular does not mean the slopes simply have opposite signs. They must be negative reciprocals.
 
@@ -465,53 +569,67 @@ m_2=-\frac13.
 
 ## 12. Intercepts
 
-### \(x\)-intercept
+### $x$-intercept
 
-At the \(x\)-axis,
+At the $x$-axis,
 
-\[
+$$
+
 y=0.
-\]
 
-### \(y\)-intercept
+$$
 
-At the \(y\)-axis,
+### $y$-intercept
 
-\[
+At the $y$-axis,
+
+$$
+
 x=0.
-\]
+
+$$
 
 ### Example
 
 For
 
-\[
+$$
+
 2x+3y=6,
-\]
 
-the \(x\)-intercept is found from \(y=0\):
+$$
 
-\[
+the $x$-intercept is found from $y=0$:
+
+$$
+
 2x=6\Rightarrow x=3.
-\]
+
+$$
 
 So the point is
 
-\[
+$$
+
 (3,0).
-\]
 
-The \(y\)-intercept is found from \(x=0\):
+$$
 
-\[
+The $y$-intercept is found from $x=0$:
+
+$$
+
 3y=6\Rightarrow y=2.
-\]
+
+$$
 
 So the point is
 
-\[
+$$
+
 (0,2).
-\]
+
+$$
 
 ---
 
@@ -519,51 +637,65 @@ So the point is
 
 If a line has:
 
-- \(x\)-intercept \(a\)
-- \(y\)-intercept \(b\)
+- $x$-intercept $a$
+- $y$-intercept $b$
 
 then
 
-\[
+$$
+
 \boxed{\frac xa+\frac yb=1}.
-\]
+
+$$
 
 ### Derivation
 
 The line passes through
 
-\[
+$$
+
 (a,0),\qquad(0,b).
-\]
+
+$$
 
 Using the two-point form,
 
-\[
+$$
+
 y=
 \frac{b-0}{0-a}(x-a).
-\]
+
+$$
 
 Thus,
 
-\[
-y=-\frac ba(x-a)
-\]
+$$
 
-\[
+y=-\frac ba(x-a)
+
+$$
+
+$$
+
 ay=-bx+ab.
-\]
+
+$$
 
 Therefore,
 
-\[
+$$
+
 \boxed{bx+ay=ab}.
-\]
 
-Divide by \(ab\):
+$$
 
-\[
+Divide by $ab$:
+
+$$
+
 \boxed{\frac xa+\frac yb=1}.
-\]
+
+$$
 
 ---
 
@@ -574,13 +706,13 @@ Divide by \(ab\):
 | Two points | Distance or slope formula |
 | One point + slope | Point-slope form |
 | Two points + line equation | Two-point form |
-| \(y=mx+c\) | Read slope/intercept directly |
-| \(Ax+By+C=0\) | \(m=-A/B\) |
+| $y=mx+c$ | Read slope/intercept directly |
+| $Ax+By+C=0$ | $m=-A/B$ |
 | Parallel line | Same slope |
 | Perpendicular line | Negative reciprocal |
-| \(x=k\) | Vertical |
-| \(y=k\) | Horizontal |
-| Intercepts | Put \(x=0\) or \(y=0\) |
+| $x=k$ | Vertical |
+| $y=k$ | Horizontal |
+| Intercepts | Put $x=0$ or $y=0$ |
 
 ---
 
@@ -588,82 +720,108 @@ Divide by \(ab\):
 
 ### Example 1 — Distance
 
-Find the distance between \((-2,1)\) and \((4,9)\).
+Find the distance between $(-2,1)$ and $(4,9)$.
 
-\[
+$$
+
 d=\sqrt{(4+2)^2+(9-1)^2}
-\]
 
-\[
+$$
+
+$$
+
 =\sqrt{36+64}
 =\boxed{10}.
-\]
+
+$$
 
 ### Example 2 — Perpendicular line
 
-Find the line through \((2,1)\) perpendicular to
+Find the line through $(2,1)$ perpendicular to
 
-\[
+$$
+
 y=2x+5.
-\]
+
+$$
 
 Original slope:
 
-\[
+$$
+
 m_1=2.
-\]
+
+$$
 
 Perpendicular slope:
 
-\[
+$$
+
 m_2=-\frac12.
-\]
+
+$$
 
 Point-slope form:
 
-\[
+$$
+
 y-1=-\frac12(x-2).
-\]
+
+$$
 
 So
 
-\[
+$$
+
 \boxed{y=-\frac12x+2}.
-\]
+
+$$
 
 ### Example 3 — General form
 
 Find the slope and intercepts of
 
-\[
+$$
+
 4x-2y+8=0.
-\]
+
+$$
 
 Rearrange:
 
-\[
--2y=-4x-8
-\]
+$$
 
-\[
+-2y=-4x-8
+
+$$
+
+$$
+
 y=2x+4.
-\]
+
+$$
 
 Therefore,
 
-\[
+$$
+
 \boxed{m=2,\quad y\text{-intercept}=4}.
-\]
 
-For the \(x\)-intercept:
+$$
 
-\[
+For the $x$-intercept:
+
+$$
+
 0=2x+4
-\]
 
-\[
+$$
+
+$$
+
 \boxed{x=-2}.
-\]
+
+$$
 
 ---
 
@@ -672,10 +830,10 @@ For the \(x\)-intercept:
 1. Forgetting the square root in the distance formula.
 2. Reversing only one difference in the slope formula.
 3. Calling a vertical slope zero. It is **undefined**.
-4. Using \(m_1=m_2\) for perpendicular lines. That is the parallel condition.
-5. Forgetting that \(x=constant\) is vertical.
-6. Confusing the \(x\)-intercept with the \(y\)-intercept.
-7. Reading \(m=-A/B\) incorrectly from \(Ax+By+C=0\).
+4. Using $m_1=m_2$ for perpendicular lines. That is the parallel condition.
+5. Forgetting that $x=constant$ is vertical.
+6. Confusing the $x$-intercept with the $y$-intercept.
+7. Reading $m=-A/B$ incorrectly from $Ax+By+C=0$.
 
 ---
 
