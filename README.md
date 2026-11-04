@@ -24,6 +24,10 @@ Each session aims to keep the first conceptual model simple, build toward deeper
   - Simple conceptual model: charge → electric field → force
   - Coulomb's law, inverse-square scaling, field direction, superposition, and zero-field reasoning
   - Worked examples, common traps, 30 timed MCQs, answer explanations, score bands, and an error-analysis loop
+- [Physics Session 2 — Alternating Current: Signals, Reactance, Resonance, and Power](Daily-Preparation/Physics/Physics-Session-2-Alternating-Current.md)
+  - Sinusoidal signals, frequency, period, peak and RMS values, and phase relationships
+  - Inductive and capacitive reactance, series RLC impedance, resonance, AC power, and transformers
+  - Worked examples, NET recognition strategies, 36 timed MCQs, answer explanations, score bands, and error analysis
 
 ## Session Standard
 
