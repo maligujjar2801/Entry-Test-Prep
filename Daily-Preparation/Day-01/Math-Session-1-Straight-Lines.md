@@ -102,6 +102,42 @@ m=\frac{\text{rise}}{\text{run}}.
 - \(m=0\): horizontal line.
 - Undefined slope: vertical line.
 
+### Optional Conceptual Bridge — From Slope to Derivatives
+
+The slope formula is more than a way to describe straight lines. It is the starting idea behind a derivative.
+
+For a function $y=f(x)$, the average rate of change over an interval is
+
+\[
+\text{Average rate of change}=\frac{\Delta y}{\Delta x}.
+\]
+
+On a straight line, this value is constant. On a curve, the slope changes from point to point. To find the slope at one particular point, imagine bringing two points closer together. The secant-line slope approaches the tangent-line slope. This limiting value is the **derivative**:
+
+\[
+\boxed{\frac{dy}{dx}=\lim_{h\to0}\frac{f(x+h)-f(x)}{h}}.
+\]
+
+The conceptual connection to motion is that time becomes the independent variable and position becomes a function of time:
+
+| What changes with time? | Rate of that change | Meaning |
+|---|---|---|
+| Position $x(t)$ | $\frac{dx}{dt}$ | Velocity |
+| Velocity $v(t)$ | $\frac{dv}{dt}$ | Acceleration |
+| Acceleration $a(t)$ | $\frac{da}{dt}$ | Jerk |
+
+So the same idea used to find the slope of a straight line is generalized to find the instantaneous rate of change of a curve.
+
+\[
+x(t)\xrightarrow{\ d/dt\ }v(t)
+\xrightarrow{\ d/dt\ }a(t)
+\xrightarrow{\ d/dt\ }j(t).
+\]
+
+**Concept check:** slope asks, “How much does the vertical quantity change for a change in the horizontal quantity?” A derivative asks the same question at an instant. In kinematics, the horizontal variable is time.
+
+This is an optional bridge to the kinematics material developed in Day 3; it does not replace or alter the straight-line formulas in this session.
+
 ### Example
 
 For \(A(1,2)\) and \(B(5,10)\),
@@ -675,4 +711,6 @@ Before moving on, you should be able to:
 - calculate intercepts;
 - derive and use intercept form;
 - recognize the shortest method for a NET/FAST question.
+- explain how the slope formula leads to the idea of an instantaneous derivative;
+- connect position, velocity, acceleration and jerk as successive time derivatives.
 
