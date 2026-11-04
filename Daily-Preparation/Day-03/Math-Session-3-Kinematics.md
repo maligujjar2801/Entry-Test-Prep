@@ -800,42 +800,42 @@ These five questions are an additional concept check; they do not change the rec
 ### Q1
 If $x(t)=2t^3-3t^2+4$, what is the jerk?
 
-A. $0$ m/s$^3$  
-B. $6$ m/s$^3$  
-C. $12$ m/s$^3$  
-D. $24$ m/s$^3$
+A. $0\,\text{m/s}^3$  
+B. $6\,\text{m/s}^3$  
+C. $12\,\text{m/s}^3$  
+D. $24\,\text{m/s}^3$
 
 ### Q2
 If $a(t)=4t^2-3t+2$, what is the jerk at $t=2$ s?
 
-A. $5$ m/s$^3$  
-B. $8$ m/s$^3$  
-C. $13$ m/s$^3$  
-D. $16$ m/s$^3$
+A. $5\,\text{m/s}^3$  
+B. $8\,\text{m/s}^3$  
+C. $13\,\text{m/s}^3$  
+D. $16\,\text{m/s}^3$
 
 ### Q3
-Acceleration changes from $4$ m/s$^2$ to $10$ m/s$^2$ in $3$ s. What is the average jerk?
+Acceleration changes from $4\,\text{m/s}^2$ to $10\,\text{m/s}^2$ in $3$ s. What is the average jerk?
 
-A. $1$ m/s$^3$  
-B. $2$ m/s$^3$  
-C. $3$ m/s$^3$  
-D. $6$ m/s$^3$
+A. $1\,\text{m/s}^3$  
+B. $2\,\text{m/s}^3$  
+C. $3\,\text{m/s}^3$  
+D. $6\,\text{m/s}^3$
 
 ### Q4
-An object has constant acceleration of $7$ m/s$^2$. Its jerk is:
+An object has constant acceleration of $7\,\text{m/s}^2$. Its jerk is:
 
-A. $0$ m/s$^3$  
-B. $1$ m/s$^3$  
-C. $7$ m/s$^3$  
+A. $0\,\text{m/s}^3$  
+B. $1\,\text{m/s}^3$  
+C. $7\,\text{m/s}^3$  
 D. Cannot be determined
 
 ### Q5
 An object has initial acceleration $a_0=1$ m/s$^2$ and constant jerk $j=2$ m/s$^3$. What is its acceleration after $3$ s?
 
-A. $3$ m/s$^2$  
-B. $5$ m/s$^2$  
-C. $6$ m/s$^2$  
-D. $7$ m/s$^2$
+A. $3\,\text{m/s}^2$  
+B. $5\,\text{m/s}^2$  
+C. $6\,\text{m/s}^2$  
+D. $7\,\text{m/s}^2$
 
 ## Supplementary Answer Key
 
