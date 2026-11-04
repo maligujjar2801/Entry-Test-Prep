@@ -12,6 +12,8 @@
 
 By the end of this session, you should be able to:
 
+- Explain the difference between alternating current and a sinusoidal waveform, and read one complete sine-wave cycle.
+- Describe an inductor as a coil that stores energy in a magnetic field and opposes changes in current.
 - Read a sinusoidal AC signal and connect its peak value, frequency, period, angular frequency, and phase.
 - Explain why RMS values are used and convert between peak and RMS values for a sine wave.
 - Predict the phase relationship between voltage and current in a resistor, inductor, and capacitor.
@@ -24,6 +26,30 @@ By the end of this session, you should be able to:
 ## The big picture: what “alternating” means
 
 In a direct-current circuit, current has one direction. In an alternating-current circuit, the current repeatedly changes direction. A generator or AC source makes the terminal voltage rise, fall, reverse, and repeat. The charge carriers in a wire therefore move back and forth; they do not travel all the way from the power station to the appliance during each cycle.
+
+### What does “sinusoidal” mean?
+
+**Sinusoidal describes the shape of a signal:** its instantaneous voltage or current follows a sine function as time passes. It is not simply another word for alternating. AC means the direction reverses periodically; a sinusoidal AC signal is one particular, very common, repeating pattern. Other AC waveforms, such as square or triangular waves, are possible too.
+
+For a simple sine wave with no initial phase shift,
+
+$$
+v(t)=V_0\sin(\omega t),
+$$
+
+the voltage moves smoothly through positive values, zero, negative values, and back to zero. The positive half-cycle has one polarity; the negative half-cycle has the opposite polarity. The graph repeats after one period, $T$.
+
+| Time | Phase | Instantaneous voltage |
+|---|---:|---:|
+| $0$ | $0$ | $0$ |
+| $T/4$ | $90^\circ$ | $+V_0$ (positive peak) |
+| $T/2$ | $180^\circ$ | $0$ |
+| $3T/4$ | $270^\circ$ | $-V_0$ (negative peak) |
+| $T$ | $360^\circ$ | $0$; the next cycle begins |
+
+Here, $V_0$ is the **peak value**: the greatest magnitude of the voltage, not its value at every instant. The instantaneous value $v(t)$ changes continuously between $-V_0$ and $+V_0$.
+
+A useful physical picture is an AC generator: when a coil rotates at constant angular speed in a uniform magnetic field, the magnetic flux through it changes smoothly, producing a sinusoidally varying induced emf. This is why a sine wave is the standard model for many AC supplies.
 
 For an ideal sinusoidal source, voltage can be written as
 
@@ -114,7 +140,20 @@ Voltage and current reach zero and peak together, so $\phi=0^\circ$. If the supp
 
 ### Pure inductor: current lags voltage
 
-An inductor opposes a change in current. Its voltage is related to how quickly current changes:
+An **inductor** is usually a coil of conducting wire. When current flows through the coil, it produces a magnetic field around and through it. The inductor stores energy in this magnetic field.
+
+If the current changes, the magnetic field changes too. Electromagnetic induction then produces a voltage whose effect, by Lenz's law, opposes the change that caused it. So an inductor does **not** simply block current; it resists changes in current. After a steady DC current has settled in an ideal inductor, the current is no longer changing and the inductor's voltage is zero. A real coil still has the ordinary resistance of its wire.
+
+The energy stored in an ideal inductor carrying current $I$ is
+
+$$
+U_L=\frac{1}{2}LI^2,
+$$
+
+where $L$ is inductance, measured in henries (H). The energy can be returned to the circuit as the magnetic field collapses.
+
+Its terminal voltage, using the passive sign convention, is related to how quickly current changes:
+
 
 $$
 v_L=L\frac{di}{dt}.
@@ -125,6 +164,22 @@ When the current is changing most rapidly, the inductor voltage is large. When t
 > **In an ideal inductor, current lags voltage by $90^\circ$.**
 
 Another safe wording is: **inductor voltage leads its current by $90^\circ$.** These two statements describe the same relationship. Be careful not to reverse them.
+
+**See the phase shift from the equation:** if the inductor current is
+
+$$
+i(t)=I_0\sin(\omega t),
+$$
+
+then
+
+$$
+v_L(t)=L\frac{di}{dt}
+=\omega LI_0\cos(\omega t)
+=\omega LI_0\sin\left(\omega t+\frac{\pi}{2}\right).
+$$
+
+The voltage is therefore one-quarter cycle ahead of the current. This is the mathematical reason current lags voltage by $90^\circ$ in an ideal inductor.
 
 An inductor stores energy in its magnetic field and can return that energy to the circuit. An ideal inductor does not consume average power over a complete cycle.
 
@@ -441,9 +496,9 @@ Common mistakes to catch:
 
 ---
 
-## 10. Timed performance test — 36 NET-style MCQs
+## 10. Timed performance test — 38 NET-style MCQs
 
-**Suggested time:** 36 minutes.  
+**Suggested time:** 38 minutes.  
 **Directions:** Choose the single best answer. Attempt every question before reading the key. Mark each answer **confident**, **unsure**, or **guess**; guessed answers count as revision items even when correct. Unless stated otherwise, assume ideal components and sinusoidal steady state.
 
 ### Q1. An AC source completes 50 cycles in one second. Its period is:
@@ -698,6 +753,20 @@ B. $+V_0/2$
 C. $+\sqrt{3}V_0/2$  
 D. $-V_0$
 
+### Q37. What does it mean for an AC voltage to be sinusoidal?
+
+A. Its magnitude is constant, but its direction changes.  
+B. It follows a sine-function pattern, repeating through positive and negative half-cycles.  
+C. Every possible AC waveform must have a sine-wave shape.  
+D. Its frequency changes randomly during each cycle.
+
+### Q38. Which statement best describes an ideal inductor?
+
+A. It stores energy in an electric field and opposes voltage.  
+B. It stores energy in a magnetic field and opposes changes in current.  
+C. It converts all electrical energy into heat.  
+D. It blocks all current, including steady DC current.
+
 ---
 
 ## 11. Answer key with reasoning
@@ -742,6 +811,8 @@ D. $-V_0$
 | 34 | C | At resonance, $\phi=0$, so $\cos\phi=1$. |
 | 35 | A | $P=V_{\mathrm{rms}}I_{\mathrm{rms}}\times\text{power factor}$; with the same RMS values, 0.9 gives more real power than 0.5. |
 | 36 | C | At $t=0$, $v=V_0\sin(\pi/3)=\sqrt{3}V_0/2$. |
+| 37 | B | “Sinusoidal” describes a waveform that follows a sine function; AC waveforms are not all required to be sinusoidal. |
+| 38 | B | Current in the coil creates a magnetic field that stores energy; changing current is opposed by the induced voltage. |
 
 ---
 
@@ -749,10 +820,10 @@ D. $-V_0$
 
 ### Score bands
 
-- **33–36 correct:** Strong command. Explain why each distractor is wrong, especially for any guessed answer.
-- **28–32 correct:** Good foundation. Review the exact types of errors: phase, RMS, RLC arithmetic, power, or transformer ratios.
-- **22–27 correct:** Developing. Rework the examples, then retry missed questions without the key.
-- **Below 22:** Rebuild the signal and phase model first, then study reactance and resonance in a second pass.
+- **35–38 correct:** Strong command. Explain why each distractor is wrong, especially for any guessed answer.
+- **30–34 correct:** Good foundation. Review the exact types of errors: waveform meaning, inductor model, phase, RMS, RLC arithmetic, power, or transformer ratios.
+- **24–29 correct:** Developing. Rework the examples, then retry missed questions without the key.
+- **Below 24:** Rebuild the signal and phase model first, then study reactance and resonance in a second pass.
 
 These bands are study guidance, not official NUST or FAST cutoffs.
 
@@ -816,6 +887,8 @@ f_0=\frac{1}{2\pi\sqrt{LC}},
 \frac{I_s}{I_p}=\frac{N_p}{N_s}
 $$
 
+- A sinusoidal AC waveform follows a sine function; its positive and negative half-cycles repeat.
+- An inductor stores energy in a magnetic field: $U_L=\frac{1}{2}LI^2$.
 - In a resistor: voltage and current are in phase.
 - In an inductor: current lags voltage.
 - In a capacitor: current leads voltage.
@@ -824,6 +897,8 @@ $$
 
 ## Session completion checklist
 
+- [ ] I can distinguish AC in general from a sinusoidal AC waveform and identify one complete sine-wave cycle.
+- [ ] I can explain how an inductor's coil stores energy in a magnetic field and opposes changes in current.
 - [ ] I can explain RMS as an equivalent heating value.
 - [ ] I can state the lead/lag relation for R, L, and C without hesitation.
 - [ ] I can predict how each reactance changes when frequency changes.
