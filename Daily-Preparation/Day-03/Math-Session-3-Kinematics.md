@@ -6,7 +6,7 @@
 
 ## 1. Session Objectives
 
-By the end of this session, you should be able to distinguish distance and displacement, speed and velocity; calculate average values; derive velocity and acceleration by differentiation; integrate acceleration using initial conditions; interpret motion graphs; use the three constant-acceleration equations; and solve basic free-fall and vertical-throw problems.
+By the end of this session, you should be able to distinguish distance and displacement, speed and velocity; calculate average values; derive velocity, acceleration and jerk by differentiation; understand higher time derivatives as an extension; integrate acceleration using initial conditions; interpret motion graphs; use the three constant-acceleration equations; and solve basic free-fall and vertical-throw problems.
 
 **Method:** identify what is given and what is required, check whether acceleration is constant, then select the formula. Keep units and signs consistent.
 
@@ -118,6 +118,154 @@ At $t=2$, $a=24-6=\boxed{18\text{ m/s}^2}$.
 | Positive | Negative | Moving positive; speed decreasing |
 | Negative | Negative | Moving negative; speed increasing |
 | Negative | Positive | Moving negative; speed decreasing |
+
+### 6.1 Further Derivatives — Jerk and Beyond
+
+Acceleration tells us how quickly velocity changes. But acceleration itself can change with time. The rate at which acceleration changes is called **jerk**.
+
+\[
+\boxed{j(t)=\frac{da}{dt}=\frac{d^3x}{dt^3}}
+\]
+
+The derivative chain is:
+
+| Quantity | Definition | SI unit |
+|---|---|---|
+| Position / displacement | $x(t)$ | m |
+| Velocity | $v=\frac{dx}{dt}$ | m/s |
+| Acceleration | $a=\frac{dv}{dt}=\frac{d^2x}{dt^2}$ | m/s$^2$ |
+| **Jerk** | $j=\frac{da}{dt}=\frac{d^3x}{dt^3}$ | m/s$^3$ |
+| Snap (also called jounce) | $\frac{dj}{dt}=\frac{d^4x}{dt^4}$ | m/s$^4$ |
+| Crackle | $\frac{d^5x}{dt^5}$ | m/s$^5$ |
+| Pop | $\frac{d^6x}{dt^6}$ | m/s$^6$ |
+
+The names after jerk are informal names used for higher time derivatives. They are mathematical extensions, not usually core requirements in introductory entry-test kinematics.
+
+#### The conceptual model
+
+Think of each derivative as answering a new question:
+
+1. **Position:** Where is the object?
+2. **Velocity:** How quickly is its position changing?
+3. **Acceleration:** How quickly is its velocity changing?
+4. **Jerk:** How quickly is its acceleration changing?
+5. **Snap:** How quickly is jerk changing?
+
+Each time we differentiate with respect to time, the order of the derivative increases by one and the SI unit gains another factor of $1/\text{s}$.
+
+#### Reading jerk from graphs
+
+The slope of an acceleration-time graph is jerk:
+
+\[
+\boxed{j=\frac{da}{dt}=\text{slope of the acceleration-time graph}}
+\]
+
+- Horizontal acceleration-time graph: acceleration is constant, so $j=0$.
+- Straight line with positive slope: constant positive jerk.
+- Straight line with negative slope: constant negative jerk.
+- Curved acceleration-time graph: jerk varies with time.
+- Signed area under a jerk-time graph gives the change in acceleration:
+
+\[
+\boxed{\Delta a=\int_{t_1}^{t_2}j(t)\,dt}.
+\]
+
+**Important distinction:** positive jerk means that the algebraic value of acceleration is increasing. It does not automatically mean that the object is speeding up. Speeding up or slowing down still depends on the signs of velocity and acceleration.
+
+#### Worked Example 2A — Find Jerk from Position
+
+Use the same position function as Worked Example 2:
+
+\[
+x(t)=2t^3-3t^2+4.
+\]
+
+Differentiate once to obtain velocity:
+
+\[
+v(t)=\frac{dx}{dt}=6t^2-6t.
+\]
+
+Differentiate again to obtain acceleration:
+
+\[
+a(t)=\frac{dv}{dt}=12t-6.
+\]
+
+Differentiate a third time to obtain jerk:
+
+\[
+j(t)=\frac{da}{dt}=12\text{ m/s}^3.
+\]
+
+Differentiate once more:
+
+\[
+\text{snap}=\frac{dj}{dt}=0.
+\]
+
+Therefore, this particle has constant jerk of $12\text{ m/s}^3$ and zero snap. At $t=2$ s, its jerk is still $12\text{ m/s}^3$.
+
+#### Deriving the Equations for Constant Jerk
+
+These equations apply only when jerk is constant during the interval. Let the initial position, velocity and acceleration at $t=0$ be $x_0$, $v_0$ and $a_0$.
+
+Start with the definition of constant jerk:
+
+\[
+j=\frac{da}{dt}.
+\]
+
+Rearrange and integrate:
+
+\[
+da=j\,dt
+\]
+
+\[
+a(t)=\int j\,dt=jt+C.
+\]
+
+Since $a(0)=a_0$, the constant is $C=a_0$. Thus,
+
+\[
+\boxed{a(t)=a_0+jt}.
+\]
+
+Now use $a=\frac{dv}{dt}$:
+
+\[
+v(t)=\int(a_0+jt)\,dt
+\]
+
+\[
+v(t)=a_0t+\frac12jt^2+C_1.
+\]
+
+Since $v(0)=v_0$, we get $C_1=v_0$:
+
+\[
+\boxed{v(t)=v_0+a_0t+\frac12jt^2}.
+\]
+
+Finally, use $v=\frac{dx}{dt}$:
+
+\[
+x(t)=\int\left(v_0+a_0t+\frac12jt^2\right)dt
+\]
+
+\[
+x(t)=v_0t+\frac12a_0t^2+\frac16jt^3+C_2.
+\]
+
+Since $x(0)=x_0$, we get $C_2=x_0$:
+
+\[
+\boxed{x(t)=x_0+v_0t+\frac12a_0t^2+\frac16jt^3}.
+\]
+
+**Recognition rule:** if jerk is constant, acceleration varies linearly with time, velocity is quadratic in time, and position is cubic in time. Do not use these equations unless the question states or establishes constant jerk.
 
 ## 7. Integrating Acceleration
 
@@ -335,6 +483,11 @@ $$
 | Instantaneous velocity | $v=dx/dt$ |
 | Instantaneous speed | $|v|$ |
 | Acceleration | $a=dv/dt=d^2x/dt^2$ |
+| Jerk | $j=da/dt=d^3x/dt^3$ |
+| Snap / jounce | $dj/dt=d^4x/dt^4$ |
+| Constant jerk: acceleration | $a=a_0+jt$ |
+| Constant jerk: velocity | $v=v_0+a_0t+\frac12jt^2$ |
+| Constant jerk: position | $x=x_0+v_0t+\frac12a_0t^2+\frac16jt^3$ |
 | Acceleration as a function of position | $a=v\,dv/dx$ |
 | Displacement-time graph | Slope = velocity |
 | Velocity-time graph | Slope = acceleration |
@@ -357,6 +510,7 @@ $$
 7. Asked for speed → answer with a non-negative magnitude; asked for velocity → retain sign/direction.
 8. Vertical motion → set the sign of gravity consistently.
 9. Check units and distinguish distance from displacement before choosing the option.
+10. If asked how quickly acceleration changes, differentiate acceleration to find jerk; use constant-jerk equations only when jerk is constant.
 
 ## Common Traps
 
@@ -369,6 +523,9 @@ $$
 - Mixing signs for braking or gravity.
 - Setting both velocity and acceleration to zero at maximum height.
 - Mixing metres/kilometres or seconds/hours.
+- Confusing jerk with acceleration: acceleration measures the change in velocity, while jerk measures the change in acceleration.
+- Assuming positive jerk always means speed is increasing; check velocity and acceleration separately.
+- Applying constant-jerk equations when jerk is variable.
 
 ---
 
@@ -560,6 +717,60 @@ Time taken, guessed-answer count, and retry status were not provided; they remai
 - [ ] Choose among the constant-acceleration equations.
 - [ ] Solve free-fall and upward-throw problems with consistent signs.
 - [ ] Explain each missed MCQ in your own words.
+
+# PART IX — SUPPLEMENTARY JERK CHECK
+
+These five questions are an additional concept check; they do not change the recorded score for the original 25-question test.
+
+### Q1
+If $x(t)=2t^3-3t^2+4$, what is the jerk?
+
+A. $0$ m/s$^3$  
+B. $6$ m/s$^3$  
+C. $12$ m/s$^3$  
+D. $24$ m/s$^3$
+
+### Q2
+If $a(t)=4t^2-3t+2$, what is the jerk at $t=2$ s?
+
+A. $5$ m/s$^3$  
+B. $8$ m/s$^3$  
+C. $13$ m/s$^3$  
+D. $16$ m/s$^3$
+
+### Q3
+Acceleration changes from $4$ m/s$^2$ to $10$ m/s$^2$ in $3$ s. What is the average jerk?
+
+A. $1$ m/s$^3$  
+B. $2$ m/s$^3$  
+C. $3$ m/s$^3$  
+D. $6$ m/s$^3$
+
+### Q4
+An object has constant acceleration of $7$ m/s$^2$. Its jerk is:
+
+A. $0$ m/s$^3$  
+B. $1$ m/s$^3$  
+C. $7$ m/s$^3$  
+D. Cannot be determined
+
+### Q5
+An object has initial acceleration $a_0=1$ m/s$^2$ and constant jerk $j=2$ m/s$^3$. What is its acceleration after $3$ s?
+
+A. $3$ m/s$^2$  
+B. $5$ m/s$^2$  
+C. $6$ m/s$^2$  
+D. $7$ m/s$^2$
+
+## Supplementary Answer Key
+
+| Q | Answer | Reason |
+|---:|:---:|---|
+| 1 | C | $x'=6t^2-6t$, $x''=12t-6$, and $x'''=12$. |
+| 2 | C | $j=da/dt=8t-3$, so $j(2)=16-3=13$ m/s$^3$. |
+| 3 | B | Average jerk $=\Delta a/\Delta t=(10-4)/3=2$ m/s$^3$. |
+| 4 | A | Constant acceleration has zero rate of change, so $j=0$. |
+| 5 | D | $a=a_0+jt=1+2(3)=7$ m/s$^2$. |
 
 ## Source Alignment
 
