@@ -123,21 +123,23 @@ At $t=2$, $a=24-6=\boxed{18\text{ m/s}^2}$.
 
 Acceleration tells us how quickly velocity changes. But acceleration itself can change with time. The rate at which acceleration changes is called **jerk**.
 
-\[
+$$
+
 \boxed{j(t)=\frac{da}{dt}=\frac{d^3x}{dt^3}}
-\]
+
+$$
 
 The derivative chain is:
 
 | Quantity | Definition | SI unit |
 |---|---|---|
-| Position / displacement | $x(t)$ | m |
-| Velocity | $v=\frac{dx}{dt}$ | m/s |
-| Acceleration | $a=\frac{dv}{dt}=\frac{d^2x}{dt^2}$ | m/s$^2$ |
-| **Jerk** | $j=\frac{da}{dt}=\frac{d^3x}{dt^3}$ | m/s$^3$ |
-| Snap (also called jounce) | $\frac{dj}{dt}=\frac{d^4x}{dt^4}$ | m/s$^4$ |
-| Crackle | $\frac{d^5x}{dt^5}$ | m/s$^5$ |
-| Pop | $\frac{d^6x}{dt^6}$ | m/s$^6$ |
+| Position / displacement | $x(t)$ | $\text{m}$ |
+| Velocity | $v=\frac{dx}{dt}$ | $\text{m/s}$ |
+| Acceleration | $a=\frac{dv}{dt}=\frac{d^2x}{dt^2}$ | $\text{m/s}^2$ |
+| **Jerk** | $j=\frac{da}{dt}=\frac{d^3x}{dt^3}$ | $\text{m/s}^3$ |
+| Snap (also called jounce) | $\frac{dj}{dt}=\frac{d^4x}{dt^4}$ | $\text{m/s}^4$ |
+| Crackle | $\frac{d^5x}{dt^5}$ | $\text{m/s}^5$ |
+| Pop | $\frac{d^6x}{dt^6}$ | $\text{m/s}^6$ |
 
 The names after jerk are informal names used for higher time derivatives. They are mathematical extensions, not usually core requirements in introductory entry-test kinematics.
 
@@ -157,9 +159,11 @@ Each time we differentiate with respect to time, the order of the derivative inc
 
 The slope of an acceleration-time graph is jerk:
 
-\[
+$$
+
 \boxed{j=\frac{da}{dt}=\text{slope of the acceleration-time graph}}
-\]
+
+$$
 
 - Horizontal acceleration-time graph: acceleration is constant, so $j=0$.
 - Straight line with positive slope: constant positive jerk.
@@ -167,9 +171,11 @@ The slope of an acceleration-time graph is jerk:
 - Curved acceleration-time graph: jerk varies with time.
 - Signed area under a jerk-time graph gives the change in acceleration:
 
-\[
+$$
+
 \boxed{\Delta a=\int_{t_1}^{t_2}j(t)\,dt}.
-\]
+
+$$
 
 **Important distinction:** positive jerk means that the algebraic value of acceleration is increasing. It does not automatically mean that the object is speeding up. Speeding up or slowing down still depends on the signs of velocity and acceleration.
 
@@ -177,33 +183,43 @@ The slope of an acceleration-time graph is jerk:
 
 Use the same position function as Worked Example 2:
 
-\[
+$$
+
 x(t)=2t^3-3t^2+4.
-\]
+
+$$
 
 Differentiate once to obtain velocity:
 
-\[
+$$
+
 v(t)=\frac{dx}{dt}=6t^2-6t.
-\]
+
+$$
 
 Differentiate again to obtain acceleration:
 
-\[
+$$
+
 a(t)=\frac{dv}{dt}=12t-6.
-\]
+
+$$
 
 Differentiate a third time to obtain jerk:
 
-\[
+$$
+
 j(t)=\frac{da}{dt}=12\text{ m/s}^3.
-\]
+
+$$
 
 Differentiate once more:
 
-\[
+$$
+
 \text{snap}=\frac{dj}{dt}=0.
-\]
+
+$$
 
 Therefore, this particle has constant jerk of $12\text{ m/s}^3$ and zero snap. At $t=2$ s, its jerk is still $12\text{ m/s}^3$.
 
@@ -213,57 +229,77 @@ These equations apply only when jerk is constant during the interval. Let the in
 
 Start with the definition of constant jerk:
 
-\[
+$$
+
 j=\frac{da}{dt}.
-\]
+
+$$
 
 Rearrange and integrate:
 
-\[
-da=j\,dt
-\]
+$$
 
-\[
+da=j\,dt
+
+$$
+
+$$
+
 a(t)=\int j\,dt=jt+C.
-\]
+
+$$
 
 Since $a(0)=a_0$, the constant is $C=a_0$. Thus,
 
-\[
+$$
+
 \boxed{a(t)=a_0+jt}.
-\]
+
+$$
 
 Now use $a=\frac{dv}{dt}$:
 
-\[
-v(t)=\int(a_0+jt)\,dt
-\]
+$$
 
-\[
+v(t)=\int(a_0+jt)\,dt
+
+$$
+
+$$
+
 v(t)=a_0t+\frac12jt^2+C_1.
-\]
+
+$$
 
 Since $v(0)=v_0$, we get $C_1=v_0$:
 
-\[
+$$
+
 \boxed{v(t)=v_0+a_0t+\frac12jt^2}.
-\]
+
+$$
 
 Finally, use $v=\frac{dx}{dt}$:
 
-\[
-x(t)=\int\left(v_0+a_0t+\frac12jt^2\right)dt
-\]
+$$
 
-\[
+x(t)=\int\left(v_0+a_0t+\frac12jt^2\right)dt
+
+$$
+
+$$
+
 x(t)=v_0t+\frac12a_0t^2+\frac16jt^3+C_2.
-\]
+
+$$
 
 Since $x(0)=x_0$, we get $C_2=x_0$:
 
-\[
+$$
+
 \boxed{x(t)=x_0+v_0t+\frac12a_0t^2+\frac16jt^3}.
-\]
+
+$$
 
 **Recognition rule:** if jerk is constant, acceleration varies linearly with time, velocity is quadratic in time, and position is cubic in time. Do not use these equations unless the question states or establishes constant jerk.
 
@@ -481,7 +517,7 @@ $$
 | Average velocity | $\bar v=\Delta x/\Delta t$ |
 | Average speed | Total distance / total time |
 | Instantaneous velocity | $v=dx/dt$ |
-| Instantaneous speed | $|v|$ |
+| Instantaneous speed | $\lvert v\rvert$ |
 | Acceleration | $a=dv/dt=d^2x/dt^2$ |
 | Jerk | $j=da/dt=d^3x/dt^3$ |
 | Snap / jounce | $dj/dt=d^4x/dt^4$ |
@@ -625,7 +661,7 @@ A. adding all absolute areas  B. subtracting every area from zero  C. taking the
 | 9 | B | Displacement-time slope equals velocity. |
 | 10 | C | $a=(10-(-2))/3=4$ m/s². |
 | 11 | C | Displacement $=7(4)=28$ m. |
-| 12 | D | Distance $=|-3|(4)=12$ m. |
+| 12 | D | Distance $=\lvert -3\rvert(4)=12\text{ m}$. |
 | 13 | C | Average velocity $=(4+12)/2=8$ m/s; $s=8(2)=16$ m. |
 | 14 | C | $v=6+3(5)=21$ m/s. |
 | 15 | C | $s=4(3)+\frac12(2)(3^2)=21$ m. |
