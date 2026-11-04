@@ -534,79 +534,154 @@ $$
 **Timed attempt:** 25 questions in 23 minutes, matching Session 2's format. Do not consult the key until finished. Use $g=9.8\text{ m/s}^2$.
 
 ### Q1. A particle moves from $x=3$ m to $x=-4$ m. Displacement is:
-A. $7$ m  B. $-7$ m  C. $1$ m  D. $-1$ m
+A. $7$ m  
+B. $-7$ m  
+C. $1$ m  
+D. $-1$ m  
 
 ### Q2. A person walks 9 m east, then 4 m west. Total distance is:
-A. 5 m  B. 13 m  C. 9 m  D. 4 m
+A. 5 m  
+B. 13 m  
+C. 9 m  
+D. 4 m  
 
 ### Q3. A runner covers 150 m in 30 s. Average speed is:
-A. 3 m/s  B. 4 m/s  C. 5 m/s  D. 6 m/s
+A. 3 m/s  
+B. 4 m/s  
+C. 5 m/s  
+D. 6 m/s  
 
 ### Q4. A person travels 60 m east in 20 s and 20 m west in 10 s. Average velocity is:
-A. $4/3$ m/s east  B. $8/3$ m/s east  C. $4/3$ m/s west  D. $8/3$ m/s west
+A. $4/3$ m/s east  
+B. $8/3$ m/s east  
+C. $4/3$ m/s west  
+D. $8/3$ m/s west  
 
 ### Q5. If $x(t)=2t^2+3t$, velocity at $t=2$ s is:
-A. 7 m/s  B. 8 m/s  C. 11 m/s  D. 14 m/s
+A. 7 m/s  
+B. 8 m/s  
+C. 11 m/s  
+D. 14 m/s  
 
 ### Q6. If $x(t)=t^3-2t$, velocity at $t=2$ s is:
-A. 4 m/s  B. 8 m/s  C. 10 m/s  D. 12 m/s
+A. 4 m/s  
+B. 8 m/s  
+C. 10 m/s  
+D. 12 m/s  
 
 ### Q7. If $v(t)=5t^2-2t$, acceleration at $t=1$ s is:
-A. 3 m/s²  B. 6 m/s²  C. 8 m/s²  D. 10 m/s²
+A. 3 m/s²  
+B. 6 m/s²  
+C. 8 m/s²  
+D. 10 m/s²  
 
 ### Q8. A horizontal displacement-time segment means the particle is:
-A. moving with positive velocity  B. moving with negative velocity  C. at rest  D. speeding up
+A. moving with positive velocity  
+B. moving with negative velocity  
+C. at rest  
+D. speeding up  
 
 ### Q9. A straight displacement-time graph with negative slope indicates:
-A. positive velocity  B. negative velocity  C. zero velocity  D. necessarily increasing speed
+A. positive velocity  
+B. negative velocity  
+C. zero velocity  
+D. necessarily increasing speed  
 
 ### Q10. Velocity changes uniformly from $-2$ m/s to $10$ m/s in 3 s. Acceleration is:
-A. 2 m/s²  B. 3 m/s²  C. 4 m/s²  D. 6 m/s²
+A. 2 m/s²  
+B. 3 m/s²  
+C. 4 m/s²  
+D. 6 m/s²  
 
 ### Q11. Velocity is constant at 7 m/s for 4 s. Displacement is:
-A. 11 m  B. 21 m  C. 28 m  D. 49 m
+A. 11 m  
+B. 21 m  
+C. 28 m  
+D. 49 m  
 
 ### Q12. Velocity is $-3$ m/s for 4 s. Distance travelled is:
-A. $-12$ m  B. 3 m  C. 7 m  D. 12 m
+A. $-12$ m  
+B. 3 m  
+C. 7 m  
+D. 12 m  
 
 ### Q13. Velocity rises uniformly from 4 m/s to 12 m/s in 2 s. Displacement is:
-A. 8 m  B. 12 m  C. 16 m  D. 24 m
+A. 8 m  
+B. 12 m  
+C. 16 m  
+D. 24 m  
 
 ### Q14. $u=6$ m/s, $a=3$ m/s², $t=5$ s. Final velocity is:
-A. 9 m/s  B. 15 m/s  C. 21 m/s  D. 30 m/s
+A. 9 m/s  
+B. 15 m/s  
+C. 21 m/s  
+D. 30 m/s  
 
 ### Q15. $u=4$ m/s, $a=2$ m/s², $t=3$ s. Displacement is:
-A. 12 m  B. 18 m  C. 21 m  D. 24 m
+A. 12 m  
+B. 18 m  
+C. 21 m  
+D. 24 m  
 
 ### Q16. A particle starts from rest, accelerates at 2 m/s² over 25 m. Final speed is:
-A. 5 m/s  B. 10 m/s  C. 25 m/s  D. 50 m/s
+A. 5 m/s  
+B. 10 m/s  
+C. 25 m/s  
+D. 50 m/s  
 
 ### Q17. Velocity changes from 30 m/s to 10 m/s at constant acceleration $-5$ m/s². Elapsed time is:
-A. 2 s  B. 4 s  C. 5 s  D. 8 s
+A. 2 s  
+B. 4 s  
+C. 5 s  
+D. 8 s  
 
 ### Q18. A car travels at 20 m/s and brakes at $-4$ m/s². Stopping time is:
-A. 4 s  B. 5 s  C. 8 s  D. 10 s
+A. 4 s  
+B. 5 s  
+C. 8 s  
+D. 10 s  
 
 ### Q19. For the same car in Q18, stopping displacement is:
-A. 20 m  B. 25 m  C. 40 m  D. 50 m
+A. 20 m  
+B. 25 m  
+C. 40 m  
+D. 50 m  
 
 ### Q20. An object dropped from rest falls 19.6 m. Fall time is:
-A. 1 s  B. 2 s  C. 3 s  D. 4 s
+A. 1 s  
+B. 2 s  
+C. 3 s  
+D. 4 s  
 
 ### Q21. A ball is thrown vertically upward at 19.6 m/s. Time to maximum height is:
-A. 1 s  B. 2 s  C. 3 s  D. 4 s
+A. 1 s  
+B. 2 s  
+C. 3 s  
+D. 4 s  
 
 ### Q22. With upward chosen positive, acceleration at the highest point of a vertical throw is:
-A. zero  B. $+9.8$ m/s²  C. $-9.8$ m/s²  D. undefined
+A. zero  
+B. $+9.8$ m/s²  
+C. $-9.8$ m/s²  
+D. undefined  
 
 ### Q23. If $a(t)=6t$ and $v(0)=2$ m/s, then $v(2)$ is:
-A. 8 m/s  B. 10 m/s  C. 14 m/s  D. 26 m/s
+A. 8 m/s  
+B. 10 m/s  
+C. 14 m/s  
+D. 26 m/s  
 
 ### Q24. Which is a vector quantity?
-A. distance  B. speed  C. velocity  D. time
+A. distance  
+B. speed  
+C. velocity  
+D. time  
 
 ### Q25. If a velocity-time graph has regions both above and below the time axis, net displacement is found by:
-A. adding all absolute areas  B. subtracting every area from zero  C. taking the signed sum of areas  D. using only the largest area
+A. adding all absolute areas  
+B. subtracting every area from zero  
+C. taking the signed sum of areas  
+D. using only the largest area  
 
 ---
 
