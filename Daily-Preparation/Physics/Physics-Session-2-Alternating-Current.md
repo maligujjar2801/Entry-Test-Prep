@@ -737,7 +737,7 @@ D. $-V_0$
 | 29 | B | At fixed power, a tenfold increase in voltage gives roughly one-tenth the current. |
 | 30 | A | Equal RMS current produces equal $I_{\mathrm{rms}}^2R$ average heating in the same resistor. |
 | 31 | C | Signed current cancels over a cycle, but $i^2R$ is nonnegative and generally has a positive average. |
-| 32 | A | $f=\omega/(2\pi)=400\pi/(2\pi)=200\,\text{Hz}$. Wait: this evaluates to **200 Hz**, so the correct option is **B**. |
+| 32 | B | $f=\omega/(2\pi)=400\pi/(2\pi)=200\,\text{Hz}$. |
 | 33 | B | Increasing frequency lowers $X_C=1/(2\pi fC)$, making the capacitor’s opposition smaller. |
 | 34 | C | At resonance, $\phi=0$, so $\cos\phi=1$. |
 | 35 | A | $P=V_{\mathrm{rms}}I_{\mathrm{rms}}\times\text{power factor}$; with the same RMS values, 0.9 gives more real power than 0.5. |
