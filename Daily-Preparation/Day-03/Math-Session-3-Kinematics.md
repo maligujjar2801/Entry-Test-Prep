@@ -40,14 +40,17 @@ Kinematics describes motion without studying its causes. Rectilinear motion is m
 Negative velocity means motion in the chosen negative direction. It does not automatically mean the object is slowing down. Speed decreases when velocity and acceleration have opposite signs.
 
 ## 5. Distance, Displacement, Average Speed and Average Velocity
+
 $$
 \boxed{\Delta x=x_f-x_i}
 $$
 
 Distance is total path length; displacement is final position minus initial position. Therefore,
+
 $$
 \boxed{\text{distance}\geq |\Delta x|}
 $$
+
 $$
 \boxed{\text{Average speed}=\frac{\text{total distance}}{\text{total time}}}
 \qquad
@@ -69,17 +72,20 @@ Use the same total elapsed time for both averages, but different numerators.
 ## 6. Instantaneous Velocity and Acceleration
 
 If position $x(t)$ is given as a function of time,
+
 $$
 \boxed{v(t)=\frac{dx}{dt}},\qquad
 \boxed{\text{instantaneous speed}=|v(t)|}
 $$
 
 Acceleration is the rate of change of velocity:
+
 $$
 \boxed{a(t)=\frac{dv}{dt}=\frac{d^2x}{dt^2}}
 $$
 
 If velocity is expressed as a function of position, the chain rule gives
+
 $$
 \boxed{a=v\frac{dv}{dx}}
 $$
@@ -89,11 +95,13 @@ Units: displacement in metres (m), velocity in m/s and acceleration in m/s².
 ### Worked Example 2 — Differentiate Position
 
 Let $x(t)=2t^3-3t^2+4$, with position in metres and time in seconds.
+
 $$
 v(t)=\frac{dx}{dt}=6t^2-6t
 $$
 
 At $t=2$, $v=24-12=\boxed{12\text{ m/s}}$.
+
 $$
 a(t)=\frac{dv}{dt}=12t-6
 $$
@@ -114,6 +122,7 @@ At $t=2$, $a=24-6=\boxed{18\text{ m/s}^2}$.
 ### 6.1 Further Derivatives — Jerk and Beyond
 
 Acceleration tells us how quickly velocity changes. But acceleration itself can change with time. The rate at which acceleration changes is called **jerk**.
+
 $$
 \boxed{j(t)=\frac{da}{dt}=\frac{d^3x}{dt^3}}
 $$
@@ -147,6 +156,7 @@ Each time we differentiate with respect to time, the order of the derivative inc
 #### Reading jerk from graphs
 
 The slope of an acceleration-time graph is jerk:
+
 $$
 \boxed{j=\frac{da}{dt}=\text{slope of the acceleration-time graph}}
 $$
@@ -156,6 +166,7 @@ $$
 - Straight line with negative slope: constant negative jerk.
 - Curved acceleration-time graph: jerk varies with time.
 - Signed area under a jerk-time graph gives the change in acceleration:
+
 $$
 \boxed{\Delta a=\int_{t_1}^{t_2}j(t)\,dt}.
 $$
@@ -165,26 +176,31 @@ $$
 #### Worked Example 2A — Find Jerk from Position
 
 Use the same position function as Worked Example 2:
+
 $$
 x(t)=2t^3-3t^2+4.
 $$
 
 Differentiate once to obtain velocity:
+
 $$
 v(t)=\frac{dx}{dt}=6t^2-6t.
 $$
 
 Differentiate again to obtain acceleration:
+
 $$
 a(t)=\frac{dv}{dt}=12t-6.
 $$
 
 Differentiate a third time to obtain jerk:
+
 $$
 j(t)=\frac{da}{dt}=12\text{ m/s}^3.
 $$
 
 Differentiate once more:
+
 $$
 \text{snap}=\frac{dj}{dt}=0.
 $$
@@ -196,45 +212,55 @@ Therefore, this particle has constant jerk of $12\text{ m/s}^3$ and zero snap. A
 These equations apply only when jerk is constant during the interval. Let the initial position, velocity and acceleration at $t=0$ be $x_0$, $v_0$ and $a_0$.
 
 Start with the definition of constant jerk:
+
 $$
 j=\frac{da}{dt}.
 $$
 
 Rearrange and integrate:
+
 $$
 da=j\,dt
 $$
+
 $$
 a(t)=\int j\,dt=jt+C.
 $$
 
 Since $a(0)=a_0$, the constant is $C=a_0$. Thus,
+
 $$
 \boxed{a(t)=a_0+jt}.
 $$
 
 Now use $a=\frac{dv}{dt}$:
+
 $$
 v(t)=\int(a_0+jt)\,dt
 $$
+
 $$
 v(t)=a_0t+\frac12jt^2+C_1.
 $$
 
 Since $v(0)=v_0$, we get $C_1=v_0$:
+
 $$
 \boxed{v(t)=v_0+a_0t+\frac12jt^2}.
 $$
 
 Finally, use $v=\frac{dx}{dt}$:
+
 $$
 x(t)=\int\left(v_0+a_0t+\frac12jt^2\right)dt
 $$
+
 $$
 x(t)=v_0t+\frac12a_0t^2+\frac16jt^3+C_2.
 $$
 
 Since $x(0)=x_0$, we get $C_2=x_0$:
+
 $$
 \boxed{x(t)=x_0+v_0t+\frac12a_0t^2+\frac16jt^3}.
 $$
@@ -244,9 +270,11 @@ $$
 ## 7. Integrating Acceleration
 
 If acceleration is given, integrate to obtain velocity; integrate velocity to obtain position. Use initial conditions to determine the integration constants.
+
 $$
 a(t)=\frac{dv}{dt}\Rightarrow v(t)=\int a(t)\,dt+C
 $$
+
 $$
 v(t)=\frac{dx}{dt}\Rightarrow x(t)=\int v(t)\,dt+C_1
 $$
@@ -254,11 +282,13 @@ $$
 ### Worked Example 3 — Apply Initial Conditions
 
 Suppose $a(t)=6t$, $v(0)=2\text{ m/s}$, and $x(0)=0$.
+
 $$
 v(t)=\int6t\,dt=3t^2+C
 $$
 
 Since $v(0)=2$, $C=2$, so $\boxed{v(t)=3t^2+2}$.
+
 $$
 x(t)=\int(3t^2+2)\,dt=t^3+2t+C_1
 $$
@@ -274,6 +304,7 @@ Do not discard integration constants before using the initial conditions.
 ## 8. Displacement-Time Graph
 
 Time is on the horizontal axis and displacement/position on the vertical axis. **Slope gives velocity**:
+
 $$
 \boxed{v=\frac{dx}{dt}=\text{slope of the displacement-time graph}}
 $$
@@ -287,6 +318,7 @@ $$
 ### Worked Example 4
 
 Position changes from 4 m at $t=0$ to 28 m at $t=6$ s along a straight segment:
+
 $$
 v=\frac{28-4}{6-0}=\boxed{4\text{ m/s}}
 $$
@@ -294,6 +326,7 @@ $$
 ## 9. Velocity-Time Graph
 
 Time is horizontal and velocity is vertical. Two key rules:
+
 $$
 \boxed{\text{slope}=\text{acceleration}}
 \qquad
@@ -303,6 +336,7 @@ $$
 Areas above the time axis contribute positive displacement; areas below contribute negative displacement. For **total distance**, add the magnitudes of the areas.
 
 For uniform acceleration, velocity changes linearly and displacement can be calculated as trapezoid area:
+
 $$
 \boxed{s=\frac{u+v}{2}t}
 $$
@@ -310,9 +344,11 @@ $$
 ### Worked Example 5
 
 Velocity increases uniformly from 2 m/s to 14 m/s in 4 s.
+
 $$
 a=\frac{14-2}{4}=\boxed{3\text{ m/s}^2}
 $$
+
 $$
 s=\frac{2+14}{2}\times4=\boxed{32\text{ m}}
 $$
@@ -334,12 +370,15 @@ Use these only when acceleration is constant throughout the interval.
 | $a$ | Constant acceleration |
 | $t$ | Elapsed time |
 | $s$ | Displacement |
+
 $$
 \boxed{v=u+at}
 $$
+
 $$
 \boxed{s=ut+\frac12at^2}
 $$
+
 $$
 \boxed{v^2=u^2+2as}
 $$
@@ -360,9 +399,11 @@ A useful companion is $s=\frac12(u+v)t$, valid for constant acceleration.
 ### Worked Example 6 — Uniform Acceleration
 
 A vehicle begins at 5 m/s and accelerates at 2 m/s² for 4 s.
+
 $$
 v=5+2(4)=\boxed{13\text{ m/s}}
 $$
+
 $$
 s=5(4)+\frac12(2)(4^2)=20+16=\boxed{36\text{ m}}
 $$
@@ -370,11 +411,13 @@ $$
 ### Worked Example 7 — Braking
 
 A car travels at 20 m/s and brakes at $-4\text{ m/s}^2$. At rest, $v=0$:
+
 $$
 0=20-4t\Rightarrow\boxed{t=5\text{ s}}
 $$
 
 Without needing time, use $v^2=u^2+2as$:
+
 $$
 0=20^2+2(-4)s\Rightarrow\boxed{s=50\text{ m}}
 $$
@@ -393,6 +436,7 @@ Near Earth's surface, $g\approx9.8\text{ m/s}^2$, unless the question specifies 
 - If downward is positive, $a=+g$.
 
 For upward-positive motion:
+
 $$
 \boxed{v=u-gt},\quad
 \boxed{s=ut-\frac12gt^2},\quad
@@ -406,6 +450,7 @@ At the highest point, velocity is zero but acceleration is still $-g$.
 A stone is dropped from 20 m. Neglect air resistance and use $g=9.8\text{ m/s}^2$.
 
 Since $u=0$, $h=\frac12gt^2$:
+
 $$
 20=4.9t^2\Rightarrow t=\sqrt{40/9.8}\approx\boxed{2.02\text{ s}}
 $$
@@ -415,9 +460,11 @@ Impact speed $v=gt\approx9.8(2.02)=\boxed{19.8\text{ m/s downward}}$.
 ### Worked Example 9 — Upward Throw
 
 A ball is thrown upward at 19.6 m/s. At maximum height, $v=0$:
+
 $$
 0=19.6-9.8t\Rightarrow\boxed{t=2\text{ s}}
 $$
+
 $$
 s=19.6(2)-\frac12(9.8)(2^2)=\boxed{19.6\text{ m}}
 $$
@@ -616,6 +663,7 @@ A score band is a revision guide, not a judgement. Focus on what caused each err
 | Incorrect answers | Q4, Q22 |
 | Time taken | Not provided |
 | Guessed answers | Not provided |
+
 $$
 \text{Accuracy}=\frac{23}{25}\times100\%=92\%
 $$
