@@ -10,13 +10,24 @@ Each session aims to keep the first conceptual model simple, build toward deeper
 
 ## Repository Areas
 
-- `NET/` — NUST NET Mathematics, Physics, English
-- `FAST-NUCES/` — Mathematics, Physics, English, Analytical-IQ
-- `Daily-Preparation/` — day-by-day study logs and materials
-- `Mock-Tests/` — full and sectional tests
-- `Error-Notebook/` — mistakes and takeaways
-- `Revision/` — revision material
-- `Progress/` — study and test tracking
+- \`NET/\` — NUST NET Mathematics, Physics, English
+- \`FAST-NUCES/\` — Mathematics, Physics, English, Analytical-IQ
+- \`Daily-Preparation/\` — day-by-day study logs and materials
+- \`Mock-Tests/\` — full and sectional tests
+- \`Error-Notebook/\` — mistakes and takeaways
+- \`Revision/\` — revision material
+- \`Progress/\` — study and test tracking
+
+## Mathematics Sessions
+
+- [Mathematics Session 1 — Straight Lines](Daily-Preparation/Day-01/Math-Session-1-Straight-Lines.md)
+- [Mathematics Session 2 — Circle and Conic Sections](Daily-Preparation/Day-02/Math-Session-2-Circle-and-Conics.md)
+- [Mathematics Session 3 — Kinematics of Motion in a Straight Line](Daily-Preparation/Day-03/Math-Session-3-Kinematics.md)
+- [Mathematics Session 4 — Functions, Injectivity, Surjectivity & Inverse Functions](Daily-Preparation/Day-04/README.md)
+  - Complete conceptual notes, domain/range methods, transformations, injectivity, surjectivity, bijectivity, and inverse functions
+  - Detailed worked examples and algebraic proofs
+  - Final 25-question assessment: **22/25 (88%) in approximately 25 minutes**
+  - Error analysis and targeted transformation/scaling revision plan
 
 ## Physics Sessions
 
