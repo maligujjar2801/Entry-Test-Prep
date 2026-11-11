@@ -18,7 +18,7 @@ The input 1 occurs with two different outputs, 2 and 4. That violates the exactl
 
 **Conclusion:** This relation is not a function from its displayed inputs.
 
-By contrast, \(\{(1,5),(2,5),(3,7)\}\) is a function: every input has one output. The repeated output 5 does not violate the function definition.
+By contrast, $\{(1,5),(2,5),(3,7)\}$ is a function: every input has one output. The repeated output 5 does not violate the function definition.
 
 ## Example 2 — Full circle versus semicircle
 
@@ -28,7 +28,7 @@ $$
 x^2+y^2=16
 $$
 
-Solve for \(y\):
+Solve for $y$:
 
 $$
 y^2=16-x^2
@@ -38,7 +38,7 @@ $$
 y=\pm\sqrt{16-x^2}
 $$
 
-For an interior x-value such as \(x=0\), there are two outputs, \(y=4\) and \(y=-4\). Therefore the full circle fails the vertical-line test.
+For an interior x-value such as $x=0$, there are two outputs, $y=4$ and $y=-4$. Therefore the full circle fails the vertical-line test.
 
 The upper semicircle is:
 
@@ -68,7 +68,7 @@ $$
 (x-3)(x+3)\ne0
 $$
 
-Thus \(x\ne3\) and \(x\ne-3\):
+Thus $x\ne3$ and $x\ne-3$:
 
 $$
 \boxed{D_f=\mathbb R\setminus\{-3,3\}}
@@ -102,7 +102,7 @@ $$
 \boxed{D_f=[3,\infty)}
 $$
 
-The endpoint is included because \(f(3)=0\).
+The endpoint is included because $f(3)=0$.
 
 ## Example 5 — Logarithm domain
 
@@ -148,7 +148,7 @@ $$
 (x-2)^2+3\ge3
 $$
 
-Equality occurs at \(x=2\), so 3 is attained, not merely approached.
+Equality occurs at $x=2$, so 3 is attained, not merely approached.
 
 $$
 \boxed{R_f=[3,\infty)}
@@ -168,7 +168,7 @@ $$
 y=\frac{x+1}{x-2}
 $$
 
-We do this because a range question asks which y-values can be produced. We now test an arbitrary target output \(y\).
+We do this because a range question asks which y-values can be produced. We now test an arbitrary target output $y$.
 
 Cross-multiply:
 
@@ -182,7 +182,7 @@ $$
 yx-2y=x+1
 $$
 
-Collect the terms containing \(x\):
+Collect the terms containing $x$:
 
 $$
 yx-x=2y+1
@@ -200,7 +200,7 @@ $$
 x=\frac{2y+1}{y-1}
 $$
 
-This input exists as a real number whenever \(y\ne1\). For \(y=1\), the original equation would imply \(x+1=x-2\), which is impossible.
+This input exists as a real number whenever $y\ne1$. For $y=1$, the original equation would imply $x+1=x-2$, which is impossible.
 
 Thus:
 
@@ -220,13 +220,13 @@ x^2,&x\ge0.
 \end{cases}
 $$
 
-For the first branch, \(x<0\). Then \(x+2\) can be any value less than 2:
+For the first branch, $x<0$. Then $x+2$ can be any value less than 2:
 
 $$
 R_1=(-\infty,2)
 $$
 
-For the second branch, \(x\ge0\). Squaring gives all non-negative values:
+For the second branch, $x\ge0$. Squaring gives all non-negative values:
 
 $$
 R_2=[0,\infty)
@@ -244,7 +244,7 @@ $$
 \boxed{R_f=\mathbb R}
 $$
 
-This also explains the ambiguity flagged in final-assessment Q8: option A (\(\mathbb R\)) and option C (\((-\infty,2)\cup[0,\infty)\)) stated the same set.
+This also explains the ambiguity flagged in final-assessment Q8: option A ($\mathbb R$) and option C ($(-\infty,2)\cup[0,\infty)$) stated the same set.
 
 ---
 
@@ -270,7 +270,7 @@ $$
 x-5=0\Rightarrow x=5
 $$
 
-The vertex therefore moves from \((0,0)\) to \((5,0)\).
+The vertex therefore moves from $(0,0)$ to $(5,0)$.
 
 **Conclusion:** shift right by 5 units.
 
@@ -288,7 +288,7 @@ $$
 f(x)=x^2,\qquad g(x)=x^2+3
 $$
 
-Every output of \(f\) is increased by 3. The vertex moves from \((0,0)\) to \((0,3)\).
+Every output of $f$ is increased by 3. The vertex moves from $(0,0)$ to $(0,3)$.
 
 **Conclusion:** shift upward by 3 units.
 
@@ -300,7 +300,7 @@ $$
 f(x)=x^2,\qquad g(x)=-f(x)=-x^2
 $$
 
-Every output \(y\) changes to \(-y\). Thus the graph is reflected across the x-axis.
+Every output $y$ changes to $-y$. Thus the graph is reflected across the x-axis.
 
 ## Example 12 — Reflection across the y-axis
 
@@ -310,13 +310,13 @@ $$
 g(x)=f(-x)
 $$
 
-replaces every input \(x\) by \(-x\). The point transformation is \((x,y)\mapsto(-x,y)\), which reflects the graph across the y-axis.
+replaces every input $x$ by $-x$. The point transformation is $(x,y)\mapsto(-x,y)$, which reflects the graph across the y-axis.
 
 ---
 
 # D. Injectivity proofs
 
-## Example 13 — Disprove injectivity of \(x^2\) on the real numbers
+## Example 13 — Disprove injectivity of $x^2$ on the real numbers
 
 Let:
 
@@ -348,9 +348,9 @@ $$
 
 One counterexample is enough to disprove injectivity.
 
-## Example 14 — Explain why restricting the domain fixes \(x^2\)
+## Example 14 — Explain why restricting the domain fixes $x^2$
 
-On \([0,\infty)\), let \(f(a)=f(b)\):
+On $[0,\infty)$, let $f(a)=f(b)$:
 
 $$
 a^2=b^2
@@ -362,7 +362,7 @@ $$
 (a-b)(a+b)=0
 $$
 
-So either \(a=b\) or \(a=-b\). But \(a,b\ge0\), so \(a=-b\) is possible only when both are zero, which also gives \(a=b\).
+So either $a=b$ or $a=-b$. But $a,b\ge0$, so $a=-b$ is possible only when both are zero, which also gives $a=b$.
 
 Therefore:
 
@@ -370,7 +370,7 @@ $$
 \boxed{x^2\text{ is injective on }[0,\infty)}
 $$
 
-The same function is injective on \((-\infty,0]\) because it is strictly decreasing there.
+The same function is injective on $(-\infty,0]$ because it is strictly decreasing there.
 
 ## Example 15 — Injectivity of a rational function
 
@@ -382,7 +382,7 @@ $$
 
 is injective.
 
-Take arbitrary \(a,b\) in the domain and assume equal outputs:
+Take arbitrary $a,b$ in the domain and assume equal outputs:
 
 $$
 \frac{a+2}{a-3}=\frac{b+2}{b-3}
@@ -400,7 +400,7 @@ $$
 ab-3a+2b-6=ab-3b+2a-6
 $$
 
-Cancel \(ab\) and \(-6\):
+Cancel $ab$ and $-6$:
 
 $$
 -3a+2b=-3b+2a
@@ -416,7 +416,7 @@ $$
 a=b
 $$
 
-We started with \(f(a)=f(b)\) and derived \(a=b\). Therefore:
+We started with $f(a)=f(b)$ and derived $a=b$. Therefore:
 
 $$
 \boxed{f\text{ is injective}}
@@ -460,7 +460,7 @@ $$
 15a-2b=15b-2a
 $$
 
-Collect the \(a\)- and \(b\)-terms:
+Collect the $a$- and $b$-terms:
 
 $$
 17a=17b
@@ -474,13 +474,13 @@ Thus the function is injective on its natural domain. The submitted proof used t
 
 ## Example 17 — Strict monotonicity
 
-If \(a<b\) and \(f(a)<f(b)\) throughout the domain, the function is strictly increasing. A repeated output would contradict this inequality. Thus the function is injective.
+If $a<b$ and $f(a)<f(b)$ throughout the domain, the function is strictly increasing. A repeated output would contradict this inequality. Thus the function is injective.
 
-Similarly, a strictly decreasing function is injective because \(a<b\) always gives \(f(a)>f(b)\).
+Similarly, a strictly decreasing function is injective because $a<b$ always gives $f(a)>f(b)$.
 
 ## Example 18 — Composition of injective functions
 
-Suppose \(f\) and \(g\) are injective and \(g\circ f\) is defined.
+Suppose $f$ and $g$ are injective and $g\circ f$ is defined.
 
 Assume:
 
@@ -494,25 +494,25 @@ $$
 g(f(a))=g(f(b))
 $$
 
-Since \(g\) is injective:
+Since $g$ is injective:
 
 $$
 f(a)=f(b)
 $$
 
-Since \(f\) is injective:
+Since $f$ is injective:
 
 $$
 a=b
 $$
 
-Therefore \(g\circ f\) is injective.
+Therefore $g\circ f$ is injective.
 
 ---
 
 # E. Surjectivity proofs
 
-## Example 19 — \(x^2\) is not onto the real numbers
+## Example 19 — $x^2$ is not onto the real numbers
 
 Let:
 
@@ -520,7 +520,7 @@ $$
 f:\mathbb R\to\mathbb R,\qquad f(x)=x^2
 $$
 
-Every real square is non-negative. Select the codomain element \(y=-1\).
+Every real square is non-negative. Select the codomain element $y=-1$.
 
 The equation:
 
@@ -542,13 +542,13 @@ $$
 f:\mathbb R\to[0,\infty),\qquad f(x)=x^2
 $$
 
-Take arbitrary \(y\in[0,\infty)\). Choose:
+Take arbitrary $y\in[0,\infty)$. Choose:
 
 $$
 x=\sqrt y
 $$
 
-This \(x\) is real and belongs to \(\mathbb R\). Then:
+This $x$ is real and belongs to $\mathbb R$. Then:
 
 $$
 f(x)=(\sqrt y)^2=y
@@ -564,7 +564,7 @@ $$
 f:\mathbb R\to\mathbb R,\qquad f(x)=3x-7
 $$
 
-Take arbitrary \(y\in\mathbb R\) and solve:
+Take arbitrary $y\in\mathbb R$ and solve:
 
 $$
 y=3x-7
@@ -578,13 +578,13 @@ $$
 x=\frac{y+7}{3}
 $$
 
-This is real for every real \(y\). Substituting it into the function gives \(y\). Therefore:
+This is real for every real $y$. Substituting it into the function gives $y$. Therefore:
 
 $$
 \boxed{f\text{ is surjective}}
 $$
 
-## Example 22 — \(x^2+1\) and the importance of codomain
+## Example 22 — $x^2+1$ and the importance of codomain
 
 For:
 
@@ -592,12 +592,12 @@ $$
 f(x)=x^2+1
 $$
 
-the minimum is 1, so the range is \([1,\infty)\).
+the minimum is 1, so the range is $[1,\infty)$.
 
-- Mapping to \([1,\infty)\): onto.
-- Mapping to \(\mathbb R\): not onto, because 0 (and every value below 1) has no real preimage.
+- Mapping to $[1,\infty)$: onto.
+- Mapping to $\mathbb R$: not onto, because 0 (and every value below 1) has no real preimage.
 
-For the second mapping, \(y=0\) is a sufficient counterexample:
+For the second mapping, $y=0$ is a sufficient counterexample:
 
 $$
 x^2+1=0\Rightarrow x^2=-1
@@ -613,7 +613,7 @@ $$
 f:\mathbb R\to\mathbb R,\qquad f(x)=x^3+4
 $$
 
-Take arbitrary \(y\in\mathbb R\):
+Take arbitrary $y\in\mathbb R$:
 
 $$
 y=x^3+4
@@ -627,7 +627,7 @@ $$
 x=\sqrt[3]{y-4}
 $$
 
-The cube root is real for every real \(y\). Hence every real codomain value has a real preimage:
+The cube root is real for every real $y$. Hence every real codomain value has a real preimage:
 
 $$
 \boxed{f\text{ is surjective}}
@@ -641,9 +641,9 @@ $$
 f(x)=\frac{1}{x+2}
 $$
 
-with domain \(\mathbb R\setminus\{-2\}\) and codomain \(\mathbb R\setminus\{0\}\).
+with domain $\mathbb R\setminus\{-2\}$ and codomain $\mathbb R\setminus\{0\}$.
 
-Take arbitrary \(y\ne0\):
+Take arbitrary $y\ne0$:
 
 $$
 y=\frac{1}{x+2}
@@ -657,7 +657,7 @@ $$
 x=\frac1y-2
 $$
 
-This is a real input and it is never \(-2\) because \(1/y\ne0\). Therefore every nonzero codomain value is reached, so the mapping is onto.
+This is a real input and it is never $-2$ because $1/y\ne0$. Therefore every nonzero codomain value is reached, so the mapping is onto.
 
 ---
 
@@ -671,7 +671,7 @@ $$
 f(x)=3x-7
 $$
 
-Write \(y=3x-7\), then swap x and y:
+Write $y=3x-7$, then swap x and y:
 
 $$
 x=3y-7
@@ -737,7 +737,7 @@ $$
 xy-4x=2y+3
 $$
 
-Collect terms containing \(y\):
+Collect terms containing $y$:
 
 $$
 xy-2y=4x+3
@@ -755,7 +755,7 @@ $$
 \boxed{f^{-1}(x)=\frac{4x+3}{x-2}}
 $$
 
-The original function's domain excludes 4. Its range excludes 2: solving \(f(x)=2\) would give \(2x+3=2x-8\), which is impossible. Thus:
+The original function's domain excludes 4. Its range excludes 2: solving $f(x)=2$ would give $2x+3=2x-8$, which is impossible. Thus:
 
 $$
 D_f=\mathbb R\setminus\{4\}
@@ -830,7 +830,7 @@ $$
 =\frac{x+5}{3-2x}}
 $$
 
-The original range excludes \(3/2\). To see why, setting \(f(x)=3/2\) gives:
+The original range excludes $3/2$. To see why, setting $f(x)=3/2$ gives:
 
 $$
 \frac{3x-5}{2x+1}=\frac32
@@ -882,11 +882,11 @@ $$
 \boxed{f^{-1}(x)=\sqrt x}
 $$
 
-If the original domain were \((-\infty,0]\), the inverse would instead be \(-\sqrt{x}\).
+If the original domain were $(-\infty,0]$, the inverse would instead be $-\sqrt{x}$.
 
 ## Example 29 — Exponential and logarithmic inverses
 
-For \(f(x)=2^x\), set \(y=2^x\), swap x and y to get \(x=2^y\), then take logarithm base 2:
+For $f(x)=2^x$, set $y=2^x$, swap x and y to get $x=2^y$, then take logarithm base 2:
 
 $$
 y=\log_2x
@@ -904,9 +904,9 @@ The positivity condition is the original range and therefore the inverse domain.
 
 # G. Proof and verification checklist
 
-When writing an injectivity proof, explicitly show the assumed equality, every algebraic step, and the final implication \(a=b\).
+When writing an injectivity proof, explicitly show the assumed equality, every algebraic step, and the final implication $a=b$.
 
-When writing a surjectivity proof, explicitly choose arbitrary \(y\) in the codomain, solve for \(x\), and verify that \(x\) belongs to the domain.
+When writing a surjectivity proof, explicitly choose arbitrary $y$ in the codomain, solve for $x$, and verify that $x$ belongs to the domain.
 
 When finding an inverse, do not stop after solving for a formula. State the swapped domain and range and check the composition if requested.
 
