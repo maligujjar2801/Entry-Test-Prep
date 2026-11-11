@@ -42,3 +42,12 @@ The documentation reconstructs the Session 4 material available in the current c
 3. Practise combined transformations.
 4. Complete a short transformation diagnostic.
 5. Finish with cumulative mixed practice from all seven phases.
+
+
+## Additional original-session coverage
+
+The initial comprehensive Session 4 artifact also included even/odd functions, composition and composite domains, advanced range methods, functional equations, and vertical/horizontal scaling. These are preserved in the Complete Notes and the fourteen original worked examples in the Worked Examples file.
+
+**Scaling status:** introduced in the original comprehensive material, but not fully reinforced or assessed in the later interactive sequence. It remains a targeted revision priority.
+
+**Earlier checkpoint record:** initial function-fundamentals checkpoint 3.5/4; domain checkpoint 2/4 fully correct as written; subsequent domain/range revisions 8/8, 5/5, and 13/13. See the MCQs and Progress files for the evidence and limitations.
