@@ -911,3 +911,480 @@ When writing a surjectivity proof, explicitly choose arbitrary \(y\) in the codo
 When finding an inverse, do not stop after solving for a formula. State the swapped domain and range and check the composition if requested.
 
 A complete result is not just the final formula: the domain restrictions are part of the mathematical answer.
+
+
+---
+
+# H. Original comprehensive artifact — fourteen additional worked examples
+
+These examples preserve the original broad Session 4 practice set. They are separate from the later interactive examples above. The initial artifact's practice set was original instructional material, not represented as official NET/FAST past-paper questions.
+
+## Original Example 1 — Function evaluation
+
+Given:
+
+$$
+f(x)=2x^2-3x+1
+$$
+
+Find $f(-2)$ by substituting $-2$ everywhere the input $x$ appears:
+
+$$
+f(-2)=2(-2)^2-3(-2)+1
+$$
+
+Evaluate the square first:
+
+$$
+=2(4)+6+1
+$$
+
+$$
+\boxed{f(-2)=15}
+$$
+
+## Original Example 2 — Domain and range of a shifted quadratic
+
+For:
+
+$$
+f(x)=x^2+6
+$$
+
+A polynomial accepts every real input, so:
+
+$$
+D_f=\mathbb R
+$$
+
+Since $x^2\ge0$:
+
+$$
+x^2+6\ge6
+$$
+
+The minimum value 6 is attained at $x=0$:
+
+$$
+\boxed{R_f=[6,\infty)}
+$$
+
+## Original Example 3 — Rational domain
+
+Find the domain of:
+
+$$
+f(x)=\frac{x+4}{x^2-9}
+$$
+
+The denominator must not be zero:
+
+$$
+x^2-9\ne0
+$$
+
+$$
+(x-3)(x+3)\ne0
+$$
+
+Therefore:
+
+$$
+\boxed{D_f=\mathbb R\setminus\{-3,3\}}
+$$
+
+## Original Example 4 — Radical and rational restrictions together
+
+Find the real domain of:
+
+$$
+f(x)=\frac{\sqrt{2x+6}}{x-1}
+$$
+
+The radicand must be non-negative:
+
+$$
+2x+6\ge0\Rightarrow x\ge-3
+$$
+
+The denominator must be nonzero:
+
+$$
+x\ne1
+$$
+
+Apply both restrictions:
+
+$$
+\boxed{D_f=[-3,1)\cup(1,\infty)}
+$$
+
+The endpoint $-3$ is included because the square root is defined at zero. The point 1 is excluded because it makes the denominator zero.
+
+## Original Example 5 — Evaluate a piecewise function
+
+Given:
+
+$$
+f(x)=
+\begin{cases}
+2x+1,&x<0,\\
+x^2+1,&x\ge0
+\end{cases}
+$$
+
+For $x=-3$, use the first branch:
+
+$$
+f(-3)=2(-3)+1=-5
+$$
+
+For $x=0$, use the second branch because its condition includes zero:
+
+$$
+f(0)=0^2+1=1
+$$
+
+For $x=2$, use the second branch:
+
+$$
+f(2)=2^2+1=5
+$$
+
+Thus:
+
+$$
+\boxed{f(-3)=-5,\quad f(0)=1,\quad f(2)=5}
+$$
+
+The key is to choose the branch using the input's condition before substituting.
+
+## Original Example 6 — Test whether a function is odd
+
+Given:
+
+$$
+f(x)=x^3-2x
+$$
+
+Replace $x$ by $-x$:
+
+$$
+f(-x)=(-x)^3-2(-x)
+$$
+
+$$
+=-x^3+2x
+$$
+
+Factor out $-1$:
+
+$$
+f(-x)=-(x^3-2x)=-f(x)
+$$
+
+Therefore $f$ is odd. Its graph is symmetric about the origin.
+
+## Original Example 7 — Domain of a composite function
+
+Let:
+
+$$
+f(x)=\sqrt{x},\qquad g(x)=x^2-4
+$$
+
+Then:
+
+$$
+(f\circ g)(x)=f(g(x))=\sqrt{x^2-4}
+$$
+
+For real outputs, require:
+
+$$
+x^2-4\ge0
+$$
+
+Factor:
+
+$$
+(x-2)(x+2)\ge0
+$$
+
+The product is non-negative outside the roots:
+
+$$
+x\le-2\quad\text{or}\quad x\ge2
+$$
+
+Therefore:
+
+$$
+\boxed{D_{f\circ g}=(-\infty,-2]\cup[2,\infty)}
+$$
+
+## Original Example 8 — Inverse of a rational function
+
+Given:
+
+$$
+f(x)=\frac{3x-2}{x+4}
+$$
+
+Set:
+
+$$
+y=\frac{3x-2}{x+4}
+$$
+
+Exchange $x$ and $y$:
+
+$$
+x=\frac{3y-2}{y+4}
+$$
+
+Cross-multiply:
+
+$$
+x(y+4)=3y-2
+$$
+
+Expand and collect the $y$-terms:
+
+$$
+xy+4x=3y-2
+$$
+
+$$
+xy-3y=-4x-2
+$$
+
+Factor:
+
+$$
+y(x-3)=-4x-2
+$$
+
+Solve:
+
+$$
+\boxed{f^{-1}(x)=\frac{-4x-2}{x-3}}
+$$
+
+The original domain excludes $-4$. The original range excludes 3, since setting the original output equal to 3 leads to an impossible equation. Thus the inverse domain excludes 3 and its range excludes $-4$.
+
+## Original Example 9 — Quadratic range by completing the square
+
+Given:
+
+$$
+f(x)=-x^2+8x-10
+$$
+
+Complete the square:
+
+$$
+f(x)=-(x^2-8x)-10
+$$
+
+$$
+=-\big((x-4)^2-16\big)-10
+$$
+
+$$
+=-(x-4)^2+6
+$$
+
+Since $(x-4)^2\ge0$:
+
+$$
+-(x-4)^2\le0
+$$
+
+Therefore the maximum output is 6, attained at $x=4$:
+
+$$
+\boxed{R_f=(-\infty,6]}
+$$
+
+## Original Example 10 — Absolute-value transformation
+
+Given:
+
+$$
+g(x)=3|x+2|-5
+$$
+
+Relative to $y=|x|$:
+
+1. $|x+2|$ shifts the graph 2 units left.
+2. Multiplication by 3 stretches it vertically by factor 3.
+3. Subtracting 5 shifts it 5 units down.
+
+The vertex is:
+
+$$
+\boxed{(-2,-5)}
+$$
+
+Since $|x+2|\ge0$:
+
+$$
+3|x+2|-5\ge-5
+$$
+
+Thus:
+
+$$
+\boxed{D_g=\mathbb R,\qquad R_g=[-5,\infty)}
+$$
+
+## Original Example 11 — Range of a rational expression in $x^2$
+
+Given:
+
+$$
+f(x)=\frac{x^2}{x^2+1}
+$$
+
+Let $t=x^2$, so $t\ge0$:
+
+$$
+f(x)=\frac{t}{t+1}=1-\frac{1}{t+1}
+$$
+
+Because $t+1\ge1$:
+
+$$
+0\le\frac{t}{t+1}<1
+$$
+
+Zero is attained at $x=0$, but 1 is never attained. Therefore:
+
+$$
+\boxed{R_f=[0,1)}
+$$
+
+## Original Example 12 — Verify an inverse pair by composition
+
+Let:
+
+$$
+f(x)=2x+1,\qquad g(x)=\frac{x-1}{2}
+$$
+
+Compute the first composition:
+
+$$
+f(g(x))=2\left(\frac{x-1}{2}\right)+1
+$$
+
+$$
+=x-1+1=x
+$$
+
+Compute the reverse composition:
+
+$$
+g(f(x))=\frac{(2x+1)-1}{2}
+$$
+
+$$
+=\frac{2x}{2}=x
+$$
+
+Both compositions return the original input, so:
+
+$$
+\boxed{g=f^{-1}}
+$$
+
+## Original Example 13 — Solve a functional equation
+
+Suppose:
+
+$$
+f(x)+2f(-x)=3x+6
+$$
+
+Replace $x$ by $-x$:
+
+$$
+f(-x)+2f(x)=-3x+6
+$$
+
+For clarity, write the pair as:
+
+$$
+f(x)+2f(-x)=3x+6
+$$
+
+$$
+2f(x)+f(-x)=-3x+6
+$$
+
+Double the first equation:
+
+$$
+2f(x)+4f(-x)=6x+12
+$$
+
+Subtract the second equation:
+
+$$
+3f(-x)=9x+6
+$$
+
+Therefore:
+
+$$
+f(-x)=3x+2
+$$
+
+Replace $x$ by $-x$ in this identity:
+
+$$
+f(x)=-3x+2
+$$
+
+Hence:
+
+$$
+\boxed{f(x)=-3x+2}
+$$
+
+## Original Example 14 — Prove $x^2$ is injective on the non-negative domain
+
+Let:
+
+$$
+f(x)=x^2,\qquad D_f=[0,\infty)
+$$
+
+Take arbitrary $a,b\ge0$ and assume:
+
+$$
+f(a)=f(b)
+$$
+
+Then:
+
+$$
+a^2=b^2
+$$
+
+Factor:
+
+$$
+(a-b)(a+b)=0
+$$
+
+Thus $a=b$ or $a=-b$. Since both inputs are non-negative, the second possibility can hold only when both are zero, which also gives $a=b$.
+
+Therefore:
+
+$$
+\boxed{a=b\text{ and }f\text{ is injective on }[0,\infty)}
+$$
+
+---
