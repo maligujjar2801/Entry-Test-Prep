@@ -16,7 +16,7 @@ Do not memorize a rule before understanding what it is protecting you from. In f
 
 A function is a rule that assigns **exactly one output** to every input in its domain.
 
-If a function maps a set \(A\) to a set \(B\), we write:
+If a function maps a set $A$ to a set $B$, we write:
 
 $$
 f:A\to B
@@ -28,7 +28,7 @@ $$
 \boxed{\forall x\in A,\ \exists! y\in B\text{ such that }y=f(x)}
 $$
 
-The symbol \(\exists!\) means “there exists exactly one.”
+The symbol $\exists!$ means “there exists exactly one.”
 
 ### The conceptual model
 
@@ -62,19 +62,19 @@ A relation is any set of ordered pairs. A function is a special kind of relation
 
 ## 3. Function notation
 
-In \(y=f(x)\):
+In $y=f(x)$:
 
-- \(x\) is the input or independent variable.
-- \(f(x)\) is the output corresponding to input \(x\).
-- The expression \(f(3)\) means evaluate the function at \(x=3\).
+- $x$ is the input or independent variable.
+- $f(x)$ is the output corresponding to input $x$.
+- The expression $f(3)$ means evaluate the function at $x=3$.
 
-The notation \(f:A\to B\) also states the declared domain and codomain. These are part of the function's definition, not optional labels.
+The notation $f:A\to B$ also states the declared domain and codomain. These are part of the function's definition, not optional labels.
 
 ## 4. Vertical-line test
 
-A graph represents a function of \(x\) only if every vertical line intersects the graph at most once.
+A graph represents a function of $x$ only if every vertical line intersects the graph at most once.
 
-Why? A vertical line fixes one input \(x\). If it intersects the graph twice at different heights, that one input has two different outputs.
+Why? A vertical line fixes one input $x$. If it intersects the graph twice at different heights, that one input has two different outputs.
 
 Example: the full circle
 
@@ -82,22 +82,22 @@ $$
 x^2+y^2=16
 $$
 
-is not a function of \(x\), because for many \(x\)-values it has both a positive and a negative \(y\)-value. The upper semicircle
+is not a function of $x$, because for many $x$-values it has both a positive and a negative $y$-value. The upper semicircle
 
 $$
 y=\sqrt{16-x^2},\qquad -4\le x\le4
 $$
 
-does define a function of \(x\).
+does define a function of $x$.
 
 **Do not confuse the tests:** the vertical-line test checks whether a graph is a function; the horizontal-line test checks whether a function is injective.
 
 ## 5. Domain, codomain, and range
 
-For \(f:A\to B\):
+For $f:A\to B$:
 
-- **Domain \(A\):** all permitted inputs.
-- **Codomain \(B\):** the declared set in which outputs are required to lie.
+- **Domain $A$:** all permitted inputs.
+- **Codomain $B$:** the declared set in which outputs are required to lie.
 - **Range:** the outputs the function actually produces.
 
 Always:
@@ -199,11 +199,11 @@ The argument cannot equal zero. Unlike a square-root radicand, a logarithm's arg
 
 ## 7. Interval notation
 
-- \((a,b)\): endpoints excluded.
-- \([a,b]\): endpoints included.
-- \([a,b)\): include \(a\), exclude \(b\).
-- \((a,b]\): exclude \(a\), include \(b\).
-- \([a,\infty)\): include \(a\), extend without an upper bound.
+- $(a,b)$: endpoints excluded.
+- $[a,b]$: endpoints included.
+- $[a,b)$: include $a$, exclude $b$.
+- $(a,b]$: exclude $a$, include $b$.
+- $[a,\infty)$: include $a$, extend without an upper bound.
 
 Infinity is never an included endpoint, so it always uses a parenthesis.
 
@@ -231,7 +231,7 @@ $$
 f(x)=(x-2)^2+3
 $$
 
-has minimum value 3, attained at \(x=2\):
+has minimum value 3, attained at $x=2$:
 
 $$
 \boxed{R_f=[3,\infty)}
@@ -247,13 +247,13 @@ $$
 f(x)=\frac{x+1}{x-2}
 $$
 
-Set the output equal to an arbitrary real value \(y\):
+Set the output equal to an arbitrary real value $y$:
 
 $$
 y=\frac{x+1}{x-2}
 $$
 
-Solve for \(x\):
+Solve for $x$:
 
 $$
 y(x-2)=x+1
@@ -271,7 +271,7 @@ $$
 x=\frac{2y+1}{y-1}
 $$
 
-This expression gives a real \(x\) for every real \(y\) except \(y=1\), where the denominator becomes zero. At \(y=1\), the original equation would require \(x+1=x-2\), which is impossible.
+This expression gives a real $x$ for every real $y$ except $y=1$, where the denominator becomes zero. At $y=1$, the original equation would require $x+1=x-2$, which is impossible.
 
 Therefore:
 
@@ -279,7 +279,7 @@ $$
 \boxed{R_f=\mathbb R\setminus\{1\}}
 $$
 
-**Why this method works:** a number belongs to the range exactly when there is an allowed input that produces it. Solving for \(x\) tests whether such an input exists.
+**Why this method works:** a number belongs to the range exactly when there is an allowed input that produces it. Solving for $x$ tests whether such an input exists.
 
 ### 8.3 Exponential and logarithmic ranges
 
@@ -301,7 +301,7 @@ $$
 f(x)=\log_2x
 $$
 
-the domain is \((0,\infty)\), and the range is all real numbers:
+the domain is $(0,\infty)$, and the range is all real numbers:
 
 $$
 \boxed{R_f=\mathbb R}
@@ -327,7 +327,7 @@ $$
 f(x)=|x|+k
 $$
 
-has range \([k,\infty)\). A downward reflection such as \(-|x|\) has range \((-\infty,0]\).
+has range $[k,\infty)$. A downward reflection such as $-|x|$ has range $(-\infty,0]$.
 
 ### 8.5 Piecewise functions
 
@@ -343,9 +343,9 @@ x^2,&x\ge0.
 \end{cases}
 $$
 
-First branch: as \(x<0\), \(x+2\) produces \((-\infty,2)\).
+First branch: as $x<0$, $x+2$ produces $(-\infty,2)$.
 
-Second branch: as \(x\ge0\), \(x^2\) produces \([0,\infty)\).
+Second branch: as $x\ge0$, $x^2$ produces $[0,\infty)$.
 
 Therefore:
 
@@ -367,7 +367,7 @@ The session taught horizontal and vertical translations and reflections. Scaling
 
 ## 10. Horizontal translations
 
-For a positive shift amount \(a\):
+For a positive shift amount $a$:
 
 $$
 \boxed{g(x)=f(x-a)\ \Rightarrow\ \text{shift right by }a}
@@ -385,7 +385,7 @@ $$
 f(x)=x^2,\qquad g(x)=(x-5)^2
 $$
 
-The minimum of \(g\) occurs when \(x-5=0\), so the vertex moves from \((0,0)\) to \((5,0)\): five units right.
+The minimum of $g$ occurs when $x-5=0$, so the vertex moves from $(0,0)$ to $(5,0)$: five units right.
 
 ## 11. Vertical translations
 
@@ -399,7 +399,7 @@ $$
 \boxed{g(x)=f(x)-a\ \Rightarrow\ \text{shift down by }a}
 $$
 
-For \(g(x)=x^2+3\), every output is three greater than the corresponding output of \(x^2\), so the graph moves up three units.
+For $g(x)=x^2+3$, every output is three greater than the corresponding output of $x^2$, so the graph moves up three units.
 
 ## 12. Reflections
 
@@ -417,17 +417,17 @@ $$
 
 Point interpretation:
 
-- \(f(-x)\): \((x,y)\) is reflected to \((-x,y)\).
-- \(-f(x)\): \((x,y)\) is reflected to \((x,-y)\).
+- $f(-x)$: $(x,y)$ is reflected to $(-x,y)$.
+- $-f(x)$: $(x,y)$ is reflected to $(x,-y)$.
 
-For \(f(x)=x^2\), the graph \(g(x)=-x^2\) opens downward instead of upward.
+For $f(x)=x^2$, the graph $g(x)=-x^2$ opens downward instead of upward.
 
 ## 13. Scaling — explicitly marked for revision
 
 Scaling requires a separate conceptual lesson and graph practice:
 
-- \(g(x)=a f(x)\) changes vertical output scale.
-- \(g(x)=f(ax)\) changes horizontal input scale.
+- $g(x)=a f(x)$ changes vertical output scale.
+- $g(x)=f(ax)$ changes horizontal input scale.
 
 The factors do not act in the same direction in the same way. These expressions are included as a revision signpost, not as a claim that scaling was fully taught or assessed during this session.
 
@@ -465,14 +465,14 @@ A horizontal line represents one fixed output value. If it crosses the graph at 
 
 For a proof:
 
-1. Let \(a\) and \(b\) be arbitrary elements of the domain.
-2. Assume \(f(a)=f(b)\).
+1. Let $a$ and $b$ be arbitrary elements of the domain.
+2. Assume $f(a)=f(b)$.
 3. Substitute the function rule.
 4. Simplify using valid algebra.
-5. Show that \(a=b\).
+5. Show that $a=b$.
 6. Conclude that the function is injective.
 
-To disprove injectivity, one counterexample is enough: find \(a\ne b\) such that \(f(a)=f(b)\).
+To disprove injectivity, one counterexample is enough: find $a\ne b$ such that $f(a)=f(b)$.
 
 ## 17. Domain restrictions matter
 
@@ -482,19 +482,19 @@ $$
 f(x)=x^2
 $$
 
-on \(\mathbb R\):
+on $\mathbb R$:
 
 $$
 f(2)=4=f(-2)
 $$
 
-Since \(2\ne-2\), the function is not injective on all real numbers.
+Since $2\ne-2$, the function is not injective on all real numbers.
 
-But on \([0,\infty)\), the function is strictly increasing and injective. It is also injective on \((-\infty,0]\), where it is strictly decreasing.
+But on $[0,\infty)$, the function is strictly increasing and injective. It is also injective on $(-\infty,0]$, where it is strictly decreasing.
 
 Therefore injectivity is a property of the function together with its domain.
 
-Adding a constant to the output does not change this collision pattern: \(x^2+7\) is not injective on \(\mathbb R\), but it is injective on either half-line.
+Adding a constant to the output does not change this collision pattern: $x^2+7$ is not injective on $\mathbb R$, but it is injective on either half-line.
 
 ## 18. Strict monotonicity and injectivity
 
@@ -516,11 +516,11 @@ again, no two different inputs can have equal outputs.
 
 Thus either strict monotonicity condition guarantees injectivity. Merely non-decreasing is not enough, because a function could be constant over an interval.
 
-An optional calculus observation covered in the session: if a differentiable function has \(f'(x)>0\) throughout an interval, it is strictly increasing there; if \(f'(x)<0\) throughout, it is strictly decreasing. Use this only when calculus and the interval conditions are within the question's scope.
+An optional calculus observation covered in the session: if a differentiable function has $f'(x)>0$ throughout an interval, it is strictly increasing there; if $f'(x)<0$ throughout, it is strictly decreasing. Use this only when calculus and the interval conditions are within the question's scope.
 
 ## 19. Composition of injective functions
 
-If \(f\) and \(g\) are injective and the composition \(g\circ f\) is defined, then \(g\circ f\) is injective.
+If $f$ and $g$ are injective and the composition $g\circ f$ is defined, then $g\circ f$ is injective.
 
 Reason: if:
 
@@ -528,7 +528,7 @@ $$
 g(f(a))=g(f(b))
 $$
 
-injectivity of \(g\) gives \(f(a)=f(b)\). Injectivity of \(f\) then gives \(a=b\).
+injectivity of $g$ gives $f(a)=f(b)$. Injectivity of $f$ then gives $a=b$.
 
 ## 20. Common injectivity traps
 
@@ -544,7 +544,7 @@ injectivity of \(g\) gives \(f(a)=f(b)\). Injectivity of \(f\) then gives \(a=b\
 
 ## 21. What does surjective mean?
 
-A function \(f:A\to B\) is surjective (onto) if every element of the codomain is reached by at least one input.
+A function $f:A\to B$ is surjective (onto) if every element of the codomain is reached by at least one input.
 
 Formal definition:
 
@@ -568,12 +568,12 @@ Contrast:
 
 ## 22. How to prove surjectivity
 
-For \(f:A\to B\):
+For $f:A\to B$:
 
-1. Take an arbitrary \(y\in B\).
-2. Solve \(y=f(x)\) for \(x\).
-3. Verify that the resulting \(x\) belongs to the declared domain \(A\).
-4. Conclude that every \(y\in B\) has a preimage.
+1. Take an arbitrary $y\in B$.
+2. Solve $y=f(x)$ for $x$.
+3. Verify that the resulting $x$ belongs to the declared domain $A$.
+4. Conclude that every $y\in B$ has a preimage.
 
 The domain-membership check matters. Solving an equation is not enough if the resulting input is not allowed.
 
@@ -581,19 +581,19 @@ The domain-membership check matters. Solving an equation is not enough if the re
 
 Find one element of the codomain with no preimage.
 
-For example, \(f:\mathbb R\to\mathbb R\), \(f(x)=x^2\), is not onto because a negative codomain value such as \(-1\) cannot equal \(x^2\) for any real \(x\).
+For example, $f:\mathbb R\to\mathbb R$, $f(x)=x^2$, is not onto because a negative codomain value such as $-1$ cannot equal $x^2$ for any real $x$.
 
 One missing codomain value is sufficient to disprove surjectivity.
 
 ## 24. The codomain can change the answer
 
-Consider the same rule \(f(x)=x^2\):
+Consider the same rule $f(x)=x^2$:
 
 $$
 f:\mathbb R\to\mathbb R
 $$
 
-is not surjective because its range is \([0,\infty)\), not all of \(\mathbb R\).
+is not surjective because its range is $[0,\infty)$, not all of $\mathbb R$.
 
 But:
 
@@ -617,20 +617,20 @@ The expression alone does not decide surjectivity; the domain and codomain matte
 
 | Function and declared mapping | Result | Reason |
 |---|---|---|
-| \(x^2:\mathbb R\to\mathbb R\) | Not onto | Negative codomain values are missed |
-| \(x^2:\mathbb R\to[0,\infty)\) | Onto | Every non-negative value has a real square root |
-| \(x^2+3:\mathbb R\to[3,\infty)\) | Onto | Every \(y\ge3\) has \(x=\pm\sqrt{y-3}\) |
-| \(1/x:\mathbb R\setminus\{0\}\to\mathbb R\setminus\{0\}\) | Onto | Choose \(x=1/y\) |
-| \(2^x:\mathbb R\to(0,\infty)\) | Onto | For \(y>0\), choose \(x=\log_2y\) |
-| \(\log_2x:(0,\infty)\to\mathbb R\) | Onto | For any real \(y\), choose \(x=2^y\) |
-| \(3x-7:\mathbb R\to\mathbb R\) | Onto | Choose \(x=(y+7)/3\) |
-| \(x^2+1:\mathbb R\to[1,\infty)\) | Onto | Choose \(x=\pm\sqrt{y-1}\) |
-| \(x^2+1:\mathbb R\to\mathbb R\) | Not onto | \(y=0\) has no real preimage |
-| \(x^3+4:\mathbb R\to\mathbb R\) | Onto | Choose \(x=\sqrt[3]{y-4}\) |
-| \(e^x:\mathbb R\to\mathbb R\) | Not onto | Negative values and zero are missed |
-| \(\ln x:(0,\infty)\to\mathbb R\) | Onto | Choose \(x=e^y\) |
-| \(x^2-9:\mathbb R\to\mathbb R\) | Not onto | Range is \([-9,\infty)\) |
-| \(1/(x+2):\mathbb R\setminus\{-2\}\to\mathbb R\setminus\{0\}\) | Onto | For \(y\ne0\), choose \(x=1/y-2\) |
+| $x^2:\mathbb R\to\mathbb R$ | Not onto | Negative codomain values are missed |
+| $x^2:\mathbb R\to[0,\infty)$ | Onto | Every non-negative value has a real square root |
+| $x^2+3:\mathbb R\to[3,\infty)$ | Onto | Every $y\ge3$ has $x=\pm\sqrt{y-3}$ |
+| $1/x:\mathbb R\setminus\{0\}\to\mathbb R\setminus\{0\}$ | Onto | Choose $x=1/y$ |
+| $2^x:\mathbb R\to(0,\infty)$ | Onto | For $y>0$, choose $x=\log_2y$ |
+| $\log_2x:(0,\infty)\to\mathbb R$ | Onto | For any real $y$, choose $x=2^y$ |
+| $3x-7:\mathbb R\to\mathbb R$ | Onto | Choose $x=(y+7)/3$ |
+| $x^2+1:\mathbb R\to[1,\infty)$ | Onto | Choose $x=\pm\sqrt{y-1}$ |
+| $x^2+1:\mathbb R\to\mathbb R$ | Not onto | $y=0$ has no real preimage |
+| $x^3+4:\mathbb R\to\mathbb R$ | Onto | Choose $x=\sqrt[3]{y-4}$ |
+| $e^x:\mathbb R\to\mathbb R$ | Not onto | Negative values and zero are missed |
+| $\ln x:(0,\infty)\to\mathbb R$ | Onto | Choose $x=e^y$ |
+| $x^2-9:\mathbb R\to\mathbb R$ | Not onto | Range is $[-9,\infty)$ |
+| $1/(x+2):\mathbb R\setminus\{-2\}\to\mathbb R\setminus\{0\}$ | Onto | For $y\ne0$, choose $x=1/y-2$ |
 
 ---
 
@@ -660,7 +660,7 @@ $$
 f:\mathbb R\to\mathbb R,\qquad f(x)=e^x
 $$
 
-The exponential function is strictly increasing, so it is injective. Its range is \((0,\infty)\), so it misses zero and all negative real values. It is not surjective and therefore not bijective.
+The exponential function is strictly increasing, so it is injective. Its range is $(0,\infty)$, so it misses zero and all negative real values. It is not surjective and therefore not bijective.
 
 ### Surjective but not injective
 
@@ -668,7 +668,7 @@ $$
 f:\mathbb R\to[0,\infty),\qquad f(x)=x^2
 $$
 
-Every non-negative number is reached, so the function is onto. But \(f(2)=f(-2)\), so it is not injective.
+Every non-negative number is reached, so the function is onto. But $f(2)=f(-2)$, so it is not injective.
 
 ### Bijective
 
@@ -684,7 +684,7 @@ $$
 f:\mathbb R\to\mathbb R,\qquad f(x)=x^2+1
 $$
 
-It is not injective because opposite inputs can produce the same output, and it is not onto \(\mathbb R\) because values below 1 are missed.
+It is not injective because opposite inputs can produce the same output, and it is not onto $\mathbb R$ because values below 1 are missed.
 
 ---
 
@@ -714,24 +714,24 @@ The inverse exists as a function from the original codomain to the original doma
 
 If the original function is not injective, one output may come from two different inputs. Reversing that relationship would give one input two possible outputs, so the inverse would not be a function.
 
-Example: \(f(x)=x^2\) on \(\mathbb R\). The output 4 comes from both 2 and -2.
+Example: $f(x)=x^2$ on $\mathbb R$. The output 4 comes from both 2 and -2.
 
 If the original function is not surjective onto its declared codomain, some codomain elements have no original input. The inverse cannot assign an output to those inputs in its declared domain.
 
-Example: \(e^x:\mathbb R\to\mathbb R\) misses negative values and zero. It has an inverse only when the codomain is correctly taken as \((0,\infty)\).
+Example: $e^x:\mathbb R\to\mathbb R$ misses negative values and zero. It has an inverse only when the codomain is correctly taken as $(0,\infty)$.
 
 ## 30. Finding an inverse algebraically
 
 For a bijection:
 
-1. Write \(y=f(x)\).
-2. Exchange \(x\) and \(y\).
-3. Solve the resulting equation for \(y\).
-4. Write the result as \(f^{-1}(x)\).
+1. Write $y=f(x)$.
+2. Exchange $x$ and $y$.
+3. Solve the resulting equation for $y$.
+4. Write the result as $f^{-1}(x)$.
 5. State the inverse domain and range.
 6. Verify the compositions where useful.
 
-The exchange works because the inverse reverses the ordered input-output pairs: \((a,b)\) becomes \((b,a)\).
+The exchange works because the inverse reverses the ordered input-output pairs: $(a,b)$ becomes $(b,a)$.
 
 ## 31. Domain and range exchange
 
@@ -745,7 +745,7 @@ $$
 \boxed{\operatorname{Range}(f^{-1})=\operatorname{Domain}(f)}
 $$
 
-If the original function is bijective from \(A\) onto \(B\), then its inverse maps from \(B\) back to \(A\).
+If the original function is bijective from $A$ onto $B$, then its inverse maps from $B$ back to $A$.
 
 ## 32. Linear inverse example
 
@@ -787,19 +787,19 @@ $$
 f(x)=x^2,\qquad x\in[0,\infty)
 $$
 
-the function is bijective from \([0,\infty)\) to \([0,\infty)\), so:
+the function is bijective from $[0,\infty)$ to $[0,\infty)$, so:
 
 $$
 \boxed{f^{-1}(x)=\sqrt{x}}
 $$
 
-If instead the original domain is \((-\infty,0]\), then the inverse is:
+If instead the original domain is $(-\infty,0]$, then the inverse is:
 
 $$
 \boxed{f^{-1}(x)=-\sqrt{x}}
 $$
 
-The inverse is not \(\pm\sqrt{x}\) as a single function, because that would assign two outputs to one input.
+The inverse is not $\pm\sqrt{x}$ as a single function, because that would assign two outputs to one input.
 
 ## 34. Rational inverse example
 
@@ -825,13 +825,13 @@ $$
 f(x)=2^x,\qquad x\in\mathbb R
 $$
 
-the range is \((0,\infty)\), and:
+the range is $(0,\infty)$, and:
 
 $$
 \boxed{f^{-1}(x)=\log_2x,\qquad x>0}
 $$
 
-Conversely, the inverse of \(\log_2x\) from \((0,\infty)\) to \(\mathbb R\) is \(2^x\).
+Conversely, the inverse of $\log_2x$ from $(0,\infty)$ to $\mathbb R$ is $2^x$.
 
 Similarly:
 
@@ -857,13 +857,13 @@ Each identity is used on the appropriate domain. The first checks that applying 
 
 ## 37. Graph of an inverse
 
-The graph of \(f^{-1}\) is the reflection of the graph of \(f\) across the line:
+The graph of $f^{-1}$ is the reflection of the graph of $f$ across the line:
 
 $$
 \boxed{y=x}
 $$
 
-Every point \((a,b)\) on the original graph corresponds to \((b,a)\) on the inverse graph.
+Every point $(a,b)$ on the original graph corresponds to $(b,a)$ on the inverse graph.
 
 This reflection swaps horizontal and vertical coordinates. It is not a reflection across the x-axis or y-axis.
 
@@ -877,8 +877,8 @@ $$
 
 unless a special relationship happens to make them equal at some input.
 
-- \(f^{-1}\) means the inverse function.
-- \(1/f(x)\) means the reciprocal of the output.
+- $f^{-1}$ means the inverse function.
+- $1/f(x)$ means the reciprocal of the output.
 
 ---
 
@@ -890,14 +890,14 @@ unless a special relationship happens to make them equal at some input.
 | Is it injective? | No repeated output from distinct inputs; horizontal-line test |
 | Is it surjective? | Range equals declared codomain |
 | Is it bijective? | Both injective and surjective |
-| Does an inverse exist as a function \(B\to A\)? | Original mapping must be bijective |
+| Does an inverse exist as a function $B\to A$? | Original mapping must be bijective |
 | Domain of inverse? | Original range |
 | Range of inverse? | Original domain |
-| Graph of inverse? | Reflection across \(y=x\) |
+| Graph of inverse? | Reflection across $y=x$ |
 | Horizontal shift? | Change inside input, with opposite sign |
 | Vertical shift? | Change outside function |
-| Reflection across y-axis? | Replace \(x\) by \(-x\) |
-| Reflection across x-axis? | Multiply the function output by \(-1\) |
+| Reflection across y-axis? | Replace $x$ by $-x$ |
+| Reflection across x-axis? | Multiply the function output by $-1$ |
 
 ## Entry-test problem-solving checklist
 
@@ -906,7 +906,7 @@ Before selecting an answer:
 1. Read the domain and codomain, not just the formula.
 2. Decide which property the question tests.
 3. For injectivity, look for two distinct inputs with the same output or use a horizontal-line argument.
-4. For surjectivity, compare range with codomain or solve for an input for arbitrary \(y\).
+4. For surjectivity, compare range with codomain or solve for an input for arbitrary $y$.
 5. For bijectivity, establish both properties.
 6. For inverses, exchange variables and solve carefully.
 7. Check restrictions and excluded values at the end.
