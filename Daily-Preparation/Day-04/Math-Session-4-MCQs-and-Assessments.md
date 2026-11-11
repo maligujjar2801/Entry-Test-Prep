@@ -437,3 +437,41 @@ The 25-question test is reproduced above with the submitted choices, correct ans
 - Practise transformations using both symbolic notation and graphs.
 - Revisit the surjectivity proof method in a future cumulative assessment because the formal checkpoint was not submitted.
 - Include written inverse derivation and composition verification in the next cumulative test.
+
+
+---
+
+# Part V — Earlier interactive function and domain checkpoints
+
+These records are separate from the final 25-question comprehensive challenge.
+
+## Initial function-fundamentals checkpoint
+
+The initial checkpoint tested relation versus function, injectivity of $x^2$, domain/codomain/range for a finite mapping, and why the full circle $x^2+y^2=16$ is not a function of $x$ while its upper semicircle is.
+
+The recorded result was **3.5/4**. The complete verbatim option wording and all submitted responses were not available in the reconstructed history, so they are not recreated here.
+
+## Domain checkpoint
+
+The four recorded responses and evaluation were:
+
+| Question | Submitted response | Evaluation |
+|---:|---|---|
+| Q1 | All real numbers | Correct |
+| Q2 | $\mathbb R\setminus\{-4,4\}$ | Correct |
+| Q3 | “Positive numbers onwards 3” | Boundary identified, but endpoint notation was imprecise; correct interval: $[3,\infty)$ |
+| Q4 | “Negative 4 to positive infinity” | Endpoint inclusion was incorrect; correct interval: $(-4,\infty)$ |
+
+**Recorded result: 2/4 fully correct as written.**
+
+The key lesson was that identifying a boundary is not enough: the inequality and endpoint inclusion determine whether a bracket or parenthesis is required.
+
+## Other recorded domain/range revision
+
+| Assessment | Result | Time |
+|---|---:|---:|
+| Domain/range revision | 8/8 | 20 minutes |
+| Targeted domain/range diagnostic | 5/5 | Not recorded |
+| Combined revision | 13/13 | Not recorded |
+
+The user identified algebraic range and piecewise functions as difficult areas during the 8/8 revision. The later targeted and combined revisions were fully correct.
