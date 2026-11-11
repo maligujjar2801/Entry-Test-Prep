@@ -363,7 +363,7 @@ The union notation is useful because it shows the output set of each branch. Her
 
 A parent function is a basic graph used as the starting point. A transformation changes its position, orientation, or scale.
 
-The session taught horizontal and vertical translations and reflections. Scaling was identified as a remaining revision topic; it is not counted as completed theory here.
+The interactive teaching sequence covered horizontal and vertical translations and reflections. Vertical and horizontal scaling were also introduced in the original comprehensive Session 4 artifact, but they were not fully reinforced or assessed in the later interactive sequence. They are therefore documented as introduced, not mastered.
 
 ## 10. Horizontal translations
 
@@ -422,7 +422,7 @@ Point interpretation:
 
 For $f(x)=x^2$, the graph $g(x)=-x^2$ opens downward instead of upward.
 
-## 13. Scaling — explicitly marked for revision
+## 13. Scaling — introduced in the original artifact; requires focused revision
 
 Scaling requires a separate conceptual lesson and graph practice:
 
@@ -918,7 +918,7 @@ Before selecting an answer:
 - Domain and range: taught, revised, and assessed.
 - Horizontal/vertical translations: taught.
 - Reflections: taught.
-- Scaling: identified as a revision need; not fully taught or assessed.
+- Scaling: introduced in the original comprehensive artifact; not fully reinforced or assessed in the interactive sequence.
 - Injectivity: taught with introductory, algebraic, and advanced checkpoints.
 - Surjectivity: taught; conceptual challenge answered correctly; the offered formal checkpoint was not submitted.
 - Bijectivity: taught; offered checkpoint was not submitted.
