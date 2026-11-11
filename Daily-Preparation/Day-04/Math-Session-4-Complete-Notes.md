@@ -103,7 +103,7 @@ For $f:A\to B$:
 Always:
 
 $$
-\boxed{\operatorname{Range}(f)\subseteq\operatorname{Codomain}(f)}
+\boxed{\mathrm{Range}(f)\subseteq\mathrm{Codomain}(f)}
 $$
 
 The range can equal the codomain, but it cannot contain values outside it.
@@ -555,7 +555,7 @@ $$
 Equivalent condition:
 
 $$
-\boxed{\operatorname{Range}(f)=\operatorname{Codomain}(f)}
+\boxed{\mathrm{Range}(f)=\mathrm{Codomain}(f)}
 $$
 
 Think of surjectivity as: **at least one preimage for every codomain element**.
@@ -738,11 +738,11 @@ The exchange works because the inverse reverses the ordered input-output pairs: 
 For an invertible function:
 
 $$
-\boxed{\operatorname{Domain}(f^{-1})=\operatorname{Range}(f)}
+\boxed{\mathrm{Domain}(f^{-1})=\mathrm{Range}(f)}
 $$
 
 $$
-\boxed{\operatorname{Range}(f^{-1})=\operatorname{Domain}(f)}
+\boxed{\mathrm{Range}(f^{-1})=\mathrm{Domain}(f)}
 $$
 
 If the original function is bijective from $A$ onto $B$, then its inverse maps from $B$ back to $A$.
