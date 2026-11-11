@@ -57,7 +57,7 @@ $$
 f(x)=x^2,\qquad g(x)=(x-5)^2
 $$
 
-the minimum occurs at \(x=5\). The vertex shifts from \((0,0)\) to \((5,0)\).
+the minimum occurs at $x=5$. The vertex shifts from $(0,0)$ to $(5,0)$.
 
 Recognition rule:
 
@@ -78,7 +78,7 @@ $$
 g(x)=-f(x)
 $$
 
-the output changes from \(y\) to \(-y\). This reflects the graph across the x-axis.
+the output changes from $y$ to $-y$. This reflects the graph across the x-axis.
 
 Compare:
 
@@ -100,7 +100,7 @@ A negative sign inside the input changes the horizontal coordinate; a negative s
 - The user identified algebraic range and piecewise functions as the more difficult areas.
 - Targeted diagnostic: 5/5.
 - Combined revision: 13/13.
-- The range-by-solving-for-\(x\) method and branch-by-branch piecewise range method were covered.
+- The range-by-solving-for-$x$ method and branch-by-branch piecewise range method were covered.
 
 **Assessment:** Strong foundation. Revisit algebraic range and piecewise range in cumulative practice rather than restarting the complete topic.
 
@@ -110,21 +110,21 @@ A negative sign inside the input changes the horizontal coordinate; a negative s
 - Algebraic checkpoint: 3/5.
 - Reinforcement question about a quadratic restricted to both half-lines: correct.
 - Advanced checkpoint: 6/6.
-- Advanced rational proof for \((3x-2)/(x+5)\) was fully correct.
+- Advanced rational proof for $(3x-2)/(x+5)$ was fully correct.
 
 Earlier corrections included:
 - A function is not automatically injective.
-- \(x^2\) is not injective on all real numbers.
-- \(x^2\) is injective on both \([0,\infty)\) and \((-\infty,0]\).
-- A complete proof must show the algebraic steps from \(f(a)=f(b)\) to \(a=b\).
+- $x^2$ is not injective on all real numbers.
+- $x^2$ is injective on both $[0,\infty)$ and $(-\infty,0]$.
+- A complete proof must show the algebraic steps from $f(a)=f(b)$ to $a=b$.
 
 **Assessment:** Strong after reinforcement. Keep using complete algebraic proof structure.
 
 ### Surjectivity
 
 The user correctly explained the difference between:
-- \(x^2:\mathbb R\to\mathbb R\), which is not onto.
-- \(x^2:[0,\infty)\to[0,\infty)\), which is onto.
+- $x^2:\mathbb R\to\mathbb R$, which is not onto.
+- $x^2:[0,\infty)\to[0,\infty)$, which is onto.
 
 The formal surjectivity checkpoint and written proof were offered but not submitted in the accessible record.
 
@@ -189,7 +189,7 @@ Do not classify scaling as mastered or completed until the user has studied and 
 
 1. **Function definition recall:** one short exercise distinguishing function, injective, and surjective.
 2. **Translations:** plot parent functions and translated versions; identify how the vertex moves.
-3. **Reflections:** compare \(f(-x)\) and \(-f(x)\) using coordinates.
+3. **Reflections:** compare $f(-x)$ and $-f(x)$ using coordinates.
 4. **Scaling:** teach vertical and horizontal scaling from first principles, using graphs and test points.
 5. **Combined transformations:** work through two or more transformations in a single expression.
 6. **Written proof review:** one injectivity proof, one surjectivity proof, and one inverse derivation with composition checks.
