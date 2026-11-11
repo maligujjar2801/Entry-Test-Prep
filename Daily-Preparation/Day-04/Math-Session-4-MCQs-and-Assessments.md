@@ -13,12 +13,12 @@ This file preserves the final comprehensive MCQ challenge and the assessment res
 
 ## Part A — Function fundamentals
 
-### Q1. Which statement correctly defines a function \(f:A\to B\)?
+### Q1. Which statement correctly defines a function $f:A\to B$?
 
-- A. Every element of \(A\) has at least two outputs.
-- B. Every element of \(A\) has exactly one output in \(B\).
-- C. Every element of \(B\) must have exactly one input.
-- D. Every element of \(A\) must have a different output.
+- A. Every element of $A$ has at least two outputs.
+- B. Every element of $A$ has exactly one output in $B$.
+- C. Every element of $B$ must have exactly one input.
+- D. Every element of $A$ must have a different output.
 
 **Correct answer: B.** A function assigns exactly one output to each input in its domain. Different inputs may share an output.
 
@@ -54,12 +54,12 @@ $$
 f(x)=\frac{1}{x^2-9}
 $$
 
-- A. \(\mathbb R\)
-- B. \(\mathbb R\setminus\{3\}\)
-- C. \(\mathbb R\setminus\{-3,3\}\)
-- D. \([-3,3]\)
+- A. $\mathbb R$
+- B. $\mathbb R\setminus\{3\}$
+- C. $\mathbb R\setminus\{-3,3\}$
+- D. $[-3,3]$
 
-**Correct answer: C.** The denominator is zero at \(x=-3\) and \(x=3\).
+**Correct answer: C.** The denominator is zero at $x=-3$ and $x=3$.
 
 ### Q5. Find the domain of:
 
@@ -67,12 +67,12 @@ $$
 f(x)=\sqrt{2x-6}
 $$
 
-- A. \((-\infty,3]\)
-- B. \([3,\infty)\)
-- C. \((3,\infty)\)
-- D. \(\mathbb R\)
+- A. $(-\infty,3]$
+- B. $[3,\infty)$
+- C. $(3,\infty)$
+- D. $\mathbb R$
 
-**Correct answer: B.** Require \(2x-6\ge0\), so \(x\ge3\).
+**Correct answer: B.** Require $2x-6\ge0$, so $x\ge3$.
 
 ### Q6. Find the range of:
 
@@ -80,12 +80,12 @@ $$
 f(x)=(x-4)^2+2
 $$
 
-- A. \(\mathbb R\)
-- B. \([0,\infty)\)
-- C. \([2,\infty)\)
-- D. \((2,\infty)\)
+- A. $\mathbb R$
+- B. $[0,\infty)$
+- C. $[2,\infty)$
+- D. $(2,\infty)$
 
-**Correct answer: C.** The minimum output is 2 and is attained at \(x=4\).
+**Correct answer: C.** The minimum output is 2 and is attained at $x=4$.
 
 ### Q7. What is the range of:
 
@@ -93,10 +93,10 @@ $$
 f(x)=\frac{x+1}{x-2}
 $$
 
-- A. \(\mathbb R\)
-- B. \(\mathbb R\setminus\{1\}\)
-- C. \(\mathbb R\setminus\{2\}\)
-- D. \(\mathbb R\setminus\{-1\}\)
+- A. $\mathbb R$
+- B. $\mathbb R\setminus\{1\}$
+- C. $\mathbb R\setminus\{2\}$
+- D. $\mathbb R\setminus\{-1\}$
 
 **Correct answer: B.** The output cannot equal 1.
 
@@ -112,10 +112,10 @@ $$
 
 What is its range?
 
-- A. \(\mathbb R\)
-- B. \([0,\infty)\)
-- C. \((-\infty,2)\cup[0,\infty)\)
-- D. \((-\infty,2]\cup[0,\infty)\)
+- A. $\mathbb R$
+- B. $[0,\infty)$
+- C. $(-\infty,2)\cup[0,\infty)$
+- D. $(-\infty,2]\cup[0,\infty)$
 
 **Mathematical range:**
 
@@ -127,7 +127,7 @@ The selected answer C is mathematically correct, but option A is also correct be
 
 ## Part C — Transformations
 
-### Q9. If \(f(x)=x^2\), what transformation produces:
+### Q9. If $f(x)=x^2$, what transformation produces:
 
 $$
 g(x)=(x-5)^2
@@ -138,36 +138,36 @@ $$
 - C. 5 units up.
 - D. 5 units down.
 
-**Correct answer: B.** The vertex moves from \((0,0)\) to \((5,0)\).
+**Correct answer: B.** The vertex moves from $(0,0)$ to $(5,0)$.
 
-### Q10. If \(g(x)=-f(x)\), the graph of \(f\) is:
+### Q10. If $g(x)=-f(x)$, the graph of $f$ is:
 
 - A. Reflected across the y-axis.
 - B. Reflected across the x-axis.
 - C. Shifted upward.
 - D. Shifted right.
 
-**Correct answer: B.** The negative sign outside the function changes every output \(y\) to \(-y\).
+**Correct answer: B.** The negative sign outside the function changes every output $y$ to $-y$.
 
 ## Part D — Injectivity
 
-### Q11. Is the function \(f(x)=x^2\) injective on \(\mathbb R\)?
+### Q11. Is the function $f(x)=x^2$ injective on $\mathbb R$?
 
 - A. Yes, because its output is always non-negative.
 - B. Yes, because every input has one output.
-- C. No, because \(f(2)=f(-2)\).
+- C. No, because $f(2)=f(-2)$.
 - D. No, because it is not a function.
 
 **Correct answer: C.** Distinct inputs 2 and -2 produce the same output 4.
 
-### Q12. On which domain is \(f(x)=x^2\) injective?
+### Q12. On which domain is $f(x)=x^2$ injective?
 
-- A. \(\mathbb R\)
-- B. \([-2,2]\)
-- C. \([0,\infty)\)
-- D. \((-\infty,\infty)\)
+- A. $\mathbb R$
+- B. $[-2,2]$
+- C. $[0,\infty)$
+- D. $(-\infty,\infty)$
 
-**Correct answer: C.** On the non-negative half-line, \(x^2\) is strictly increasing.
+**Correct answer: C.** On the non-negative half-line, $x^2$ is strictly increasing.
 
 ### Q13. Suppose:
 
@@ -212,17 +212,17 @@ Why is this function not surjective?
 
 ### Q16. Which function is surjective with the indicated domain and codomain?
 
-- A. \(f:\mathbb R\to\mathbb R,\ f(x)=e^x\)
-- B. \(f:\mathbb R\to[0,\infty),\ f(x)=x^2\)
-- C. \(f:\mathbb R\to\mathbb R,\ f(x)=x^2+1\)
-- D. \(f:\mathbb R\to\mathbb R,\ f(x)=2^x\)
+- A. $f:\mathbb R\to\mathbb R,\ f(x)=e^x$
+- B. $f:\mathbb R\to[0,\infty),\ f(x)=x^2$
+- C. $f:\mathbb R\to\mathbb R,\ f(x)=x^2+1$
+- D. $f:\mathbb R\to\mathbb R,\ f(x)=2^x$
 
-**Correct answer: B.** The range of \(x^2\) on \(\mathbb R\) is exactly \([0,\infty)\).
+**Correct answer: B.** The range of $x^2$ on $\mathbb R$ is exactly $[0,\infty)$.
 
-### Q17. To prove that \(f:A\to B\) is surjective, which approach is correct?
+### Q17. To prove that $f:A\to B$ is surjective, which approach is correct?
 
 - A. Show that different inputs produce different outputs.
-- B. Show that every \(y\in B\) has at least one preimage \(x\in A\).
+- B. Show that every $y\in B$ has at least one preimage $x\in A$.
 - C. Show that the domain contains zero.
 - D. Show that the function is increasing.
 
@@ -267,7 +267,7 @@ Which statement is correct?
 - C. Surjective but not injective.
 - D. Neither injective nor surjective.
 
-**Correct answer: B.** It is strictly increasing, but its range is only \((0,\infty)\).
+**Correct answer: B.** It is strictly increasing, but its range is only $(0,\infty)$.
 
 ## Part G — Inverse functions
 
@@ -277,19 +277,19 @@ $$
 f(x)=3x-7
 $$
 
-- A. \(\dfrac{x-7}{3}\)
-- B. \(\dfrac{x+7}{3}\)
-- C. \(3x+7\)
-- D. \(\dfrac{3}{x+7}\)
+- A. $\dfrac{x-7}{3}$
+- B. $\dfrac{x+7}{3}$
+- C. $3x+7$
+- D. $\dfrac{3}{x+7}$
 
-**Correct answer: B.** Exchange variables and solve \(x=3y-7\) for \(y\).
+**Correct answer: B.** Exchange variables and solve $x=3y-7$ for $y$.
 
-### Q22. If \(f:A\to B\) is bijective, then the inverse function has:
+### Q22. If $f:A\to B$ is bijective, then the inverse function has:
 
-- A. Domain \(A\), codomain \(B\).
-- B. Domain \(B\), codomain \(A\).
-- C. Domain \(A\), codomain \(A\).
-- D. Domain \(B\), codomain \(B\).
+- A. Domain $A$, codomain $B$.
+- B. Domain $B$, codomain $A$.
+- C. Domain $A$, codomain $A$.
+- D. Domain $B$, codomain $B$.
 
 **Correct answer: B.** The inverse reverses the mapping.
 
@@ -299,10 +299,10 @@ $$
 f(x)=x^2,\qquad x\in[0,\infty)
 $$
 
-- A. \(-\sqrt{x}\)
-- B. \(\pm\sqrt{x}\)
-- C. \(\sqrt{x}\)
-- D. \(x^{-2}\)
+- A. $-\sqrt{x}$
+- B. $\pm\sqrt{x}$
+- C. $\sqrt{x}$
+- D. $x^{-2}$
 
 **Correct answer: C.** The non-negative domain requires the non-negative square-root branch.
 
@@ -310,8 +310,8 @@ $$
 
 - A. The x-axis.
 - B. The y-axis.
-- C. The line \(y=x\).
-- D. The line \(y=-x\).
+- C. The line $y=x$.
+- D. The line $y=-x$.
 
 **Correct answer: C.**
 
@@ -323,12 +323,12 @@ $$
 
 Its inverse is:
 
-- A. \(\dfrac{4x+3}{x-2}\)
-- B. \(\dfrac{4x-3}{x+2}\)
-- C. \(\dfrac{2x+3}{x+4}\)
-- D. \(\dfrac{x-4}{2x+3}\)
+- A. $\dfrac{4x+3}{x-2}$
+- B. $\dfrac{4x-3}{x+2}$
+- C. $\dfrac{2x+3}{x+4}$
+- D. $\dfrac{x-4}{2x+3}$
 
-**Correct answer: A.** Exchanging x and y and solving gives \((4x+3)/(x-2)\).
+**Correct answer: A.** Exchanging x and y and solving gives $(4x+3)/(x-2)$.
 
 ---
 
@@ -366,8 +366,8 @@ Its inverse is:
 
 Incorrect:
 - Q1: Function definition — every domain input must have exactly one output; different inputs may share an output.
-- Q9: Horizontal translation — \(f(x-5)\) shifts right five units.
-- Q10: Reflection — \(-f(x)\) reflects across the x-axis.
+- Q9: Horizontal translation — $f(x-5)$ shifts right five units.
+- Q10: Reflection — $-f(x)$ reflects across the x-axis.
 
 **Assessment-quality note:** Q8 contains duplicate-equivalent correct options. The user's answer C is valid. Retain the 22/25 score but do not use Q8 as evidence that the student distinguishes simplified range notation from a union of intervals.
 
@@ -390,7 +390,7 @@ The following results are included only where they are recorded in the available
 | Checkpoint | Result | Recorded learning point |
 |---|---:|---|
 | Introductory checkpoint | 4/5 | Initial confusion between the definition of a function and injectivity |
-| Algebraic checkpoint | 3/5 | Clarified that \(x^2+3\) is not injective on \(\mathbb R\); \(x^2\) is injective on both \([0,\infty)\) and \((-\infty,0]\) |
+| Algebraic checkpoint | 3/5 | Clarified that $x^2+3$ is not injective on $\mathbb R$; $x^2$ is injective on both $[0,\infty)$ and $(-\infty,0]$ |
 | Half-line reinforcement | One conceptual answer correct | User correctly identified injectivity on both half-lines |
 | Advanced injectivity checkpoint | 6/6 | All six answers correct |
 
@@ -403,11 +403,11 @@ f(x)=\frac{3x-2}{x+5},
 \qquad D_f=\mathbb R\setminus\{-5\}
 $$
 
-The submitted proof correctly assumed \(f(a)=f(b)\), cross-multiplied, expanded, collected terms, and reached \(17a=17b\Rightarrow a=b\). The proof was fully correct.
+The submitted proof correctly assumed $f(a)=f(b)$, cross-multiplied, expanded, collected terms, and reached $17a=17b\Rightarrow a=b$. The proof was fully correct.
 
 ## Surjectivity
 
-- The conceptual challenge comparing \(x^2:\mathbb R\to\mathbb R\) with \(x^2:[0,\infty)\to[0,\infty)\) was answered correctly.
+- The conceptual challenge comparing $x^2:\mathbb R\to\mathbb R$ with $x^2:[0,\infty)\to[0,\infty)$ was answered correctly.
 - The user explained that the first range does not cover the codomain, while the second range covers its codomain.
 - A formal surjectivity checkpoint and a written proof for a linear function were offered but not submitted in the recorded history.
 - Therefore no numerical surjectivity checkpoint score is recorded.
@@ -422,7 +422,7 @@ The submitted proof correctly assumed \(f(a)=f(b)\), cross-multiplied, expanded,
 
 - The initial inverse-function checkpoint was offered but not submitted.
 - The advanced inverse-functions checkpoint was completed with **6/6** (confirmed by the submitted screenshot).
-- The written challenge for \(f(x)=(3x-5)/(2x+1)\) was offered but no student working was submitted. Its verified reference solution is in the Worked Examples file; it is not counted as a student proof.
+- The written challenge for $f(x)=(3x-5)/(2x+1)$ was offered but no student working was submitted. Its verified reference solution is in the Worked Examples file; it is not counted as a student proof.
 
 ## Final comprehensive assessment
 
