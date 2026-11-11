@@ -218,3 +218,46 @@ The current documentation pass had access to the current conversation, its avail
 - Scaling is listed as a revision need, not as fully taught content.
 
 This is the evidence boundary for the current Session 4 reconstruction.
+
+
+---
+
+## 9. Additional original-artifact coverage and earlier checkpoints
+
+The first comprehensive Session 4 artifact contained a broader ten-part structure in addition to the later seven-phase interactive sequence. It included parity (even/odd functions), composition and composite domains, advanced range methods, functional equations, and vertical/horizontal scaling. Fourteen original worked examples are preserved in the Worked Examples file.
+
+### Earlier interactive checkpoints
+
+- Initial function-fundamentals checkpoint: **3.5/4**. Its complete verbatim questions and answer sequence were not retrievable, so the documentation records the result and tested concepts without inventing missing wording.
+- Domain checkpoint: **2/4 fully correct as written**.
+  - Q1 all real numbers: correct.
+  - Q2 $\mathbb R\setminus\{-4,4\}$: correct.
+  - Q3 identified the boundary 3 but did not state the included endpoint clearly; correct answer $[3,\infty)$.
+  - Q4 stated the interval from -4 to infinity but used the wrong endpoint inclusion; correct answer $(-4,\infty)$.
+- Later domain/range revision: **8/8 in 20 minutes**.
+- Targeted domain/range diagnostic: **5/5**.
+- Combined domain/range revision: **13/13**.
+
+### Scaling status — careful distinction
+
+Scaling was explicitly introduced in the original comprehensive artifact:
+
+$$
+g(x)=a f(x)
+$$
+
+for vertical scaling, and:
+
+$$
+g(x)=f(ax)
+$$
+
+for horizontal scaling. The original artifact also included combined examples such as $-2(x-3)^2+4$ and $3|x+2|-5$.
+
+However, the later interactive teaching sequence concentrated on translations and reflections, and no dedicated scaling checkpoint was completed. The user identified graph scaling and transformations as difficult after the final challenge.
+
+Therefore the accurate status is: **introduced in the original material; not sufficiently reinforced or assessed; remains a revision priority.**
+
+### Source-history boundary
+
+The reconstruction used the available Session 4 conversation context, retrieved summaries of earlier connected Session 4 conversations, and the existing repository files. Not every earlier chat was available as a complete verbatim transcript. For that reason, missing original checkpoint option wording and unavailable user responses have not been fabricated. The 14 original worked examples are reconstructed from the available recorded formulas and verified algebraically.
