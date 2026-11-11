@@ -177,7 +177,7 @@ $$
 -f(x)\Rightarrow\text{reflection across x-axis}
 $$
 
-Horizontal and vertical scaling were not fully taught or assessed in the recorded session. They should be handled in a separate focused lesson:
+Horizontal and vertical scaling were introduced in the original comprehensive artifact, but were not fully reinforced or assessed in the later interactive teaching sequence. They should be handled in a separate focused lesson:
 
 $$
 g(x)=af(x),\qquad g(x)=f(ax)
