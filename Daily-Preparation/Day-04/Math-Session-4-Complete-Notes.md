@@ -926,3 +926,216 @@ Before selecting an answer:
 - Final comprehensive assessment: 22/25 (88%) in approximately 25 minutes.
 
 For the full assessment history and exact final questions, see [MCQs and Assessments](Math-Session-4-MCQs-and-Assessments.md). For the mathematical working, see [Worked Examples](Math-Session-4-Worked-Examples.md).
+
+
+---
+
+# Supplement — Material from the original comprehensive Session 4 artifact
+
+The initial comprehensive Session 4 artifact was broader than the later seven-phase interactive sequence. It also included parity, composition, advanced range techniques, functional equations, and scaling. The following topics are preserved here so the original scope is not lost.
+
+## Additional function properties: even and odd functions
+
+A function is even when:
+
+$$
+f(-x)=f(x)
+$$
+
+Its graph is symmetric about the y-axis.
+
+A function is odd when:
+
+$$
+f(-x)=-f(x)
+$$
+
+Its graph is symmetric about the origin.
+
+Example:
+
+$$
+f(x)=x^3-2x
+$$
+
+Then:
+
+$$
+f(-x)=(-x)^3-2(-x)=-x^3+2x
+$$
+
+Factor out the negative:
+
+$$
+f(-x)=-(x^3-2x)=-f(x)
+$$
+
+Therefore the function is odd. The domain must also be symmetric about zero for the usual even/odd classification.
+
+## Composition and its domain
+
+For functions $f$ and $g$, the composition is:
+
+$$
+(f\circ g)(x)=f(g(x))
+$$
+
+The output of the inner function $g$ becomes the input of the outer function $f$. The composite is defined only when $x$ belongs to the domain of $g$ and $g(x)$ belongs to the domain of $f$.
+
+Example:
+
+$$
+f(x)=\sqrt{x},\qquad g(x)=x^2-4
+$$
+
+Then:
+
+$$
+(f\circ g)(x)=\sqrt{x^2-4}
+$$
+
+A real square root requires:
+
+$$
+x^2-4\ge0
+$$
+
+Factor:
+
+$$
+(x-2)(x+2)\ge0
+$$
+
+This holds when:
+
+$$
+x\le-2\quad\text{or}\quad x\ge2
+$$
+
+Therefore:
+
+$$
+D_{f\circ g}=(-\infty,-2]\cup[2,\infty)
+$$
+
+The important idea is to apply the domain restrictions of the outer function to the output of the inner function.
+
+## Advanced range example
+
+For:
+
+$$
+f(x)=\frac{x^2}{x^2+1}
+$$
+
+let $t=x^2$. Since $t\ge0$:
+
+$$
+f(x)=\frac{t}{t+1}=1-\frac{1}{t+1}
+$$
+
+Because $t+1\ge1$, the expression is at least zero and strictly less than one:
+
+$$
+0\le f(x)<1
+$$
+
+The value zero is attained at $x=0$. The value one is never attained, because:
+
+$$
+\frac{x^2}{x^2+1}=1
+\Rightarrow x^2=x^2+1
+$$
+
+which is impossible. Hence:
+
+$$
+R_f=[0,1)
+$$
+
+## Scaling transformations — included in the original comprehensive artifact
+
+The initial comprehensive artifact introduced both vertical and horizontal scaling. The later interactive lessons concentrated mainly on translations and reflections, and the final assessment showed that transformations still needed reinforcement. Therefore, scaling is included in the syllabus record but should not be marked as mastered.
+
+### Vertical scaling
+
+$$
+g(x)=a f(x)
+$$
+
+Every output is multiplied by $a$.
+
+- If $|a|>1$, the graph is vertically stretched away from the x-axis.
+- If $0<|a|<1$, the graph is vertically compressed toward the x-axis.
+- If $a<0$, there is also a reflection across the x-axis.
+
+### Horizontal scaling
+
+$$
+g(x)=f(ax)
+$$
+
+The input is multiplied by $a$, so horizontal scaling acts reciprocally:
+
+- If $|a|>1$, the graph is horizontally compressed by factor $1/|a|$.
+- If $0<|a|<1$, the graph is horizontally stretched by factor $1/|a|$.
+- If $a<0$, there is also a reflection across the y-axis.
+
+These rules assume $a\ne0$ for a genuine horizontal scaling transformation.
+
+### Original combined transformation example
+
+$$
+g(x)=-2(x-3)^2+4
+$$
+
+Starting from $y=x^2$:
+
+1. $(x-3)^2$ shifts the graph 3 units right.
+2. Multiplication by $-2$ reflects it across the x-axis and vertically stretches it by factor 2.
+3. Addition of 4 shifts it 4 units upward.
+
+The vertex is $(3,4)$ and the parabola opens downward.
+
+A second original example was:
+
+$$
+g(x)=3|x+2|-5
+$$
+
+Starting from $y=|x|$, it shifts 2 units left, stretches vertically by factor 3, and shifts 5 units down. Its vertex is $(-2,-5)$, domain is $\mathbb R$, and range is $[-5,\infty)$.
+
+## Functional equations: using symmetry substitutions
+
+An original advanced example was:
+
+$$
+f(x)+2f(-x)=3x+6
+$$
+
+Replace $x$ by $-x$:
+
+$$
+f(-x)+2f(x)=-3x+6
+$$
+
+This creates two equations involving $f(x)$ and $f(-x)$. Solving them simultaneously gives:
+
+$$
+\boxed{f(x)=-3x+2}
+$$
+
+The method is to use the original equation and its transformed version as a simultaneous linear system. The full algebra is preserved in the Worked Examples companion file.
+
+## Original comprehensive artifact: ten-part structure
+
+The initial artifact organized the wider topic into ten parts: curriculum alignment and objectives; function foundations; domain and range; function properties; composition and inverses; graph transformations; advanced techniques; fourteen worked examples; exam strategy and guided practice; and a 30-MCQ examination with performance analysis and consolidation.
+
+The original practice and examination sections contained planned placeholders rather than a complete submitted set of 15 guided-practice answers or a completed 30-question examination. The later interactive final challenge was a separate 25-question assessment and is documented in the assessment file.
+
+## Coverage clarification
+
+- Scaling was introduced in the original comprehensive artifact with rules and worked transformation examples.
+- The later interactive sequence did not provide a full scaling lesson or scaling diagnostic.
+- The user subsequently identified graph scaling and transformations as difficult.
+- Therefore scaling is documented as introduced in the original material but still requiring focused teaching, practice, and assessment.
