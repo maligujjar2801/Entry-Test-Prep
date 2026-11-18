@@ -154,7 +154,7 @@
 
 ### Q24. If \(f\) has range \([-2,5]\), what is the range of \(g(x)=-2f(x)+1\)?
 - A. \([-3,11]\)
-- B. \([-9,3]\)
+- B. \([-9,5]\)
 - C. \([-4,10]\)
 - D. \([-11,5]\)
 
@@ -195,12 +195,12 @@
 | 21 | A | \((x,y)\to(x+4,2y-3)=(10,7)\). |
 | 22 | B | Vertex \((-2,3)\); negative leading coefficient gives downward opening. |
 | 23 | B | Require \(2x\in[-4,6]\), hence \(x\in[-2,3]\). |
-| 24 | A | Transform both range endpoints: \(-2[-2,5]+1=[-9,5]\)? Careful: the values are \(-2y+1\), so endpoints are 5 and -9; ordered range is \([-9,5]\). **Correct answer: B.** |
+| 24 | B | Transform both endpoints: \(-2(-2)+1=5\) and \(-2(5)+1=-9\); order them from least to greatest, giving \([-9,5]\). |
 | 25 | A | Parent x-coordinate \(u=-3\) gives \(2(x-1)=-3\), so \(x=-1/2\); y becomes \(-\frac12(4)+3=1\). **Correct point: \((-1/2,1)\); none of the listed options is correct.** |
 
 ## Assessment-quality corrections
 
-- **Q24:** The correct range is \([-9,5]\), so the correct option is **B**. The table above records the correction.
+- **Q24:** The correct range is \([-9,5]\), option **B**.
 - **Q25:** The correct image is \((-1/2,1)\), which is missing from the options. Do not score Q25; treat it as a defective item. A corrected version should offer \((-1/2,1)\) as an option.
 
 ## Scoring
