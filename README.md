@@ -29,6 +29,14 @@ Each session aims to keep the first conceptual model simple, build toward deeper
   - Final 25-question assessment: **22/25 (88%) in approximately 25 minutes**
   - Error analysis and targeted transformation/scaling revision plan
 
+## Mathematics Session 5
+
+- [Mathematics Session 5 — Graph Transformations and Scaling](Daily-Preparation/Day-05/README.md)
+  - Parent graphs, point mapping, horizontal/vertical translations, and reflections
+  - Vertical and horizontal scaling, including the reciprocal horizontal factor
+  - Combined transformations, vertex form, and domain/range effects
+  - 25-question timed assessment (Q25 flagged as defective and excluded from scoring)
+
 ## Physics Sessions
 
 - [Physics Session 1 — Electrostatics: Charge, Coulomb's Law, and Electric Field](Daily-Preparation/Physics/Physics-Session-1-Electrostatics.md)
