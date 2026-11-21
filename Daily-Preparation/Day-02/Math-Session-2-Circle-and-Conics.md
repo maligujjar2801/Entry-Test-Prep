@@ -1279,6 +1279,53 @@ Notice that this has the same algebraic form as the ellipse's latus rectum.
 
 These are **standard-form recognition rules**. For a general second-degree equation, do not classify it from signs alone until you have simplified or transformed it appropriately.
 
+## Discriminant Rule for a General Conic
+
+For the general second-degree equation
+
+$
+Ax^2+Bxy+Cy^2+Dx+Ey+F=0,
+$
+
+calculate the discriminant of the quadratic terms:
+
+$
+\boxed{\Delta=B^2-4AC}
+$
+
+The sign of $\Delta$ gives the conic type (with possible degenerate cases):
+
+| Discriminant | Conic type |
+|---|---|
+| $\Delta<0$ | Ellipse (a circle is a special case) |
+| $\Delta=0$ | Parabola |
+| $\Delta>0$ | Hyperbola |
+
+**NET recognition tip:** Use the coefficients of $x^2$, $xy$, and $y^2$ as $A$, $B$, and $C$. The $xy$ coefficient must be included; if there is no $xy$ term, then $B=0$.
+
+### Worked Example
+
+Identify the conic:
+
+$
+3x^2+4xy+2y^2-5=0
+$
+
+Here, $A=3$, $B=4$, and $C=2$. Therefore,
+
+$
+\begin{aligned}
+\Delta&=B^2-4AC\\
+&=4^2-4(3)(2)\\
+&=16-24\\
+&=-8
+\end{aligned}
+$
+
+Since $\Delta<0$, this is an **ellipse-type conic**. For a full classification, check for degeneracy and whether the conic has real points.
+
+For equations without an $xy$ term, $\Delta=-4AC$. This is why the signs of the $x^2$ and $y^2$ coefficients provide a quick shortcut in the usual axis-aligned forms.
+
 ### Circle
 
 $
