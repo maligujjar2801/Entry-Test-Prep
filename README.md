@@ -37,6 +37,15 @@ Each session aims to keep the first conceptual model simple, build toward deeper
   - Combined transformations, vertex form, and domain/range effects
   - 25-question timed assessment (Q25 flagged as defective and excluded from scoring)
 
+## Mathematics Session 6
+
+- [Mathematics Session 6 — Permutations and Combinations](Daily-Preparation/Day-06/README.md)
+  - Simple selection-versus-arrangement decision rule and factorial basics
+  - Permutation and combination formulas, repetition, and counting principles
+  - Number formation, including even numbers, zero restrictions, and case splitting
+  - Identical objects, circular arrangements, together/not-together restrictions, and committee selections
+  - Common NET traps, active-recall questions, and a spaced-revision schedule
+
 ## Physics Sessions
 
 - [Physics Session 1 — Electrostatics: Charge, Coulomb's Law, and Electric Field](Daily-Preparation/Physics/Physics-Session-1-Electrostatics.md)
